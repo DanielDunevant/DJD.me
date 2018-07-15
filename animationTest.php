@@ -4,110 +4,31 @@
 		<script src="jquery-3.3.1.min.js"></script>
 		<link rel = "stylesheet" type = "text/css"href="css/stylesAni.css">
 	</head>	
-	<style>
-		#container {
- 			width: 600px;
-    			height: 400px;
-       			position: relative;
-        		background: yellow;
-       	 		}
-		#animate1 {
-         		width: 50px;
-            		height: 50px;
-			position: absolute;
-			left:200px;
-			display: inline-block;
-                	background-color: red;
-                }
-		#animate2 {
-         		width: 50px;
-            		height: 100px;
-			position: absolute;
-			left:200px;
-			display: inline-block;
-                	background-color: blue;
-                }
-		#animate3 {
-         		width: 50px;
-            		height: 50px;
-			position: absolute;
-			left:200px;
-			display: inline-block;
-			background-color: green;
-		}
-		#animate4 {
-			width: 50px;
-            		height: 100px;
-			position: absolute;
-			display: inline-block;
-			left:250px;
-			background-color: orange;
-		}
-		#animate5 {
-			width: 50px;
-            		height: 50px;
-			position: absolute;
-			display: inline-block;
-			left:250px;
-			background-color: lime;
-		}
-		#animate6 {
-			width: 50px;
-            		height: 100px;
-			position: absolute;
-			display: inline-block;
-			left:250px;
-			background-color:coral;
-		}
-		#animate7 {
-			width: 50px;
-            		height: 50px;
-			position: absolute;
-			display: inline-block;
-			left:300px;
-			background-color: teal;
-		}
-		#animate8 {
-			width: 50px;
-            		height: 100px;
-			position: absolute;
-			display: inline-block;
-			left:300px;
-			background-color: tan;
-		}
-		#animate9 {
-			width: 50px;
-            		height: 50px;
-			position: absolute;
-			display: inline-block;
-			left:300px;
-			background-color: crimson;
-		}
-        </style>
         <body>
 
-		<p>
-			<button onclick="Fun(true,9)">expand</button>
-			<button onclick="Fun(false,9)">contract</button>
-		</p>
-		<div id ="container" onmouseover="Fun(true,9)" onmouseout="Fun(false,9)" >
+		<div id ="container" onmouseover="Fun(true,21)" onmouseout="Fun(false,21)" >
+                </div>
+
 			<?php	
-				$animations = array('1','2','3','4','5','6','7','8','9');
+				$animations = array('1','2','3','4','5','6',
+						    '7','8','9','10','11','12'
+						    ,'13','14','15','16','17'
+					    	    ,'18','19','20','21');
 				$numElements= count($animations)+1;
 				for($i=1;$i<$numElements;$i++)
 				{
 					$newAnimation = 'animate'.$i;
-					$newLetter = 'letter'.$i;
-					print"<div id =\"$newAnimation\" src =\"$newLetter\" >$newAnimation</div>\n";
+					$newLetter = 'images/letter'.$i.'.svg';
+				//	print"<div id =\"$newAnimation\"  >$newAnimation\n";
+					print"<img src = \"$newLetter\" id =\"letters$i\"/>i\n";
+				//	print"</div>\n";
 				}
 			?>
-                </div>
-
                 <script>
 			function Fun(isExpanding,numOfObjects)
 			{
-				var endPositions=   [50 ,100,150,200,250,300,350,400,450];
-				var startPositions= [200,200,200,250,250,250,300,300,300];
+				var endPositions=   [50 ,107,150,200,220,270,320,375,420,470,550,607,650,700,750,800,850,900,950,1000,1057];
+				var startPositions= [200,200,200,200,200,200,250,250,250,250,300,300,300,300,300,300,300,300,371,400 ,450];
 				for(var i = 1;i<numOfObjects+1;i++)
 				{
 					//var elem = document.getElementById('animate'+i.toString());
@@ -121,7 +42,7 @@
 			function myMoves(animateID,startPos,endPos,isExpanding)
 			{
 				var startIsLessThanEnd= isLessThan(startPos,endPos);
-				var newAnimation = "animate"+animateID;
+				var newAnimation = "letters"+animateID;
 				var elem = document.getElementById(newAnimation);
 			     	if(isExpanding)
 					var pos = startPos;

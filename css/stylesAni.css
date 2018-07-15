@@ -1,79 +1,204 @@
- 
+/*The container  is  infront of the objects so that
+ *when the user's mouse  goes over the container and 
+ *then the letterss underneath  that it wouldn't 
+ *cause a onmouseleave to be called causing irratic behavior
+ *Alignment using top and left is used to put it in the container
+ *
+ * */
 #container {
-                        width: 600px;
-                        height: 400px;
-                        position: relative;
-                        background: yellow;
-                        }
-                #animate1 {
-                        width: 50px;
-                        height: 50px;
-                        position: absolute;
-                        left:200px;
-                        display: inline-block;
-                        background-color: red;
-                }
-                #animate2 {
-                        width: 50px;
-                        height: 100px;
-                        position: absolute;
-                        left:200px;
-                        display: inline-block;
-                        background-color: blue;
-                }
-                #animate3 {
-                        width: 50px;
-                        height: 50px;
-                        position: absolute;
-                        left:200px;
-                        display: inline-block;
-                        background-color: green;
-                }
-                #animate4 {
-                        width: 50px;
-                        height: 100px;
-                        position: absolute;
-                        display: inline-block;
-                        left:250px;
-                        background-color: orange;
-                }
-                #animate5 {
-                        width: 50px;
-                        height: 50px;
-                        position: absolute;
-                        display: inline-block;
-                        left:250px;
-                        background-color: lime;
-                }
-                #animate6 {
-                        width: 50px;
-                        height: 100px;
-                        position: absolute;
-                        display: inline-block;
-                        left:250px;
-                        background-color:coral;
-                }
-                #animate7 {
-                        width: 50px;
-                        height: 50px;
-                        position: absolute;
-                        display: inline-block;
-                        left:300px;
-                        background-color: teal;
-                }
-                #animate8 {
-                        width: 50px;
-                        height: 100px;
-                        position: absolute;
-                        display: inline-block;
-                        left:300px;
-                        background-color: tan;
-                }
-                #animate9 {
-                        width: 50px;
-                        height: 50px;
-                        position: absolute;
-                        display: inline-block;
-                        left:300px;
-                        background-color: crimson;
-                }
+	width: 600px;
+	height: 400px;
+	position: relative;
+	border-style: solid;
+	opacity: 0;
+	z-index: 1;
+}
+#letters1 {
+	position: absolute;
+	top: 34px;
+	height: 61px;
+	background-color: #FFFFFF;
+	left: 200px;
+	display: inline-block;
+	opacity: 1;
+	z-index: 0;
+}
+#letters2 {
+	position: absolute;
+	left: 200px;
+	top: 50px;
+	background-color: #FFFFFF;
+	display: inline-block;
+	opacity: 1;
+	z-index: -1;
+}
+#letters3 {
+	position: absolute;
+	left: 200px;
+	top: 50px;
+	background-color: #FFFFFF;
+	display: inline-block;
+	opacity: 1;
+	z-index: -1;
+}
+#letters4 {
+	position: absolute;
+	display: inline-block;
+	left: 200px;
+	top: 34px;
+	background-color: #FFFFFF;
+	opacity: 1;
+	z-index: -1;
+}
+#letters5 {
+	position: absolute;
+	display: inline-block;
+	top: 50px;
+	background-color: #FFFFFF;
+	left: 200px;
+	opacity: 1;
+	z-index: -1;
+}
+#letters6 {
+	position: absolute;
+	display: inline-block;
+	top: 34px;
+	background-color: #FFFFFF;
+	left: 200px;
+	opacity: 1;
+	z-index: -1;
+}
+#letters7 {
+	position: absolute;
+	display: inline-block;
+	top: 34px;
+	height: 61px;
+	background-color: #FFFFFF;
+	left: 250px;
+	opacity: 1;
+	z-index: 0;
+}
+#letters8 {
+	position: absolute;
+	display: inline-block;
+	top: 50px;
+	background-color: #FFFFFF;
+	left: 250px;
+	opacity: 1;
+	z-index: -1;
+}
+#letters9 {
+	position: absolute;
+	display: inline-block;
+	top: 34px;
+	background-color: #FFFFFF;
+	left: 250px;
+	opacity: 1;
+	z-index: -1;
+}
+#letters10 {
+	position: absolute;
+	display: inline-block;
+	top: 50px;
+	background-color: #FFFFFF;
+	left: 250px;
+	opacity: 1;
+	z-index: -1;
+}
+#letters11 {
+	position: absolute;
+	display: inline-block;
+	height: 61px;
+	top: 34px;
+	background-color: #FFFFFF;
+	left: 300px;
+	opacity: 1;
+	z-index: 0;
+}
+#letters12 {
+	position: absolute;
+	display: inline-block;
+	top: 50px;
+	background-color: #FFFFFF;
+	left: 300px;
+	opacity: 1;
+	z-index: -1;
+}
+#letters13 {
+	position: absolute;
+	display: inline-block;
+	top: 50px;
+	background-color: #FFFFFF;
+	left: 300px;
+	opacity: 1;
+	z-index: -1;
+}
+#letters14 {
+	position: absolute;
+	display: inline-block;
+	top: 50px;
+	background-color: #FFFFFF;
+	left: 300px;
+	opacity: 1;
+	z-index: -1;
+}
+#letters15 {
+	position: absolute;
+	display: inline-block;
+	top: 49px;
+	background-color: #FFFFFF;
+	left: 300px;
+	opacity: 1;
+	z-index: -1;
+}
+#letters16 {
+	position: absolute;
+	display: inline-block;
+	top: 50px;
+	background-color: #FFFFFF;
+	left: 300px;
+	opacity: 1;
+	z-index: -1;
+}
+#letters17 {
+	position: absolute;
+	display: inline-block;
+	top: 50px;
+	background-color: #FFFFFF;
+	left: 300px;
+	opacity: 1;
+	z-index: -1;
+}
+#letters18 {
+	position: absolute;
+	display: inline-block;
+	top: 34px;
+	background-color: #FFFFFF;
+	left: 300px;
+	opacity: 1;
+	z-index: -1;
+}
+#letters19 {
+	position: absolute;
+	display: inline-block;
+	top: 82px;
+	left: 371px;
+	opacity: 1;
+	z-index: 0;
+}
+#letters20 {
+	position: absolute;
+	display: inline-block;
+	top: 50px;
+	left: 400px;
+	opacity: 1;
+	z-index: 0;
+}
+#letters21 {
+	position: absolute;
+	display: inline-block;
+	top: 50px;
+	left: 450px;
+	opacity: 1;
+	z-index: 0;
+}
