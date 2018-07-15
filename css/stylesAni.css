@@ -1,1 +1,79 @@
  
+#container {
+                        width: 600px;
+                        height: 400px;
+                        position: relative;
+                        background: yellow;
+                        }
+                #animate1 {
+                        width: 50px;
+                        height: 50px;
+                        position: absolute;
+                        left:200px;
+                        display: inline-block;
+                        background-color: red;
+                }
+                #animate2 {
+                        width: 50px;
+                        height: 100px;
+                        position: absolute;
+                        left:200px;
+                        display: inline-block;
+                        background-color: blue;
+                }
+                #animate3 {
+                        width: 50px;
+                        height: 50px;
+                        position: absolute;
+                        left:200px;
+                        display: inline-block;
+                        background-color: green;
+                }
+                #animate4 {
+                        width: 50px;
+                        height: 100px;
+                        position: absolute;
+                        display: inline-block;
+                        left:250px;
+                        background-color: orange;
+                }
+                #animate5 {
+                        width: 50px;
+                        height: 50px;
+                        position: absolute;
+                        display: inline-block;
+                        left:250px;
+                        background-color: lime;
+                }
+                #animate6 {
+                        width: 50px;
+                        height: 100px;
+                        position: absolute;
+                        display: inline-block;
+                        left:250px;
+                        background-color:coral;
+                }
+                #animate7 {
+                        width: 50px;
+                        height: 50px;
+                        position: absolute;
+                        display: inline-block;
+                        left:300px;
+                        background-color: teal;
+                }
+                #animate8 {
+                        width: 50px;
+                        height: 100px;
+                        position: absolute;
+                        display: inline-block;
+                        left:300px;
+                        background-color: tan;
+                }
+                #animate9 {
+                        width: 50px;
+                        height: 50px;
+                        position: absolute;
+                        display: inline-block;
+                        left:300px;
+                        background-color: crimson;
+                }
