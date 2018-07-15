@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<script src="jquery-3.3.1.min.js"></script>
+		<link rel = "stylesheet" type = "text/css"href="css/stylesAni.css">
 	</head>	
 	<style>
 		#container {
