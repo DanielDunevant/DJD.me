@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script src="jquery-3.3.1.min.js"></script>
 		<link rel = "stylesheet" type = "text/css"href="css/stylesAni.css">
 	</head>	
         <body>
-
 		<div id ="container" onmouseover="Fun(true,21)" onmouseout="Fun(false,21)" >
                 </div>
 
@@ -20,7 +18,7 @@
 					$newAnimation = 'animate'.$i;
 					$newLetter = 'images/letter'.$i.'.svg';
 				//	print"<div id =\"$newAnimation\"  >$newAnimation\n";
-					print"<img src = \"$newLetter\" id =\"letters$i\"/>i\n";
+					print"<img src = \"$newLetter\" id =\"letters$i\"/>\n";
 				//	print"</div>\n";
 				}
 			?>
@@ -28,7 +26,7 @@
 			function Fun(isExpanding,numOfObjects)
 			{
 				var endPositions=   [50 ,107,150,200,220,270,320,375,420,470,550,607,650,700,750,800,850,900,950,1000,1057];
-				var startPositions= [200,200,200,200,200,200,250,250,250,250,300,300,300,300,300,300,300,300,371,400 ,450];
+				var startPositions= [435,450,450,450,450,450,495,500,500,500,550,550,550,550,550,550,550,550,621,650 ,704];
 				for(var i = 1;i<numOfObjects+1;i++)
 				{
 					//var elem = document.getElementById('animate'+i.toString());
@@ -58,7 +56,7 @@
 						currentPos = parseInt(theCSSprop);
 						if(currentPos == endPos)
 						{
-							//document.write(currentPos);
+							//document.g(currentPos);
 							var nothing=0;
 						}else{
                        					if (pos == endPos) {
@@ -83,7 +81,7 @@
 						currentPos = parseInt(theCSSprop);
 						if(currentPos == startPos)
 						{
-							//document.write(currentPos);
+							//document.g(currentPos);
 							var nothing=0;
 						}else
 						{	
