@@ -6,12 +6,17 @@
  *
  * */
 #container {
-	width: 600px;
-	height: 400px;
+	width: 1160px;
+	height: 132px;
 	position: relative;
-	border-style: solid;
-	opacity: 0;
+	background-color: #8094E1;
+	opacity: 0.5;
 	z-index: 1;
+}
+.allLetters {
+	background-color: #8094E1 !important;
+	position: relative;
+	display: inline-block !important;
 }
 #letters1 {
 	position: absolute;
@@ -19,7 +24,7 @@
 	height: 64px;
 	background-color: #FFFFFF;
 	left: 435px;
-	display: inline-block;
+	display: inline;
 	opacity: 1;
 	z-index: 0;
 }
