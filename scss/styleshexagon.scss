@@ -4,43 +4,43 @@ $hex-color: #C6538C;
 
 
 .hexagon {
-	  position: relative;
-	    width: $hex-size; 
-	      height: $hex-height;
-	        background-color: $hex-color;
-		  margin: $hex-height/2;
-	  }
+  position: relative;
+  width: $hex-size; 
+  height: $hex-height;
+  background-color: $hex-color;
+  margin: $hex-height/2;
+}
 
-	  .hexagon .text {
-		    position: absolute;
-		      top: 0;
-		        left: 0;
-			  font: $hex-height/2 sans-serif;
-			    color: #fff;
-			      width: $hex-size;
-			        height: $hex-height;
-				  text-align: center;
-				    overflow: hidden;
-				      line-height: $hex-height;
-			      }
+.hexagon .text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font: $hex-height/2 sans-serif;
+  color: #fff;
+  width: $hex-size;
+  height: $hex-height;
+  text-align: center;
+  overflow: hidden;
+  line-height: $hex-height;
+}
 
-			      .hexagon:before,
-			      .hexagon:after {
-				        content: "";
-					  position: absolute;
-					    width: 0;
-					      border-left: $hex-size/2 solid transparent;
-					        border-right: $hex-size/2 solid transparent;
-					}
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: $hex-size/2 solid transparent;
+  border-right: $hex-size/2 solid transparent;
+}
 
-					.hexagon:before {
-						  bottom: 100%;
-						    border-bottom: $hex-height/2 solid $hex-color;
-					    }
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: $hex-height/2 solid $hex-color;
+}
 
-					    .hexagon:after {
-						      top: 100%;
-						        left: 0;
-							  width: 0;
-							    border-top: $hex-height/2 solid $hex-color;
-						    }
+.hexagon:after {
+  top: 100%;
+  left: 0;
+  width: 0;
+  border-top: $hex-height/2 solid $hex-color;
+}
