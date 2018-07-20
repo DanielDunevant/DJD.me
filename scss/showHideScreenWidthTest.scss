@@ -1,0 +1,30 @@
+$div-width: 200px;
+$div-height:400px;
+$div-color: #C6538C;
+@media only screen and( min-width: 200px) and (max-width:700px){
+	#test
+	{
+		width:$div-width;
+		height:$div-height;
+		background-color:$div-color/1.5;
+		color:$div-color;
+	}
+}
+@media only screen and( min-width: 700px) and (max-width:1000px){
+	#test
+	{
+		width:$div-width*2;
+		height:$div-height*2;
+		background-color:$div-color/1.75;
+		color:$div-color*2;
+	}
+}
+@media only screen and( min-width: 1000px) and (max-width:2000px){
+	#test
+	{
+		width:$div-width*4;
+		height:$div-height*4;
+		background-color:$div-color/2;
+		color:$div-color*4;
+	}
+}
