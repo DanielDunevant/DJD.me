@@ -5,34 +5,34 @@
   margin: auto;
 }
 
-@media only screen and (min-width: 778px) and (max-width: 1203px) {
+@media only screen and (min-width: 778px) and (max-width: 1572px) {
   /* line 14, ../scss/styleshexagon.scss */
   .hexagon {
     position: relative;
     display: grid;
-    width: 300px;
-    height: 173.20508px;
+    width: 400px;
+    height: 230.94011px;
     background-color: #C6538C;
-    margin: 86.60254px;
-    margin-bottom: 348px;
+    margin: 115.47005px;
+    margin-bottom: 505px;
     margin-right: auto;
     margin-left: auto;
-    right: 100px;
+    right: 105px;
   }
 
   /* line 26, ../scss/styleshexagon.scss */
   .hexagon2 {
     position: relative;
     display: grid;
-    width: 300px;
-    height: 173.20508px;
+    width: 400px;
+    height: 230.94011px;
     background-color: #C6538C;
-    margin: 86.60254px;
-    top: -1302px;
-    margin-bottom: 348px;
+    margin: 115.47005px;
+    top: -1839px;
+    margin-bottom: 505px;
     margin-right: auto;
     margin-left: auto;
-    left: 100px;
+    left: 105px;
   }
 
   /* line 39, ../scss/styleshexagon.scss */
@@ -42,29 +42,29 @@
     left: 0;
     font: 12px sans-serif;
     color: #ff00ff;
-    width: 300px;
-    height: 173.20508px;
+    width: 400px;
+    height: 230.94011px;
     text-align: center;
     overflow: hidden;
-    line-height: 173.20508px;
+    line-height: 230.94011px;
   }
 
   /* line 51, ../scss/styleshexagon.scss */
   .hex-Container {
-    height: 1480px;
+    height: 2093px;
     width: auto;
     margin: auto;
   }
 }
-@media only screen and (min-width: 1203px) and (max-width: 4000px) {
+@media only screen and (min-width: 1572px) {
   /* line 59, ../scss/styleshexagon.scss */
   .hexagon {
     position: relative;
     display: inline-block;
-    width: 300px;
-    height: 173.20508px;
+    width: 400px;
+    height: 230.94011px;
     background-color: #C6538C;
-    margin: 86.60254px;
+    margin: 115.47005px;
     margin-left: auto;
   }
 
@@ -72,12 +72,12 @@
   .hexagon2 {
     position: relative;
     display: inline-block;
-    width: 300px;
-    height: 173.20508px;
+    width: 400px;
+    height: 230.94011px;
     background-color: #C6538C;
-    margin: 86.60254px;
+    margin: 115.47005px;
     margin-left: auto;
-    left: 194px;
+    left: 260px;
   }
 
   /* line 78, ../scss/styleshexagon.scss */
@@ -87,11 +87,11 @@
     left: 0;
     font: 12px sans-serif;
     color: #ff00ff;
-    width: 300px;
-    height: 173.20508px;
+    width: 400px;
+    height: 230.94011px;
     text-align: center;
     overflow: hidden;
-    line-height: 173.20508px;
+    line-height: 230.94011px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 778px) {
@@ -99,11 +99,11 @@
   .hexagon {
     position: relative;
     display: grid;
-    width: 300px;
-    height: 173.20508px;
+    width: 400px;
+    height: 230.94011px;
     background-color: #C6538C;
-    margin: 86.60254px;
-    margin-bottom: 173px;
+    margin: 115.47005px;
+    margin-bottom: 231px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -112,13 +112,13 @@
   .hexagon2 {
     position: relative;
     display: grid;
-    width: 300px;
-    height: 173.20508px;
+    width: 400px;
+    height: 230.94011px;
     background-color: #C6538C;
-    margin: 86.60254px;
+    margin: 115.47005px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 173px;
+    margin-bottom: 231px;
   }
 
   /* line 115, ../scss/styleshexagon.scss */
@@ -128,11 +128,11 @@
     left: 0;
     font: 12px sans-serif;
     color: #ff00ff;
-    width: 300px;
-    height: 173.20508px;
+    width: 400px;
+    height: 230.94011px;
     text-align: center;
     overflow: hidden;
-    line-height: 173.20508px;
+    line-height: 230.94011px;
   }
 }
 /* line 128, ../scss/styleshexagon.scss */
@@ -143,15 +143,15 @@
   content: "";
   position: absolute;
   width: 0;
-  border-left: 150px solid transparent;
-  border-right: 150px solid transparent;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
 }
 
 /* line 139, ../scss/styleshexagon.scss */
 .hexagon:before,
 .hexagon2:before {
   bottom: 100%;
-  border-bottom: 86.60254px solid #C6538C;
+  border-bottom: 115.47005px solid #C6538C;
 }
 
 /* line 145, ../scss/styleshexagon.scss */
@@ -160,5 +160,5 @@
   top: 100%;
   left: 0;
   width: 0;
-  border-top: 86.60254px solid #C6538C;
+  border-top: 115.47005px solid #C6538C;
 }

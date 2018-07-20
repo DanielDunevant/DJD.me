@@ -1,7 +1,7 @@
-$hex-size: 300px;
+$hex-size: 400px;
 $hex-height: $hex-size / sqrt(3);
 $hex-color: #C6538C;
-$margin-bottom:348px;
+$margin-bottom:505px;
 
 .hex-Container{
 	height:auto;
@@ -9,7 +9,7 @@ $margin-bottom:348px;
 	margin:auto;
 }
 
-@media only screen and (min-width:778px)and(max-width:1203px)
+@media only screen and (min-width:778px)and(max-width:1572px)
 {
 	.hexagon {
   		position: relative;
@@ -21,7 +21,7 @@ $margin-bottom:348px;
   		margin-bottom:$margin-bottom;
 		margin-right:auto;
 		margin-left:auto;
-		right:100px;
+		right:105px;
 	}
 	.hexagon2 {
   		position: relative;
@@ -30,11 +30,11 @@ $margin-bottom:348px;
   		height: $hex-height;
   		background-color: $hex-color;
   		margin: $hex-height/2;
-		top:-1302px;
+		top:-1839px;
   		margin-bottom:$margin-bottom;
 		margin-right:auto;
 		margin-left:auto;
-		left:100px;
+		left:105px;
 	}
 	.hexagon .hexagon2 .text {
   		position: absolute;
@@ -49,12 +49,12 @@ $margin-bottom:348px;
  		line-height: $hex-height;
 	}	
 	.hex-Container{
-		height:1480px;
+		height:2093px;
 		width:auto;
 		margin:auto;
 	}
 }
-@media only screen and (min-width:1203px)and(max-width:4000px)
+@media only screen and (min-width:1572px)
 {
 	.hexagon {
   		position: relative;
@@ -73,7 +73,7 @@ $margin-bottom:348px;
   		background-color: $hex-color;
   		margin: $hex-height/2;
   		margin-left:auto;
-		left:194px;
+		left:260px;
 	}
 	.hexagon .hexagon2 .text {
   		position: absolute;
@@ -97,7 +97,7 @@ $margin-bottom:348px;
 		height: $hex-height;
   		background-color: $hex-color;
   		margin: $hex-height/2;
-  		margin-bottom:173px;
+  		margin-bottom:231px;
 		margin-right:auto;
 		margin-left:auto;
 	}
@@ -110,7 +110,7 @@ $margin-bottom:348px;
   		margin: $hex-height/2;
   		margin-left:auto;
 		margin-right:auto;
-  		margin-bottom:173px;
+  		margin-bottom:231px;
 	}
 	.hexagon .hexagon2 .text {
   		position: absolute;

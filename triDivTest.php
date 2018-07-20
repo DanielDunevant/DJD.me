@@ -12,7 +12,7 @@
    	</head>
 	<body>
 		<?php
-			$numOfTriBlocks = 2;
+			$numOfTriBlocks = 4;
 			for($i = 0; $i<$numOfTriBlocks;$i++)
 			{
 			print"<div class =\"tri-Block\">";
