@@ -11,33 +11,19 @@
    	</head>
 	<body>
 		<?php
-			//for Medium screen width
-			$numHexes=3;
+			$textArray=array("Yes","no","Maybe","Perhaps?","This is the  testing of the thing. The thing is the  test. That's great!","Wow! I think that we need to think about thinking. I need to  wow! Look at this test. Perhaps it should do things yeah!","yep","uhuh?","Yeah","what the heck!", "yeeeet" ,"Now it will work?","Or Maybe now for sure");
+			$numHexes=6;
 			print"<div class=\"hex-Container\">";	
 			for($i = 0;$i<$numHexes;$i++)
 			{
 				print"<div class=\"hexagon  \">\n";
-  				print"	<span class=\"text\">XYZ</span>\n";
+  				print"	<span class=\"text\">$textArray[$i]</span>\n";
 				print"	</div>\n";
 			}
-			for($i = 0;$i<$numHexes;$i++)
+			for($i = 6;$i<$numHexes+6;$i++)
 			{
 				print"<div class=\"hexagon2 \" >\n";
-  				print"	<span class=\"text\">XYZ</span>\n";
-				print"</div>\n";
-			}
-			print"</div>";
-			print"<div class=\"hex-Container\">";	
-			for($i = 0;$i<$numHexes;$i++)
-			{
-				print"<div class=\"hexagon  \">\n";
-  				print"	<span class=\"text\">XYZ</span>\n";
-				print"	</div>\n";
-			}
-			for($i = 0;$i<$numHexes;$i++)
-			{
-				print"<div class=\"hexagon2 \" >\n";
-  				print"	<span class=\"text\">XYZ</span>\n";
+  				print"	<span class=\"text\">$textArray[$i]</span>\n";
 				print"</div>\n";
 			}
 			print"</div>";
