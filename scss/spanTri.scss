@@ -1,0 +1,32 @@
+.text {
+	position:absolute;
+	top:19px;
+	left:-123px;
+	font:12px sans-serif;
+	color:#ff00ff;
+	width:$tri-Base;
+	height:$tri-Tip;
+	text-align:left;
+	overflow:hidden;
+	line-height:$tri-Tip;
+    	border-left: $tri-Base*.8 solid transparent;
+    	border-right: $tri-Base*.8 solid transparent;
+    	border-bottom: $tri-Tip*.8 solid $tri-color*2;
+	color:#ff00ff;
+}
+.text2 {
+	position:absolute;
+	top:-545px;
+	left:-126px;
+	font:12px sans-serif;
+	color:#ff00ff;
+	width:$tri-Base;
+	height:$tri-Tip;
+	text-align:left;
+	overflow:hidden;
+	line-height:$tri-Tip;
+	z-index:1;
+ 	border-left: $tri-Base*.8 solid transparent;
+ 	border-right: $tri-Base*.8 solid transparent;
+  border-top: $tri-Tip*.8 solid $tri-color*2;
+}
