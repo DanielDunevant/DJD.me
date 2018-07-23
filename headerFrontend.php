@@ -1,8 +1,8 @@
 <!-- PHP for "Novay Technologies" © 2017, authors: "Daniel Dunevant & Jesse Primiani" -->
 <?php
 $linkArray = array("start",
-                   "Hex",
-                   "Tri",
+                   "hexagonTest",
+                   "triDivTest",
                    "contact");
 $textArray = array("Home","hexagonTest","triDivTest","Contact");
 $numLinks =4;
