@@ -2,7 +2,7 @@
 <?php
 print"<!-- PHP for 'Novay Technologies' © 2017, authors: 'Daniel Dunevant & Jesse Primiani' -->";
 $pageValue = $_GET['page'];
-$arrayOfPages = array("start","about","services","contact");
+$arrayOfPages = array("start","hexagonTest","triDivTest","contact");
 if (in_array($pageValue,$arrayOfPages)) 
 {
 	print "<div class='row'>\n";

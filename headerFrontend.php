@@ -1,10 +1,10 @@
 <!-- PHP for "Novay Technologies" © 2017, authors: "Daniel Dunevant & Jesse Primiani" -->
 <?php
 $linkArray = array("start",
-                   "about",
-                   "services",
+                   "Hex",
+                   "Tri",
                    "contact");
-$textArray = array("Home","About","Services","Contact");
+$textArray = array("Home","hexagonTest","triDivTest","Contact");
 $numLinks =4;
 print "<div id ='headerOptions' class='row'>\n";
 print "<img src ='images/NovayHeader_Dark.svg'   class = 'col-xs-2 col-md-2 col-sm-2'  >\n";
