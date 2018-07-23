@@ -15,8 +15,8 @@
   width: 400px;
   height: 230.94011px;
   text-align: center;
-  overflow: hidden;
-  line-height: 230.94011px;
+  overflow: visible;
+  line-height: 1;
 }
 
 /* line 24, ../scss/styleshexagon.scss */

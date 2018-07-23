@@ -20,35 +20,29 @@ $tri-color:#AEE4EF;
 }
 .text {
 	position:absolute;
-	top:19px;
-	left:-123px;
+	top:267px;
+	left:-125px;
 	font:12px sans-serif;
 	color:#ff00ff;
 	width:$tri-Base;
 	height:$tri-Tip;
 	text-align:left;
-	overflow:hidden;
-	line-height:$tri-Tip;
-    	border-left: $tri-Base*.8 solid transparent;
-    	border-right: $tri-Base*.8 solid transparent;
-    	border-bottom: $tri-Tip*.8 solid $tri-color*2;
-	color:#ff00ff;
+	overflow:visible;
+	line-height:1;
+	z-index:1;
 }
 .text2 {
 	position:absolute;
-	top:-545px;
+	top:-413px;
 	left:-126px;
 	font:12px sans-serif;
 	color:#ff00ff;
 	width:$tri-Base;
 	height:$tri-Tip;
 	text-align:left;
-	overflow:hidden;
-	line-height:$tri-Tip;
+	overflow:visible;
+	line-height:1;
 	z-index:1;
-    	border-left: $tri-Base*.8 solid transparent;
-    	border-right: $tri-Base*.8 solid transparent;
-    	border-top: $tri-Tip*.8 solid $tri-color*2;
 }
 @media only screen and (min-width: 1200px) and (max-width: 4000px) {
   .arrow-up-tri {
@@ -201,7 +195,7 @@ $tri-color:#AEE4EF;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -33px;
-    top: 913px;
+    top: 2682px;
   }
   
   .tri-Block {

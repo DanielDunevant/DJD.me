@@ -18,8 +18,8 @@ $margin-bottom:505px;
  	width: $hex-size;
  	height: $hex-height;
  	text-align: center;
- 	overflow: hidden;
- 	line-height: $hex-height;
+ 	overflow: visible;
+ 	line-height: 1;
 }	
 .hexagon {
 	position: relative;

@@ -1,0 +1,66 @@
+/* line 4, ../scss/spanTri.scss */
+.text {
+  position: absolute;
+  top: 24px;
+  left: -90px;
+  font: 12px sans-serif;
+  color: #E969FC;
+  width: 250px;
+  height: 437.5px;
+  text-align: center;
+  overflow: visible;
+  line-height: 437.5px;
+  z-index: 2;
+  border-left: 200px;
+  border-right: 200px;
+  border-bottom: 350px;
+}
+
+/* line 20, ../scss/spanTri.scss */
+.text2 {
+  position: absolute;
+  top: 203px;
+  left: 397px;
+  font: 12px sans-serif !important;
+  color: #1A00FF !important;
+  width: 250px;
+  height: 437.5px;
+  text-align: left;
+  overflow: hidden;
+  line-height: 437.5px;
+}
+
+/**/
+.span-outer {
+  position: absolute;
+  top: 256px;
+  z-index: 0;
+  left: 83px;
+  font: 12px sans-serif;
+  width: 250px;
+  height: 437.5px;
+  text-align: left;
+  overflow: visible;
+  line-height: 437.5px;
+  border-left: 200px solid rgba(213, 84, 84, 0);
+  border-right: 200px solid rgba(224, 126, 126, 0);
+  border-bottom: 350px solid #222257;
+}
+
+/* line 20, ../scss/spanTri.scss */
+.span-outer2 {
+  position: absolute;
+  top: 116px;
+  left: 306px;
+  z-index: 0;
+  font: 12px sans-serif;
+  width: 250px;
+  height: 437.5px;
+  text-align: left;
+  overflow: hidden;
+  line-height: 437.5px;
+  z-index: 0;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  border-top: 350px solid #AE7C7C;
+}
