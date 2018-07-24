@@ -1,12 +1,13 @@
 <!-- PHP for "Novay Technologies" © 2017, authors: "Daniel Dunevant & Jesse Primiani" -->
 <?php
 $linkArray = array("start",
-                   "Hex",
-                   "Tri",
+                   "hexagonTest",
+                   "triDivTest",
                    "contact");
 $textArray = array("Home","hexagonTest","triDivTest","Contact");
 $numLinks =4;
 print "<div id ='headerOptions' class='row'>\n";
+require_once( "animationTest.php");
 print "<img src ='images/NovayHeader_Dark.svg'   class = 'col-xs-2 col-md-2 col-sm-2'  >\n";
 for($i = 0; $i <$numLinks;$i++){
         print "<a class='headerLinks col-xs-2 col-md-2 col-sm-2'  href='index.php?page=$linkArray[$i]'\n >";
