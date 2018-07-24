@@ -9,7 +9,7 @@ handlers:
   static_dir: images
   
 - url: /.*
-  script: hexagonTest.php
+  script: index.php
 
 - url: /.*
   script: lock.php
