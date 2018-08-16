@@ -13,7 +13,7 @@
 					    ,'13','14','15','16','17'
 				    	    ,'18','19','20','21');
 			$numElements= count($animations)+1;
-			print"<div id =\"container\" onmouseover=\"FunExpand(true,21)\" onmouseout=\"FunContract(false,21)\" >\n";
+			print"<div id =\"container\" >\n";
 			print"<div id =\"letterContainer\">\n ";
 			for($i=1;$i<$numElements;$i++)
 			{
@@ -23,6 +23,7 @@
 			}
 			print"</div>\n";
 			print"</div>\n";
+			print"<div id = \"cover\" onmouseover=\"FunExpand(true,21)\" onmouseout=\"FunContract(false,21)\"></div>";
 		?>
 
         </body>

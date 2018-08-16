@@ -4,7 +4,10 @@ api_version: 1
 handlers:
 - url: /css/*
   static_dir: css
-  
+
+- url: /javascripts/*
+  static_dir: javascripts
+
 - url: /images/*
   static_dir: images
   
