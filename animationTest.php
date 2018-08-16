@@ -5,8 +5,6 @@
 	</head>	
         <body>
 
-		<script src="javascripts/animationTest.js">
-                </script>
 		<?php	
 			$animations = array('1','2','3','4','5','6',
 					    '7','8','9','10','11','12'
@@ -26,5 +24,7 @@
 			print"<div id = \"cover\" onmouseover=\"FunExpand(true,21)\" onmouseout=\"FunContract(false,21)\"></div>";
 		?>
 
+		<script src="javascripts/animationTest.js">
+                </script>
         </body>
 </html>
