@@ -2,6 +2,8 @@ var isNameExpanding = true;
 
 var endPositions=   [50 ,107,150,200,220,270,320,375,420,470,550,607,650,700,750,800,850,900,950,1000,1057];
 var startPositions= [435,450,450,450,450,450,495,500,500,500,550,550,550,550,550,550,550,550,621,650 ,704];
+var cover1= document.getElementById("cover1");
+var cover2= document.getElementById("cover2");
 	function FunExpand(isExpanding,numOfObjects)
 	{
 		if(isExpanding==true && isNameExpanding!=false)
@@ -13,6 +15,11 @@ var startPositions= [435,450,450,450,450,450,495,500,500,500,550,550,550,550,550
 			}
 			isNameExpanding = false; 
 		}
+		setTimeout(function(){
+		cover1.style.display =  'none'; 
+		cover2.style.display =  'inline-block'; 
+		},5000);
+
 	}
 	function FunContract(isExpanding,numOfObjects)
 	{
@@ -25,6 +32,10 @@ var startPositions= [435,450,450,450,450,450,495,500,500,500,550,550,550,550,550
 			}
 			isNameExpanding = true;
 		}
+		setTimeout(function(){
+		cover1.style.display =  'inline-block'; 
+		cover2.style.display =  'none'; 
+		},5000);
 	}	
 	function myMoves(animateID,startPos,endPos,isExpanding)
 	{

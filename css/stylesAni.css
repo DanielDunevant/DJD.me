@@ -13,6 +13,25 @@
 	opacity: 0.5;
 	z-index: 1;
 }
+#cover1 {
+	width: 1160px;
+	height: 132px;
+	position: relative;
+	background-color: #8094E1;
+	margin-top: -132px;
+	opacity: 0.25;
+	z-index: 2;
+}
+#cover2 {
+	width: 1160px;
+	display: none;
+	height: 132px;
+	position: relative;
+	background-color: #8094E1;
+	margin-top: -264px;
+	opacity: 0.25;
+	z-index: 3;
+}
 .allLetters {
 	background-color: #8094E1 !important;
 	position: relative;

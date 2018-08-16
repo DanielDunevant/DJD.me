@@ -21,7 +21,8 @@
 			}
 			print"</div>\n";
 			print"</div>\n";
-			print"<div id = \"cover\" onmouseover=\"FunExpand(true,21)\" onmouseout=\"FunContract(false,21)\"></div>";
+			print"<div id = \"cover1\" onmouseover=\"FunExpand(true,21)\" ></div>";
+			print"<div id = \"cover2\"  onmouseout=\"FunContract(false,21)\"></div>";
 		?>
 
 		<script src="javascripts/animationTest.js">

@@ -11,7 +11,7 @@
   top: -80px;
   left: 0;
   font: 12px sans-serif;
-  color: #ff00ff;
+  color: #FF00FF;
   width: 400px;
   height: 230.94011px;
   text-align: center;
@@ -47,30 +47,31 @@
   /* line 46, ../scss/styleshexagon.scss */
   .hexagon {
     display: grid !important;
-    right: 115px !important;
-    margin-bottom: 522px;
+    right: 105px !important;
+    margin-bottom: 469px;
   }
-
+  
   /* line 51, ../scss/styleshexagon.scss */
   .hexagon2 {
     display: grid !important;
-    left: 115px !important;
-    margin-bottom: 522px;
-    top: -4143px;
+    left: 105px !important;
+    margin-bottom: 469px;
+    top: -3850px;
   }
-
+  
   /* line 57, ../scss/styleshexagon.scss */
   .hex-Container {
-    height: 2138px !important;
+    height: 4100px !important;
   }
 }
-@media only screen and (min-width: 1200px) {
+
+@media only screen and (min-width: 1367px) {
   /* line 63, ../scss/styleshexagon.scss */
   .hexagon {
     display: -webkit-inline-flex;
     margin-bottom: 362px;
   }
-
+  
   /* line 67, ../scss/styleshexagon.scss */
   .hexagon2 {
     display: -webkit-inline-flex;
@@ -78,26 +79,49 @@
     top: -1062px;
     margin-bottom: 361px;
   }
-
+  
   /* line 73, ../scss/styleshexagon.scss */
   .hex-Containter {
     height: 698px;
   }
 }
+
+@media only screen and (min-width: 1200px) and (max-width: 1367px) {
+  /* line 63, ../scss/styleshexagon.scss */
+  .hexagon {
+    display: -webkit-inline-flex;
+    margin-bottom: 362px;
+  }
+  
+  /* line 67, ../scss/styleshexagon.scss */
+  .hexagon2 {
+    display: -webkit-inline-flex;
+    left: 202px;
+    top: -1771px;
+    margin-bottom: 361px;
+  }
+  
+  /* line 73, ../scss/styleshexagon.scss */
+  .hex-Containter {
+    height: 698px;
+  }
+}
+
 @media only screen and (min-width: 0px) and (max-width: 778px) {
   /* line 79, ../scss/styleshexagon.scss */
   .hexagon {
     display: grid !important;
     margin-bottom: 232px;
   }
-
+  
   /* line 83, ../scss/styleshexagon.scss */
   .hexagon2 {
     display: grid !important;
-    margin-bottom: 232px;
+    margin-bottom: 230px;
     top: 0px;
   }
 }
+
 /* line 90, ../scss/styleshexagon.scss */
 .hexagon:before,
 .hexagon:after,
