@@ -105,6 +105,20 @@
   .hex-Containter {
     height: 698px;
   }
+  
+  .hexImg {
+    width: 84px;
+    display: -webkit-inline-flex;
+    position: relative;
+    margin: auto;
+  }
+  
+  .hexTitle {
+    font-size: larger;
+    display: -webkit-inline-flex;
+    position: relative;
+    margin: auto;
+  }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 778px) {
@@ -148,4 +162,12 @@
   left: 0;
   width: 0;
   border-top: 115.47005px solid #C6538C;
+}
+
+.hexImg {
+  width: 84px;
+}
+
+.hexTitle {
+  font-size: larger;
 }

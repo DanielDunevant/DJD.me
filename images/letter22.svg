@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="3.5718751mm"
+   width="62.000694mm"
    height="16.360069mm"
-   viewBox="0 0 3.5718751 16.360069"
+   viewBox="0 0 62.000695 16.36007"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
-   sodipodi:docname="letter22.svg">
+   sodipodi:docname="initialsDJD.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="-9.3286243"
-     inkscape:cy="0.042356068"
+     inkscape:cx="-7.9952925"
+     inkscape:cy="0.042327222"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -52,7 +52,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-92.73178,-143.53065)">
+     transform="translate(-92.379002,-143.53065)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.57777786px;line-height:1.25;font-family:'AR DESTINE';-inkscape-font-specification:'AR DESTINE';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -74,6 +74,6 @@
          id="tspan819"
          x="91.673447"
          y="159.89072"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'AR DESTINE';-inkscape-font-specification:'AR DESTINE';stroke-width:0.26458332">i</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'AR DESTINE';-inkscape-font-specification:'AR DESTINE';stroke-width:0.26458332">DJD.io</tspan></text>
   </g>
 </svg>

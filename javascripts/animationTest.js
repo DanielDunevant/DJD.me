@@ -1,7 +1,7 @@
 var isNameExpanding = true;
 
-var endPositions=   [50 ,107,150,200,220,270,320,375,420,470,550,607,650,700,750,800,850,900,950,1000,1057];
-var startPositions= [435,450,450,450,450,450,495,500,500,500,550,550,550,550,550,550,550,550,621,650 ,704];
+var endPositions=   [45 ,102,150,200,225,275,315,370,420,470,545,602,650,700,747,800,850,900,950,980,1010];
+var startPositions= [418,450,450,450,450,450,488,500,500,500,550,550,550,550,550,550,550,550,621,650 ,679];
 var cover1= document.getElementById("cover1");
 var cover2= document.getElementById("cover2");
 	function FunExpand(isExpanding,numOfObjects)
@@ -18,7 +18,7 @@ var cover2= document.getElementById("cover2");
 		setTimeout(function(){
 		cover1.style.display =  'none'; 
 		cover2.style.display =  'inline-block'; 
-		},5000);
+		},1500);
 
 	}
 	function FunContract(isExpanding,numOfObjects)
@@ -35,7 +35,7 @@ var cover2= document.getElementById("cover2");
 		setTimeout(function(){
 		cover1.style.display =  'inline-block'; 
 		cover2.style.display =  'none'; 
-		},5000);
+		},1500);
 	}	
 	function myMoves(animateID,startPos,endPos,isExpanding)
 	{

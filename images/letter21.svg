@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="11.399132mm"
+   width="10.671528mm"
    height="12.082639mm"
-   viewBox="0 0 11.399132 12.082642"
+   viewBox="0 0 10.671528 12.082639"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
-   sodipodi:docname="letter21.svg">
+   sodipodi:docname="letter23.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="60.819132"
-     inkscape:cy="34.885988"
+     inkscape:zoom="1.979899"
+     inkscape:cx="-7.9952909"
+     inkscape:cy="0.04234578"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -52,17 +52,28 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-52.866269,-43.76855)">
+     transform="translate(-92.379002,-147.80808)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.57777786px;line-height:1.25;font-family:'AR DESTINE';-inkscape-font-specification:'AR DESTINE';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="88.198944"
+       y="166.30521"
+       id="text817"><tspan
+         sodipodi:role="line"
+         id="tspan815"
+         x="88.198944"
+         y="186.99332"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'AR DESTINE';-inkscape-font-specification:'AR DESTINE';stroke-width:0.26458332" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:22.57777786px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="52.160713"
-       y="55.851189"
-       id="text4506"><tspan
+       x="91.673447"
+       y="159.89072"
+       id="text821"><tspan
          sodipodi:role="line"
-         id="tspan4504"
-         x="52.160713"
-         y="55.851189"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'AR DESTINE';-inkscape-font-specification:'AR DESTINE';letter-spacing:1.04775px;stroke-width:0.26458332">e</tspan></text>
+         id="tspan819"
+         x="91.673447"
+         y="159.89072"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'AR DESTINE';-inkscape-font-specification:'AR DESTINE';stroke-width:0.26458332">o</tspan></text>
   </g>
 </svg>
