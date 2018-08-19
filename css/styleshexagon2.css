@@ -221,6 +221,7 @@
 .hexagon:before,
 .hexagon2:before {
   bottom: 100%;
+  left: 0%;
   border-bottom: 115.47005px solid #C6538C;
 }
 
