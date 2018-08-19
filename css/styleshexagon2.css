@@ -25,7 +25,6 @@
   height: 230.94011px;
   background-color: #C6538C;
   margin: 115.47005px;
-  margin-bottom: 505px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -37,7 +36,6 @@
   height: 230.94011px;
   background-color: #C6538C;
   margin: 115.47005px;
-  margin-bottom: 505px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -45,22 +43,23 @@
 @media only screen and (min-width: 778px) and (max-width: 1200px) {
   /* line 46, ../scss/styleshexagon.scss */
   .hexagon {
-    display: grid !important;
-    right: 105px !important;
-    margin-bottom: 469px;
+    display: grid;
+    right: 105px;
   }
   
   /* line 51, ../scss/styleshexagon.scss */
   .hexagon2 {
-    display: grid !important;
-    left: 105px !important;
-    margin-bottom: 469px;
-    top: -3850px;
+    display: grid;
+    left: 105px;
   }
   
   /* line 57, ../scss/styleshexagon.scss */
   .hex-Container {
-    height: 4100px !important;
+  }
+  
+  .hexPair {
+    margin: auto;
+    top: 99px;
   }
   
   .hexImg {
@@ -97,24 +96,34 @@
   }
 }
 
-@media only screen and (min-width: 1367px) {
+@media only screen and (min-width: 1200px) {
   /* line 63, ../scss/styleshexagon.scss */
   .hexagon {
-    display: -webkit-inline-flex;
-    margin-bottom: 362px;
+    display: inline-block !important;
   }
   
   /* line 67, ../scss/styleshexagon.scss */
   .hexagon2 {
-    display: -webkit-inline-flex;
-    left: 202px;
-    top: -1062px;
-    margin-bottom: 361px;
+    display: inline-block !important;
+    bottom: -350px !important;
+    left: -201px !important;
   }
   
   /* line 73, ../scss/styleshexagon.scss */
-  .hex-Containter {
-    height: 698px;
+  .hexContainer {
+    padding: 0px !important;
+    margin: 0 auto !important;
+    left: 196px !important;
+  }
+  
+  .hexPair {
+    display: inline-block !important;
+    padding: 0px !important;
+    float: right !important;
+    margin-left: -397.5px !important;
+    margin-right: auto !important;
+    margin-bottom: 239px !important;
+    overflow: visible !important;
   }
   
   .text {
@@ -133,69 +142,18 @@
   }
   
   .hexTitle {
-    font-size: 34px;
+    font-size: 34px !important;
     display: inline-block !important;
     position: absolute !important;
     clear: both !important;
-    text-align: center;
+    text-align: center !important;
     margin: 0 10px 20px !important;
-    top: -69px;
-    border-radius: 10px;
-    left: 9px;
+    top: -69px !important;
+    border-radius: 10px !important;
+    left: 9px !important;
     background: #CBD9EB;
     width: 367px !important;
-    z-index: 3;
-  }
-}
-
-@media only screen and (min-width: 1200px) and (max-width: 1367px) {
-  /* line 63, ../scss/styleshexagon.scss */
-  .hexagon {
-    display: -webkit-inline-flex;
-    margin-bottom: 362px;
-  }
-  
-  /* line 67, ../scss/styleshexagon.scss */
-  .hexagon2 {
-    display: -webkit-inline-flex;
-    left: 202px;
-    top: -1771px;
-    margin-bottom: 361px;
-  }
-  
-  /* line 73, ../scss/styleshexagon.scss */
-  .hex-Containter {
-    height: 698px;
-  }
-  
-  .text {
-    width: 40% !important;
-    position: relative !important;
-    clear: none !important;
-    display: block !important;
-    float: left !important;
-    text-align: left !important;
-    margin: 0 20px !important;
-  }
-  
-  .hexContent {
-    margin: 0px !important;
-    padding: 0px !important;
-  }
-  
-  .hexTitle {
-    font-size: 34px;
-    display: inline-block !important;
-    position: absolute !important;
-    clear: both !important;
-    text-align: center;
-    margin: 0 10px 20px !important;
-    top: -69px;
-    border-radius: 10px;
-    left: 9px;
-    background: #CBD9EB;
-    width: 367px !important;
-    z-index: 3;
+    z-index: 3 !important;
   }
 }
 

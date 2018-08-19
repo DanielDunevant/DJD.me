@@ -24,33 +24,10 @@
 	margin: auto;
 	width: 100%;
 }
-#headerOptions2
-{
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	height: auto;
-	background: #770A0A;
-	margin: auto;
-}
 #headerOptionsInner
 {
 	display: inline-block;
 	float: next;
-}
-.link-boxes
-{
-	border-style: solid;
-	border-radius: 1em;
-	background-color: #040446;
-	padding: 1.5em;
-	align-content: center;
-	height: 5em;
-	margin-top: 0.75em;
-	margin-bottom: 0.5em;
-}
-.link-boxes:hover
-{
-	background-color: #030282;
 }
 .headerLinks
 {
@@ -60,20 +37,9 @@
 	border-radius: 4px;
 	padding: 20px;
 }
-.headerLinks2
-{
-	color: #3D3C3C;
-	font-size: 1em;
-}
 .headerLinks:hover
 {
 	color: #FFFFFF;
-	height: ;
-	width: ;
-}
-.headerLinks2:hover
-{
-	color: #3D3C3C;
 	height: ;
 	width: ;
 }

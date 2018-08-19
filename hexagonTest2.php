@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel = "stylesheet" type = "text/css"href="css/styleshexagon.css">
+		<link rel = "stylesheet" type = "text/css"href="css/styleshexagon2.css">
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<!-- jQuery library -->
@@ -10,6 +10,10 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    	</head>
 	<body>
+		<p id = "width"></p>
+		<button onclick="getWindowWidth()">Width of Window</button>
+		<script src="javascripts/screenWidthOutputter.js">
+                </script>
 		<?php
 			$textArray=array("Yes","no","Maybe","Perhaps?","This is the  testing of the thing.
 			The thing is the  test. That's great!","Wow! I think that we need to think about
@@ -21,28 +25,30 @@
 			$imageArray=array("","This short2","Place3","Holders4","5","6");
 			//only works for $numHexes of 6 and 2
 			$numHexes=6;
-			print"<div class=\"hex-Container\">";	
+			$j=0;
+			print"<div class = \"hexContainer\">\n";
 			for($i = 0;$i<$numHexes;$i++)
 			{
-				print"<div class=\"hexagon  \">\n";
-  				print"    <p class=\"hexTitle\">$titleArray[$i]</p>\n";
-				print"    <div class=\"hexContent \">\n";
-  				print"	        <span class=\"text\">$textArray[$i]</span>\n";
-  				print"	        <img class=\"hexImg text\" src=\"images/smilingEmoji.png\">\n";
-				print"	  </div>\n";
+				print"<div class = \"hexPair\">\n";
+				print"   <div class=\"hexagon  \">\n";
+  				print"       <p class=\"hexTitle\">$titleArray[$j]</p>\n";
+				print"       <div class=\"hexContent \">\n";
+				print"	           <span class=\"text\">$textArray[$j]</span>\n";
+				$j++;
+  				print"	           <img class=\"hexImg text\" src=\"images/smilingEmoji.png\">\n";
+				print"	     </div>\n";
+				print"   </div>\n";
+				print"   <div class=\"hexagon2 \" >\n";
+  				print"	     <p class=\"hexTitle\">$titleArray[$j]</p>\n";
+				print"       <div class=\"hexContent \">\n";
+  				print"	           <span class=\"text\">$textArray[$j]</span>\n";
+				$j++;
+  				print"	           <img class=\"hexImg text\" src=\"images/smilingEmoji.png\">\n";
+				print"	     </div>\n";
+				print"   </div>\n";
 				print"</div>\n";
 			}
-			for($i = $numHexes;$i<$numHexes+$numHexes;$i++)
-			{
-				print"<div class=\"hexagon2 \" >\n";
-  				print"	<p class=\"hexTitle\">$titleArray[$i]</p>\n";
-				print"    <div class=\"hexContent \">\n";
-  				print"	        <span class=\"text\">$textArray[$i]</span>\n";
-  				print"	        <img class=\"hexImg text\" src=\"images/smilingEmoji.png\">\n";
-				print"	  </div>\n";
-				print"</div>\n";
-			}
-			print"</div>";
+			print"</div>\n";
 		?>
    	</body>
 </html>

@@ -11,9 +11,13 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    	</head>
 	<body>
+		<p id = "width"></p>
+		<button onclick="getWindowWidth()">Width of Window</button>
+		<script src="javascripts/screenWidthOutputter.js">
+                </script>
 		<?php
 			$textArray=array("Yes","no","Maybe","Perhaps?","This is the  testing of the thing. The thing is the  test. That's great!","Wow! I think that we need to think about thinking. I need to  wow! Look at this test. Perhaps it should do things yeah!","yep","uhuh?","Yeah","what the heck!", "yeeeet" ,"Now it will work?","Or Maybe now for sure","This","will","be","difficult to", "Make work");
-			$numOfTriBlocks = 4;
+			$numOfTriBlocks = 1;
 			$j=0;
 			for($i = 0; $i<$numOfTriBlocks;$i++)
 			{

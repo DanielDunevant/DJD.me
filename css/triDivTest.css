@@ -23,7 +23,7 @@
   top: 267px;
   left: -125px;
   font: 12px sans-serif;
-  color: #ff00ff;
+  color: #FF00FF;
   width: 250px;
   height: 437.5px;
   text-align: left;
@@ -38,7 +38,7 @@
   top: -413px;
   left: -126px;
   font: 12px sans-serif;
-  color: #ff00ff;
+  color: #FF00FF;
   width: 250px;
   height: 437.5px;
   text-align: left;
@@ -53,76 +53,81 @@
     display: inline-block !important;
     margin: 0 -200px 0 0 !important;
   }
-
+  
   /* line 21, ../scss/triDivTest.scss */
   /* line 54, ../scss/triDivTest.scss */
   .arrow-down-tri {
     display: inline-block !important;
   }
-
+  
   /* line 30, ../scss/triDivTest.scss */
   /* line 59, ../scss/triDivTest.scss */
   #tri-Container {
     position: relative;
     display: inline-block;
+    margin-left: -26px;
+    margin-right: 12px;
   }
-
+  
   /* line 64, ../scss/triDivTest.scss */
   #tri-Container2 {
     position: relative;
     display: inline-block;
     margin-right: -514px;
-    left: -196px;
+    left: -211px;
     top: 0px;
   }
 }
+
 @media only screen and (min-width: 1041px) and (max-width: 1200px) {
   /* line 74, ../scss/triDivTest.scss */
   .arrow-up-tri {
     display: grid !important;
   }
-
+  
   /* line 21, ../scss/triDivTest.scss */
   /* line 79, ../scss/triDivTest.scss */
   .arrow-down-tri {
     display: grid !important;
   }
-
+  
   /* line 83, ../scss/triDivTest.scss */
   #tri-Container {
     position: relative;
     display: grid;
+    left: -156px;
   }
-
+  
   /* line 88, ../scss/triDivTest.scss */
   #tri-Container2 {
     position: relative;
     display: grid;
     margin-right: auto;
-    margin-top: -414px;
-    left: 250px;
+    margin-top: -412px;
+    left: 135px;
   }
-
+  
   /* line 96, ../scss/triDivTest.scss */
   .tri-Block {
     position: relative;
     display: inline-block;
+    margin: 0 0 -427px 0;
   }
-
   /* line 30, ../scss/triDivTest.scss */
 }
+
 @media only screen and (min-width: 1017px) and (max-width: 1041px) {
   /* line 104, ../scss/triDivTest.scss */
   .arrow-up-tri {
     display: grid !important;
   }
-
+  
   /* line 21, ../scss/triDivTest.scss */
   /* line 109, ../scss/triDivTest.scss */
   .arrow-down-tri {
     display: grid !important;
   }
-
+  
   /* line 113, ../scss/triDivTest.scss */
   #tri-Container {
     position: relative;
@@ -130,7 +135,7 @@
     margin-left: auto;
     margin-right: auto;
   }
-
+  
   /* line 120, ../scss/triDivTest.scss */
   #tri-Container2 {
     position: relative;
@@ -141,28 +146,28 @@
     left: 249px;
     top: -423px;
   }
-
+  
   /* line 130, ../scss/triDivTest.scss */
   .tri-Block {
     position: relative;
     display: inline-block;
     margin-bottom: -21px;
   }
-
   /* line 30, ../scss/triDivTest.scss */
 }
-@media only screen and (min-width: 700px) and (max-width: 1017px) {
+
+@media only screen and (min-width: 853px) and (max-width: 1017px) {
   /* line 139, ../scss/triDivTest.scss */
   .arrow-up-tri {
     display: grid !important;
   }
-
+  
   /* line 21, ../scss/triDivTest.scss */
   /* line 143, ../scss/triDivTest.scss */
   .arrow-down-tri {
     display: grid !important;
   }
-
+  
   /* line 146, ../scss/triDivTest.scss */
   #tri-Container {
     position: relative;
@@ -171,7 +176,7 @@
     margin-right: auto;
     right: 130px;
   }
-
+  
   /* line 154, ../scss/triDivTest.scss */
   #tri-Container2 {
     position: relative;
@@ -182,7 +187,7 @@
     margin-bottom: -457px;
     top: -432px;
   }
-
+  
   /* line 164, ../scss/triDivTest.scss */
   .tri-Block {
     position: relative;
@@ -191,22 +196,22 @@
     border: 2px solid transparent;
     margin: -414px auto -50px;
   }
-
   /* line 30, ../scss/triDivTest.scss */
 }
-@media only screen and (min-width: 0px) and (max-width: 700px) {
+
+@media only screen and (min-width: 0px) and (max-width: 853px) {
   /* line 174, ../scss/triDivTest.scss */
   .arrow-up-tri {
     display: grid;
   }
-
+  
   /* line 21, ../scss/triDivTest.scss */
   /* line 179, ../scss/triDivTest.scss */
   .arrow-down-tri {
     display: grid;
     margin: auto auto -25px auto;
   }
-
+  
   /* line 184, ../scss/triDivTest.scss */
   #tri-Container {
     position: relative;
@@ -215,7 +220,7 @@
     margin-right: auto;
     padding-left: 0;
   }
-
+  
   /* line 192, ../scss/triDivTest.scss */
   #tri-Container2 {
     position: relative;
@@ -225,7 +230,7 @@
     margin-bottom: -33px;
     top: 2682px;
   }
-
+  
   /* line 201, ../scss/triDivTest.scss */
   .tri-Block {
     position: relative;
