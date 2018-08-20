@@ -1,10 +1,4 @@
 /* line 6, ../scss/styleshexagon.scss */
-.hex-Container {
-  height: auto;
-  width: auto;
-  margin: auto;
-}
-
 /* line 12, ../scss/styleshexagon.scss */
 .hexagon .hexagon2 .text {
   position: absolute;
@@ -112,8 +106,10 @@
   /* line 73, ../scss/styleshexagon.scss */
   .hexContainer {
     padding: 0px !important;
+    position: relative;
     margin: 0 auto !important;
-    left: 196px !important;
+    left: 346px !important;
+    height: ;
   }
   
   .hexPair {
@@ -133,6 +129,7 @@
     display: block !important;
     float: left !important;
     text-align: left !important;
+    text-indent: 20px;
     margin: 0 20px !important;
   }
   
