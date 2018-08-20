@@ -1,4 +1,4 @@
-$hex-size: 375px;
+$hex-size: 350px;
 $hex-height: $hex-size / sqrt(3);
 $hex-color: #C6538C;
 $margin-bottom:$hex-size*1.2625;
@@ -63,7 +63,7 @@ $margin-bottom:$hex-size*1.2625;
 	width:$hex-size*.9175;
 	z-index:3;
 }
-@media only screen and (min-width:0px)and(max-width:778px)
+@media only screen and (min-width:0px)and(max-width:$hex-size*1.945)
 {
 	.hexagon {
   		display:grid !important;
@@ -85,7 +85,7 @@ $margin-bottom:$hex-size*1.2625;
 
 }
 
-@media only screen and (min-width:778px)and(max-width:1200px)
+@media only screen and (min-width:$hex-size*1.945)and(max-width:$hex-size*3)
 {
 	.hexagon{
 		display:grid !important;
@@ -107,7 +107,7 @@ $margin-bottom:$hex-size*1.2625;
 	}
 
 }
-@media only screen and (min-width:1200px)
+@media only screen and (min-width:$hex-size*3)
 {
 	
 	.hexagon {

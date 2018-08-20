@@ -1,12 +1,12 @@
 /* line 6, ../scss/styleshexagon.scss */
 .hexagon .hexagon2 .text {
   position: absolute;
-  top: -75px;
+  top: -70px;
   left: 0;
-  font: 11.25px serif;
+  font: 10.5px serif;
   color: #ff00ff;
-  width: 375px;
-  height: 216.50635px;
+  width: 350px;
+  height: 202.07259px;
   text-align: center;
   overflow: visible;
   line-height: 1;
@@ -15,11 +15,11 @@
 /* line 18, ../scss/styleshexagon.scss */
 .hexagon {
   position: relative;
-  width: 375px;
-  height: 216.50635px;
+  width: 350px;
+  height: 202.07259px;
   background-color: #C6538C;
-  margin: 108.25318px;
-  margin-bottom: 473.4375px;
+  margin: 101.0363px;
+  margin-bottom: 441.875px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -27,11 +27,11 @@
 /* line 28, ../scss/styleshexagon.scss */
 .hexagon2 {
   position: relative;
-  width: 375px;
-  height: 216.50635px;
+  width: 350px;
+  height: 202.07259px;
   background-color: #C6538C;
-  margin: 108.25318px;
-  margin-bottom: 473.4375px;
+  margin: 101.0363px;
+  margin-bottom: 441.875px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -50,43 +50,43 @@
   display: block;
   float: left;
   text-align: left;
-  text-indent: 9.375px;
-  margin: 0 18.75px !important;
+  text-indent: 8.75px;
+  margin: 0 17.5px !important;
 }
 
 /* line 52, ../scss/styleshexagon.scss */
 .hexTitle {
-  font-size: 31.875px;
+  font-size: 29.75px;
   display: inline-block;
   position: absolute;
   clear: both;
   text-align: center;
-  margin: 0 9.375px 18.75px;
-  top: -64.6875px;
-  border-radius: 9.375px;
-  left: 8.4375px;
+  margin: 0 8.75px 17.5px;
+  top: -60.375px;
+  border-radius: 8.75px;
+  left: 7.875px;
   background: #CBD9EB;
-  width: 344.0625px;
+  width: 321.125px;
   z-index: 3;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 778px) {
+@media only screen and (min-width: 0px) and (max-width: 680.75px) {
   /* line 68, ../scss/styleshexagon.scss */
   .hexagon {
     display: grid !important;
-    margin-bottom: 217.5px !important;
+    margin-bottom: 203px !important;
   }
 
   /* line 72, ../scss/styleshexagon.scss */
   .hexagon2 {
     display: grid !important;
-    margin-bottom: 217.5px !important;
+    margin-bottom: 203px !important;
     top: 0px;
   }
 
   /* line 77, ../scss/styleshexagon.scss */
   .text {
-    font: 27.2475px serif;
+    font: 25.431px serif;
     width: 90%;
   }
 
@@ -95,25 +95,25 @@
     display: none;
   }
 }
-@media only screen and (min-width: 778px) and (max-width: 1200px) {
+@media only screen and (min-width: 680.75px) and (max-width: 1050px) {
   /* line 90, ../scss/styleshexagon.scss */
   .hexagon {
     display: grid !important;
-    right: 98.4375px !important;
-    margin-bottom: 121.875px;
+    right: 91.875px !important;
+    margin-bottom: 113.75px;
   }
 
   /* line 95, ../scss/styleshexagon.scss */
   .hexagon2 {
     display: grid !important;
-    left: 98.4375px !important;
-    margin-bottom: 121.875px;
+    left: 91.875px !important;
+    margin-bottom: 113.75px;
   }
 
   /* line 100, ../scss/styleshexagon.scss */
   .hexPair {
     margin: auto;
-    top: 92.8125px;
+    top: 86.625px;
   }
 
   /* line 104, ../scss/styleshexagon.scss */
@@ -122,7 +122,7 @@
     padding: 0px !important;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1050px) {
   /* line 113, ../scss/styleshexagon.scss */
   .hexagon {
     display: inline-block !important;
@@ -131,8 +131,8 @@
   /* line 116, ../scss/styleshexagon.scss */
   .hexagon2 {
     display: inline-block !important;
-    bottom: -328.125px !important;
-    left: -188.4375px !important;
+    bottom: -306.25px !important;
+    left: -175.875px !important;
   }
 
   /* line 121, ../scss/styleshexagon.scss */
@@ -141,7 +141,7 @@
     position: relative;
     padding: 0px;
     margin: 0 auto;
-    left: 187.5px;
+    left: 175px;
   }
 
   /* line 128, ../scss/styleshexagon.scss */
@@ -149,9 +149,9 @@
     display: inline-block;
     padding: 0px;
     float: right;
-    margin-left: -372.65625px;
+    margin-left: -347.8125px;
     margin-right: auto;
-    margin-bottom: -149.0625px;
+    margin-bottom: -139.125px;
     overflow: visible;
   }
 }
@@ -163,8 +163,8 @@
   content: "";
   position: absolute;
   width: 0;
-  border-left: 187.5px solid transparent;
-  border-right: 187.5px solid transparent;
+  border-left: 175px solid transparent;
+  border-right: 175px solid transparent;
 }
 
 /* line 150, ../scss/styleshexagon.scss */
@@ -172,7 +172,7 @@
 .hexagon2:before {
   bottom: 100%;
   left: 0;
-  border-bottom: 108.25318px solid #C6538C;
+  border-bottom: 101.0363px solid #C6538C;
 }
 
 /* line 157, ../scss/styleshexagon.scss */
@@ -181,5 +181,5 @@
   top: 100%;
   left: 0;
   width: 0;
-  border-top: 108.25318px solid #C6538C;
+  border-top: 101.0363px solid #C6538C;
 }
