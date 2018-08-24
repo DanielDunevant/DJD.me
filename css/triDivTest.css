@@ -2,9 +2,9 @@
 .arrow-up-tri {
   position: relative;
   margin: auto auto 12px auto;
-  border-left: 250px solid transparent;
-  border-right: 250px solid transparent;
-  border-bottom: 437.5px solid #AEE4EF;
+  border-left: 250px solid transparent !important;
+  border-right: 250px solid transparent !important;
+  border-bottom: 437.5px solid #AEE4EF !important;
 }
 
 /* line 21, ../scss/triDivTest.scss */
@@ -12,39 +12,89 @@
 .arrow-down-tri {
   position: relative;
   margin: auto auto 12px auto;
-  border-left: 250px solid transparent;
-  border-right: 250px solid transparent;
-  border-top: 437.5px solid #AEE4EF;
+  border-left: 250px solid transparent !important;
+  border-right: 250px solid transparent !important;
+  border-top: 437.5px solid #AEE4EF !important;
 }
 
 /* line 21, ../scss/triDivTest.scss */
 .text {
-  position: absolute;
-  top: 267px;
-  left: -125px;
-  font: 12px sans-serif;
-  color: #FF00FF;
-  width: 250px;
-  height: 437.5px;
+  height: auto;
+  position: relative;
+  clear: none;
+  display: block;
+  float: left;
   text-align: left;
-  overflow: visible;
-  line-height: 1;
-  z-index: 1;
+  text-indent: 7.5px;
+  left: ;
+  margin: 0 15px !important;
+}
+
+.triImg1 {
+  position: absolute;
+  height: 100px;
+  top: 68px;
+  left: -47px;
+}
+
+.triImg2 {
+  position: absolute;
+  height: 100px;
+  top: -166px;
+  left: -50px !important;
 }
 
 /* line 34, ../scss/triDivTest.scss */
-.text2 {
+.triContent1 {
+  left: -100px;
+  top: 176px;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  margin: auto;
+  padding: 0px;
   position: absolute;
-  top: -413px;
-  left: -126px;
-  font: 12px sans-serif;
-  color: #FF00FF;
-  width: 250px;
-  height: 437.5px;
-  text-align: left;
-  overflow: visible;
-  line-height: 1;
-  z-index: 1;
+}
+
+.triContent2 {
+  left: -102px;
+  top: -372px;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  margin: auto;
+  padding: 0px;
+  position: absolute;
+}
+
+.triTitle1 {
+  font-size: 25.5px;
+  display: inline-block;
+  position: absolute;
+  clear: both;
+  text-align: center;
+  margin: 0 7.5px 15px;
+  top: 377.25px;
+  border-radius: 7.5px;
+  left: -137.25px;
+  background: #CBD9EB;
+  width: 275.25px;
+  z-index: 3;
+}
+
+.triTitle2 {
+  font-size: 25.5px;
+  display: inline-block;
+  position: absolute;
+  clear: both;
+  text-align: center;
+  margin: 0 7.5px 15px;
+  top: -421.75px;
+  border-radius: 7.5px;
+  left: -137.25px;
+  background: #CBD9EB;
+  width: 275.25px;
+  z-index: 3;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 4000px) {
@@ -116,7 +166,7 @@
   /* line 30, ../scss/triDivTest.scss */
 }
 
-@media only screen and (min-width: 1017px) and (max-width: 1041px) {
+@media only screen and (min-width: 1017px) and (max-width: 575px) {
   /* line 104, ../scss/triDivTest.scss */
   .arrow-up-tri {
     display: grid !important;
@@ -156,50 +206,7 @@
   /* line 30, ../scss/triDivTest.scss */
 }
 
-@media only screen and (min-width: 853px) and (max-width: 1017px) {
-  /* line 139, ../scss/triDivTest.scss */
-  .arrow-up-tri {
-    display: grid !important;
-  }
-  
-  /* line 21, ../scss/triDivTest.scss */
-  /* line 143, ../scss/triDivTest.scss */
-  .arrow-down-tri {
-    display: grid !important;
-  }
-  
-  /* line 146, ../scss/triDivTest.scss */
-  #tri-Container {
-    position: relative;
-    display: grid;
-    margin-left: auto;
-    margin-right: auto;
-    right: 130px;
-  }
-  
-  /* line 154, ../scss/triDivTest.scss */
-  #tri-Container2 {
-    position: relative;
-    display: grid;
-    margin-left: auto;
-    margin-right: auto;
-    left: 130px;
-    margin-bottom: -457px;
-    top: -432px;
-  }
-  
-  /* line 164, ../scss/triDivTest.scss */
-  .tri-Block {
-    position: relative;
-    width: auto !important;
-    top: 416px;
-    border: 2px solid transparent;
-    margin: -414px auto -50px;
-  }
-  /* line 30, ../scss/triDivTest.scss */
-}
-
-@media only screen and (min-width: 0px) and (max-width: 853px) {
+@media only screen and (min-width: 0px) and (max-width: 575px) {
   /* line 174, ../scss/triDivTest.scss */
   .arrow-up-tri {
     display: grid;
@@ -209,7 +216,6 @@
   /* line 179, ../scss/triDivTest.scss */
   .arrow-down-tri {
     display: grid;
-    margin: auto auto -25px auto;
   }
   
   /* line 184, ../scss/triDivTest.scss */
@@ -218,7 +224,6 @@
     display: grid;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 0;
   }
   
   /* line 192, ../scss/triDivTest.scss */
@@ -228,7 +233,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -33px;
-    top: 2682px;
   }
   
   /* line 201, ../scss/triDivTest.scss */
@@ -237,6 +241,6 @@
     height: 200px;
     width: auto;
     top: 414px;
-    margin: -414px auto 1099px;
+    margin: -414px auto 1999px;
   }
 }
