@@ -101,13 +101,14 @@
   /* line 48, ../scss/triDivTest.scss */
   .arrow-up-tri {
     display: inline-block !important;
-    margin: 0 -200px 0 0 !important;
+    margin: 0 -268px 0 0 !important;
   }
   
   /* line 21, ../scss/triDivTest.scss */
   /* line 54, ../scss/triDivTest.scss */
   .arrow-down-tri {
     display: inline-block !important;
+    margin: 0 0 0 27px !important;
   }
   
   /* line 30, ../scss/triDivTest.scss */
@@ -115,8 +116,8 @@
   #tri-Container {
     position: relative;
     display: inline-block;
-    margin-left: -26px;
-    margin-right: 12px;
+    margin-left: -53px;
+    margin-right: -25px;
   }
   
   /* line 64, ../scss/triDivTest.scss */
@@ -129,44 +130,7 @@
   }
 }
 
-@media only screen and (min-width: 1041px) and (max-width: 1200px) {
-  /* line 74, ../scss/triDivTest.scss */
-  .arrow-up-tri {
-    display: grid !important;
-  }
-  
-  /* line 21, ../scss/triDivTest.scss */
-  /* line 79, ../scss/triDivTest.scss */
-  .arrow-down-tri {
-    display: grid !important;
-  }
-  
-  /* line 83, ../scss/triDivTest.scss */
-  #tri-Container {
-    position: relative;
-    display: grid;
-    left: -156px;
-  }
-  
-  /* line 88, ../scss/triDivTest.scss */
-  #tri-Container2 {
-    position: relative;
-    display: grid;
-    margin-right: auto;
-    margin-top: -412px;
-    left: 135px;
-  }
-  
-  /* line 96, ../scss/triDivTest.scss */
-  .tri-Block {
-    position: relative;
-    display: inline-block;
-    margin: 0 0 -427px 0;
-  }
-  /* line 30, ../scss/triDivTest.scss */
-}
-
-@media only screen and (min-width: 1017px) and (max-width: 575px) {
+@media only screen and (min-width: 575px) and (max-width: 1200px) {
   /* line 104, ../scss/triDivTest.scss */
   .arrow-up-tri {
     display: grid !important;
@@ -182,7 +146,7 @@
   #tri-Container {
     position: relative;
     display: grid;
-    margin-left: auto;
+    margin-left: 7px;
     margin-right: auto;
   }
   
@@ -192,8 +156,8 @@
     display: grid;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -530px;
-    left: 249px;
+    margin-bottom: -837px;
+    left: 257px;
     top: -423px;
   }
   
