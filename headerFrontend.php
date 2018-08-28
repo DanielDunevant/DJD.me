@@ -1,10 +1,10 @@
 <!-- PHP for "Novay Technologies" © 2017, authors: "Daniel Dunevant & Jesse Primiani" -->
 <?php
-$linkArray = array("start",
+$linkArray = array(
                    "hexagonTest2-1",
                    "triDivTest",
                    "contact");
-$textArray = array("Home","hexagonTest2-1","triDivTest","Contact");
+$textArray = array("hexagonTest2-1","triDivTest","Contact");
 $numLinks =4;
 print "<div id ='headerOptions' class='row'>\n";
 require_once( "animationTest.php");

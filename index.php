@@ -29,13 +29,11 @@ require 'main.php';
                           </div>
                       </div>
 	      </div>	
-			<div class ="row">
-				<div class='footerUpper col-xs-12 col-sm-12 col-md-12 '>
+				<div class='footerUpper'>
 	<?php
 					require "footer.php";
 	?>
 				</div>
-			</div>
 	</body>
 </html>
 

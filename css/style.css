@@ -324,12 +324,11 @@ form
 .footerUpper
 {
 	background-color: #696A84;
-	display: flex;
+	display: inline-block !important;
 	text-align: center;
-	width: 100%;
+	width: 100% !important;
 	clear: both;
 	margin: auto;
-	margin-top: 10%;
 	z-index: 1;
 }
 .footerLinks
@@ -363,14 +362,9 @@ form
 	background-color: #131538;
 	clear: both;
 	padding-top: 4px;
-	width: 100%;
+	width: 100% !important;
 	height: 190px;
-}
-.footerInner *
-{
-	text-align: center;
-	padding-left: 12px;
-	padding: 6px;
+	z-index: 2;
 }
 .Footer
 {

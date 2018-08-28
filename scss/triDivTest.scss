@@ -1,76 +1,125 @@
-$tri-Base : 250px;
+$tri-Base :200px;
 $tri-Tip:$tri-Base*1.75;
 $tri-color:#AEE4EF;
 
 .arrow-up-tri {
     position: relative;
-    margin:auto auto 12px auto;
-    border-left: $tri-Base solid transparent;
-    border-right: $tri-Base solid transparent;
-    border-bottom: $tri-Tip solid $tri-color;
+    margin:auto auto $tri-Base*.048 auto;
+    border-left: $tri-Base solid transparent !important;
+    border-right: $tri-Base solid transparent !important;
+    border-bottom: $tri-Tip solid $tri-color !important;
 }
   
   /* line 21, ../scss/triDivTest.scss */
 .arrow-down-tri {
     position: relative;
-    margin:auto auto 12px auto;
-    border-left: $tri-Base solid transparent;
-    border-right: $tri-Base solid transparent;
-    border-top: $tri-Tip solid $tri-color;
+    margin:auto auto $tri-Base*.048 auto;
+    border-left: $tri-Base solid transparent !important;
+    border-right: $tri-Base solid transparent !important;
+    border-top: $tri-Tip solid $tri-color !important;
 }
 .text {
-	position:absolute;
-	top:267px;
-	left:-125px;
-	font:12px sans-serif;
-	color:#ff00ff;
-	width:$tri-Base;
-	height:$tri-Tip;
+	position:relative;
+	height:auto;
+	clear:none;
+	display:block;
+	float: left;
 	text-align:left;
-	overflow:visible;
-	line-height:1;
-	z-index:1;
+	text-indent:$tri-Base*.03;
+	left:auto;
+	margin:0 $tri-Base*.06 !important;
 }
-.text2 {
+.triImg1{
 	position:absolute;
-	top:-413px;
-	left:-126px;
-	font:12px sans-serif;
-	color:#ff00ff;
-	width:$tri-Base;
-	height:$tri-Tip;
-	text-align:left;
-	overflow:visible;
-	line-height:1;
-	z-index:1;
+	height:	$tri-Base*.4;
+	top:$tri-Base*.272;
+	left:$tri-Base*-.2 !important;
 }
-@media only screen and (min-width: 1200px) and (max-width: 4000px) {
+.triImg2{
+	position:absolute;
+	height:	$tri-Base*.4;
+	top:$tri-Base*-.664;
+	left:$tri-Base*-.2 !important;
+}
+
+.triContent1{
+	left:$tri-Base*-.4;
+	top:$tri-Base*-.704;
+	height:$tri-Base*.8;
+	width:$tri-Base*.8;
+	display:inline-block;
+	margin:auto;
+	padding:0px;
+	position:absolute;
+}
+.triContent2{
+	left:$tri-Base*-.4;
+	top:$tri-Base*1.488;
+	height:$tri-Base*.8;
+	width:$tri-Base*.8;
+	display:inline-block;
+	margin:auto;
+	padding:0px;
+	position:absolute;
+}
+.triTitle1{
+	font-size:$tri-Base*.1;
+	display:inline-block;
+	position:absolute;
+	clear:both;
+	text-align:center;
+	margin:0 $tri-Base*.03 $tri-Base*.06;
+	top:$tri-Base*1.509;
+	border-radius:$tri-Base*.03;
+	left:$tri-Base*-.549;
+	background:#CBD9EB;
+	width:$tri-Base*1.101;
+	z-index:3;
+}
+.triTitle2{
+	font-size:$tri-Base*.1;
+	display:inline-block;
+	position:absolute;
+	clear:both;
+	text-align:center;
+	margin:0 $tri-Base*.03 $tri-Base*.06;
+	top:$tri-Base*-1.687;
+	border-radius:$tri-Base*.03;
+	left:$tri-Base*-.549;
+	background:#CBD9EB;
+	width:$tri-Base*1.101;
+	z-index:3;
+}
+@media only screen and (min-width: $tri-Base*4.8) {
   .arrow-up-tri {
     display: inline-block !important;
-    margin: 0 -200px 0 0 !important;
+    margin: 0 $tri-Base*-1.072 0 0 !important;
   }
   
   /* line 21, ../scss/triDivTest.scss */
   .arrow-down-tri {
     display: inline-block !important;
+    margin: 0 0 0 $tri-Base*.108 !important;
   }
   
   /* line 30, ../scss/triDivTest.scss */
   #tri-Container {
     position: relative;
     display: inline-block;
+    margin-left:$tri-Base*-.212;
+    margin-right:$tri-Base*-.1;
   }
   
   #tri-Container2 {
     position: relative;
     display: inline-block;
-    margin-right: -514px;
-    left: -196px;
+    margin-right: $tri-Base*-2.056;
+    left: $tri-Base*-.844;
     top: 0px;
   }
 }
 
-@media only screen and (min-width: 1041px) and (max-width: 1200px) {
+@media only screen and (min-width: $tri-Base*2.3 ) and (max-width: $tri-Base*4.8) {
   .arrow-up-tri {
     display: grid !important;
   }
@@ -83,94 +132,30 @@ $tri-color:#AEE4EF;
   #tri-Container {
     position: relative;
     display: grid;
+    margin-left:$tri-Base*.028;
+    margin-right:auto;
+    margin-bottom:$tri-Base*-1.884;
   }
   
   #tri-Container2 {
     position: relative;
     display: grid;
     margin-right: auto;
-    margin-top: -414px;
-    left: 250px;
+    margin-left:auto;
+    margin-bottom: $tri-Base*-1.292;
+    left: $tri-Base*1.028;
+    top:$tri-Base*.228;
   }
   
   .tri-Block {
     position: relative;
     display: inline-block;
+    margin-bottom:$tri-Base*-.084;
   }
   /* line 30, ../scss/triDivTest.scss */
 }
 
-@media only screen and (min-width: 1017px) and (max-width: 1041px) {
-  .arrow-up-tri {
-    display: grid !important;
-  }
-  
-  /* line 21, ../scss/triDivTest.scss */
-  .arrow-down-tri {
-    display: grid !important;
-  }
-  
-  #tri-Container {
-    position: relative;
-    display: grid;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  #tri-Container2 {
-    position: relative;
-    display: grid;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: -530px;
-    left: 249px;
-    top: -423px;
-  }
-  
-  .tri-Block {
-    position: relative;
-    display: inline-block;
-    margin-bottom: -21px;
-  }
-  /* line 30, ../scss/triDivTest.scss */
-}
-
-@media only screen and (min-width: 700px) and (max-width: 1017px) {
-  .arrow-up-tri {
-    display: grid !important;
-  }
-  /* line 21, ../scss/triDivTest.scss */
-  .arrow-down-tri {
-    display: grid !important;
-  }
-  #tri-Container {
-    position: relative;
-    display: grid;
-    margin-left: auto;
-    margin-right: auto;
-    right: 130px;
-  }
-  
-  #tri-Container2 {
-    position: relative;
-    display: grid;
-    margin-left: auto;
-    margin-right: auto;
-    left: 130px;
-    margin-bottom: -457px;
-    top: -432px;
-  }
-  
-  .tri-Block {
-    position: relative;
-    width: auto !important;
-    top: 416px;
-    border: 2px solid rgba(0, 0, 0, 0);
-    margin: -414px auto -50px;
-  }
-  /* line 30, ../scss/triDivTest.scss */
-}
-@media only screen and (min-width: 0px) and (max-width: 700px) {
+@media only screen and (min-width: 0px) and (max-width: $tri-Base*2.3) {
   .arrow-up-tri {
     display: grid;
   }
@@ -186,7 +171,6 @@ $tri-color:#AEE4EF;
     display: grid;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 0;
   }
   
   #tri-Container2 {
@@ -194,15 +178,14 @@ $tri-color:#AEE4EF;
     display: grid;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -33px;
-    top: 2682px;
+    margin-bottom: $tri-Base*-.132;
   }
   
   .tri-Block {
     position: relative;
-    height: 200px;
+    height:$tri-Base*.8;
     width: auto;
-    top: 414px;
-    margin: -414px auto 1099px;
+    top:$tri-Base*1.656 ;
+    margin: $tri-Base*-1.656 auto $tri-Base*7.996;
   }
 }
