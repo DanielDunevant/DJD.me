@@ -1,0 +1,43 @@
+/* line 5, ../scss/triHourGlassish.scss */
+.arrow-up-tri-Hour {
+  position: relative;
+  margin: auto auto 2.04px auto;
+  border-left: 30px solid transparent !important;
+  border-right: 30px solid transparent !important;
+  border-bottom: 52.5px solid #AEE4EF !important;
+}
+
+/* line 21, ../scss/triDivTest.scss */
+/* line 14, ../scss/triHourGlassish.scss */
+.arrow-down-tri-Hour {
+  position: relative;
+  margin: auto auto 3px auto;
+  border-left: 30px solid transparent !important;
+  border-right: 30px solid transparent !important;
+  border-top: 52.5px solid #AEE4EF !important;
+}
+
+/* line 22, ../scss/triHourGlassish.scss */
+.tri-Hour-Container {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  height: 0px;
+  width: auto;
+  margin-left: 12px;
+  margin-top: 9px;
+}
+
+/* line 32, ../scss/triHourGlassish.scss */
+.tri-Hour-Container2 {
+  float: right;
+  margin-right: 12px;
+}
+
+/* line 36, ../scss/triHourGlassish.scss */
+#headerDecor {
+  width: auto;
+  position: relative;
+  padding: 0px;
+}

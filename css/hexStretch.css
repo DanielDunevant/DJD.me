@@ -1,33 +1,31 @@
 /* line 18, ../scss/styleshexagon.scss */
 .hexagonStretched {
+  top: 70px;
+  text-align: center;
   position: relative;
-  width: auto;
+  display: flex;
+  width: auto !important;
   height: 0px;
   background-color: #C6538C;
-  margin: 86.60254px;
   margin-bottom: 378.75px;
   margin-right: 75px;
   margin-left: 75px;
 }
 
-/* line 28, ../scss/styleshexagon.scss */
-/* line 38, ../scss/styleshexagon.scss */
-/* line 42, ../scss/styleshexagon.scss */
-/* line 52, ../scss/styleshexagon.scss */
-/* line 139, ../scss/styleshexagon.scss */
 .hexagonStretched:before,
 .hexagonStretched:after {
   content: "";
   position: absolute;
   width: 0;
-  border-left: 150px solid transparent;
-  border-right: 150px solid transparent;
+  border-left: 27px solid transparent;
+  border-right: 31px solid transparent;
+  font-weight: bold;
 }
 
 /* line 150, ../scss/styleshexagon.scss */
 .hexagonStretched:before {
   bottom: 100%;
-  border-bottom: 86.60254px solid #C6538C;
+  border-bottom: 50.60254px solid #C6538C;
   width: 100%;
 }
 
@@ -37,7 +35,7 @@
     top: 100%;
     width: 100%;
     margin-left: 0px;
-    border-top: 86.60254px solid #C6538C;
+    border-top: 50.60254px solid #C6538C;
   }
 }
 
@@ -46,6 +44,6 @@
     top: 100%;
     width: 100%;
     margin-left: -1200px;
-    border-top: 86.60254px solid #C6538C;
+    border-top: solid #C6538C;
   }
 }

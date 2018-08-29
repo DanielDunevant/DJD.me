@@ -7,12 +7,9 @@
  * */
 /* line 9, ../scss/stylesAni.scss */
 #containter {
-  width: 0px !important;
-  height: 0px !important;
-  background: #A52020 !important;
 }
 
-@media only screen and (min-width: 1150px) {
+@media only screen and (min-width: 1434px) {
   /* line 15, ../scss/stylesAni.scss */
   #container {
     width: auto;
@@ -64,16 +61,12 @@
 }
 
 /* line 55, ../scss/stylesAni.scss */
-#container {
-  border-radius: 20px !important;
-  margin: 0 0 0 126px;
-}
-
 @media only screen and (max-width: 1434px) {
   /* line 60, ../scss/stylesAni.scss */
   #container {
     width: auto;
-    margin: auto 7px;
+    text-align: center !important;
+    margin: auto;
     position: relative;
     opacity: 1;
     z-index: 1;
@@ -84,13 +77,12 @@
     width: auto;
     text-align: center;
     margin: auto;
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
     position: relative;
     opacity: 1;
     z-index: 1;
-    /*+placement: 4px -66px;*/
-    position: relative;
-    left: 4px;
-    top: -66px;
   }
   
   /* line 79, ../scss/stylesAni.scss */
@@ -120,14 +112,28 @@
   /* line 99, ../scss/stylesAni.scss */
   .allLetters {
     display: none !important;
-    top: -348px;
+    text-align: center;
+    margin: auto;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  #letterContainer {
+    text-align: center !important;
+    margin: auto;
+    display: table-cell;
+    vertical-align: middle;
   }
   
   /* line 103, ../scss/stylesAni.scss */
   #letters22 {
     display: inline-block !important;
     height: 71px;
-    margin: 25px auto auto;
+    text-align: match-parent !important;
+    margin: auto;
+    display: table-cell;
+    vertical-align: middle;
+    margin: -38px auto auto;
   }
 }
 

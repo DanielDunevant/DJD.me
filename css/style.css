@@ -250,11 +250,12 @@ p
 #socialBar
 {
 	display: inline-block;
-	margin: -440px -5px auto;
+	margin: -162px -5px auto -51px;
 	background: #CED2D7;
 	position: fixed;
 	width: auto;
 	border-radius: 5px;
+	z-index: 4;
 }
 .socialImages
 {

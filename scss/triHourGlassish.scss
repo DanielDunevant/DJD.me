@@ -1,0 +1,40 @@
+$tri-Base :30px;
+$tri-Tip:$tri-Base*1.75;
+$tri-color:#AEE4EF;
+
+.arrow-up-tri-Hour {
+    position: relative;
+    margin:auto auto $tri-Base*.068 auto;
+    border-left: $tri-Base solid transparent !important;
+    border-right: $tri-Base solid transparent !important;
+    border-bottom: $tri-Tip solid $tri-color !important;
+}
+  
+  /* line 21, ../scss/triDivTest.scss */
+.arrow-down-tri-Hour {
+    position: relative;
+    margin:auto auto $tri-Base*.1 auto;
+    border-left: $tri-Base solid transparent !important;
+    border-right: $tri-Base solid transparent !important;
+    border-top: $tri-Tip solid $tri-color !important;
+}
+  
+.tri-Hour-Container {
+    position: relative;
+    text-align:center;
+    display: inline-block;
+    float:left;
+    height:0px;
+    width:auto;
+    margin-left:$tri-Base*.4;
+    margin-top:$tri-Base*.3;
+}
+.tri-Hour-Container2 {
+    float:right;
+    margin-right:$tri-Base*.4;
+}
+#headerDecor{
+    width:auto;
+    position:relative;
+    padding:0px;
+} 

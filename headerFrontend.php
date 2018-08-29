@@ -5,9 +5,8 @@ $linkArray = array(
                    "triDivTest",
                    "contact");
 $textArray = array("hexagonTest2-1","triDivTest","Contact");
-$numLinks =4;
-print "<div id ='headerOptions' class='row'>\n";
-require_once( "animationTest.php");
+$numLinks =3;
+require_once( "hexStretch.php");
 /*Where navigation image goes previously Novay*/
 //print "<img src ='images/NovayHeader_Dark.svg'   class = 'col-xs-2 col-md-2 col-sm-2'  >\n";
 for($i = 0; $i <$numLinks;$i++){
@@ -15,11 +14,6 @@ for($i = 0; $i <$numLinks;$i++){
         print "$textArray[$i]";
         print "</a>\n";
 }
-print "</div>\n";
-echo<<<HEREDOC
-<p></p>
-HEREDOC;
-print "</div>";
 
 //Alternate Header Style
 /*
