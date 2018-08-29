@@ -5,7 +5,6 @@
  *Alignment using top and left is used to put it in the container
  *
  * */
-$align-top : -23px;
 #containter {
 	width: 0px !important;
 	height: 0px !important;
@@ -17,6 +16,7 @@ $align-top : -23px;
 		height: 132px;
 		margin: auto 7px;
 		position: relative;
+		background-color: rgba(127, 147, 224, 0);
 		opacity: 1;
 		z-index: 1;
 	}
@@ -25,6 +25,7 @@ $align-top : -23px;
 		display: inline-block;
 		height: 132px;
 		position: relative;
+		background-color: #8094E1;
 		margin-top: -222px;
 		top: -14px;
 		opacity: 0;
@@ -35,6 +36,7 @@ $align-top : -23px;
 		display: none;
 		height: 132px;
 		position: relative;
+		background-color: #8094E1;
 		margin-top: -168px;
 		top: -15px;
 		opacity: 0;
@@ -45,8 +47,8 @@ $align-top : -23px;
 		display: inline-block !important;
 		text-align: center !important;
 		border-width: 154px;
-		left:0px;
-		top: $align-top !important;
+		left: ;
+		top: -23px !important;
 	}
 	#letters22 {
 		display: none !important;
@@ -56,7 +58,7 @@ $align-top : -23px;
 	border-radius: 20px !important;
 	margin: 0 0 0 126px;
 }
-@media only screen and (max-width: 1434px) {
+@media only screen and (max-width: 1150px) {
 	#container {
 		width: auto;
 		margin: auto 7px;
@@ -85,6 +87,7 @@ $align-top : -23px;
 		top: -14px;
 		opacity: 0;
 		z-index: 0;
+		background-position: ;
 	}
 	#cover2 {
 		width: 1200px;
@@ -108,7 +111,7 @@ $align-top : -23px;
 }
 #letters1 {
 	position: absolute;
-	top: ($align-top) !important ;
+	top: 32px;
 	height: 64px;
 	background-color: #FFFFFF;
 	left: 430px;
@@ -119,7 +122,7 @@ $align-top : -23px;
 #letters2 {
 	position: absolute;
 	left: 450px;
-	top: ($align-top + 18px) !important;
+	top: 50px;
 	background-color: #FFFFFF;
 	display: inline-block;
 	opacity: 1;
@@ -128,7 +131,7 @@ $align-top : -23px;
 #letters3 {
 	position: absolute;
 	left: 450px;
-	top: ($align-top + 18px)!important;
+	top: 50px;
 	background-color: #FFFFFF;
 	display: inline-block;
 	opacity: 1;
@@ -138,7 +141,7 @@ $align-top : -23px;
 	position: absolute;
 	display: inline-block;
 	left: 450px;
-	top: ($align-top + 2px)!important;
+	top: 34px;
 	background-color: #FFFFFF;
 	opacity: 1;
 	z-index: -1;
@@ -146,7 +149,7 @@ $align-top : -23px;
 #letters5 {
 	position: absolute;
 	display: inline-block;
-	top: ($align-top + 18px)!important;
+	top: 50px;
 	background-color: #FFFFFF;
 	left: 450px;
 	opacity: 1;
@@ -155,7 +158,7 @@ $align-top : -23px;
 #letters6 {
 	position: absolute;
 	display: inline-block;
-	top: ($align-top + 2px)!important;
+	top: 34px;
 	background-color: #FFFFFF;
 	left: 450px;
 	opacity: 1;
@@ -164,7 +167,7 @@ $align-top : -23px;
 #letters7 {
 	position: absolute;
 	display: inline-block;
-	top: ($align-top + 0px)!important;
+	top: 32px;
 	height: 64px;
 	background-color: #FFFFFF;
 	left: 488px;
@@ -174,27 +177,27 @@ $align-top : -23px;
 #letters8 {
 	position: absolute;
 	display: inline-block;
-	top: ($align-top + 18px)!important;
+	top: 50px;
 	background-color: #FFFFFF;
-	left: 499px;
+	left: 500px;
 	opacity: 1;
 	z-index: -1;
 }
 #letters9 {
 	position: absolute;
 	display: inline-block;
-	top: ($align-top + 2px)!important;
+	top: 34px;
 	background-color: #FFFFFF;
-	left: 499px;
+	left: 500px;
 	opacity: 1;
 	z-index: -1;
 }
 #letters10 {
 	position: absolute;
 	display: inline-block;
-	top: ($align-top + 18px)!important;
+	top: 50px;
 	background-color: #FFFFFF;
-	left: 499px;
+	left: 500px;
 	opacity: 1;
 	z-index: -1;
 }
@@ -202,7 +205,7 @@ $align-top : -23px;
 	position: absolute;
 	display: inline-block;
 	height: 64px;
-	top: ($align-top + 0px)!important;
+	top: 32px;
 	background-color: #FFFFFF;
 	left: 550px;
 	opacity: 1;
@@ -211,7 +214,7 @@ $align-top : -23px;
 #letters12 {
 	position: absolute;
 	display: inline-block;
-	top: ($align-top + 18px)!important;
+	top: 50px;
 	background-color: #FFFFFF;
 	left: 550px;
 	opacity: 1;
@@ -220,7 +223,7 @@ $align-top : -23px;
 #letters13 {
 	position: absolute;
 	display: inline-block;
-	top: ($align-top + 18px)!important;
+	top: 50px;
 	background-color: #FFFFFF;
 	left: 550px;
 	opacity: 1;
@@ -229,7 +232,7 @@ $align-top : -23px;
 #letters14 {
 	position: absolute;
 	display: inline-block;
-	top:($align-top + 18px)!important;
+	top: 50px;
 	background-color: #FFFFFF;
 	left: 550px;
 	opacity: 1;
@@ -238,7 +241,7 @@ $align-top : -23px;
 #letters15 {
 	position: absolute;
 	display: inline-block;
-	top: ($align-top + 17px)!important;
+	top: 49px;
 	background-color: #FFFFFF;
 	left: 550px;
 	opacity: 1;
@@ -247,7 +250,7 @@ $align-top : -23px;
 #letters16 {
 	position: absolute;
 	display: inline-block;
-	top: ($align-top + 18px )!important;
+	top: 50px;
 	background-color: #FFFFFF;
 	left: 550px;
 	opacity: 1;
@@ -256,7 +259,7 @@ $align-top : -23px;
 #letters17 {
 	position: absolute;
 	display: inline-block;
-	top: ($align-top + 18px)!important;
+	top: 50px;
 	background-color: #FFFFFF;
 	left: 550px;
 	opacity: 1;
@@ -265,7 +268,7 @@ $align-top : -23px;
 #letters18 {
 	position: absolute;
 	display: inline-block;
-	top: ($align-top + 0px)!important;
+	top: 34px;
 	background-color: #FFFFFF;
 	left: 550px;
 	opacity: 1;
@@ -274,7 +277,7 @@ $align-top : -23px;
 #letters19 {
 	position: absolute;
 	display: inline-block;
-	top: ($align-top + 45px)!important;
+	top: 82px;
 	left: 621px;
 	opacity: 1;
 	z-index: 0;
@@ -282,7 +285,7 @@ $align-top : -23px;
 #letters20 {
 	position: absolute;
 	display: inline-block;
-	top: ($align-top + 2px)!important;
+	top: 35px;
 	left: 650px;
 	opacity: 1;
 	z-index: 0;
@@ -290,7 +293,7 @@ $align-top : -23px;
 #letters21 {
 	position: absolute;
 	display: inline-block;
-	top: ($align-top + 18px)!important ;
+	top: 50px;
 	left: 679px;
 	opacity: 1;
 	z-index: 0;
