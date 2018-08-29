@@ -1,0 +1,51 @@
+/* line 18, ../scss/styleshexagon.scss */
+.hexagonStretched {
+  position: relative;
+  width: auto;
+  height: 0px;
+  background-color: #C6538C;
+  margin: 86.60254px;
+  margin-bottom: 378.75px;
+  margin-right: 75px;
+  margin-left: 75px;
+}
+
+/* line 28, ../scss/styleshexagon.scss */
+/* line 38, ../scss/styleshexagon.scss */
+/* line 42, ../scss/styleshexagon.scss */
+/* line 52, ../scss/styleshexagon.scss */
+/* line 139, ../scss/styleshexagon.scss */
+.hexagonStretched:before,
+.hexagonStretched:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+
+/* line 150, ../scss/styleshexagon.scss */
+.hexagonStretched:before {
+  bottom: 100%;
+  border-bottom: 86.60254px solid #C6538C;
+  width: 100%;
+}
+
+/* line 157, ../scss/styleshexagon.scss */
+@media only screen and (max-width: 11354px) {
+  .hexagonStretched:after {
+    top: 100%;
+    width: 100%;
+    margin-left: 0px;
+    border-top: 86.60254px solid #C6538C;
+  }
+}
+
+@media only screen and (min-width: 1354px) {
+  .hexagonStretched:after {
+    top: 100%;
+    width: 100%;
+    margin-left: -1200px;
+    border-top: 86.60254px solid #C6538C;
+  }
+}

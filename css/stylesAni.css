@@ -5,13 +5,18 @@
  *Alignment using top and left is used to put it in the container
  *
  * */
+#containter {
+	width: 0px !important;
+	height: 0px !important;
+	background: #A52020 !important;
+}
 @media only screen and (min-width: 1150px) {
 	#container {
 		width: auto;
 		height: 132px;
 		margin: auto 7px;
 		position: relative;
-		background-color: #8094E1;
+		background-color: rgba(127, 147, 224, 0);
 		opacity: 1;
 		z-index: 1;
 	}
@@ -38,51 +43,65 @@
 		z-index: 3;
 	}
 	.allLetters {
-		background-color: #8094E1 !important;
+		background-color: #C84D93 !important;
 		display: inline-block !important;
+		text-align: center !important;
+		border-width: 154px;
+		left: ;
+		top: -23px !important;
 	}
 	#letters22 {
 		display: none !important;
 	}
 }
 #container {
-	border-radius: 20px;
+	border-radius: 20px !important;
+	margin: 0 0 0 126px;
 }
-@media only screen and (min-width: 200px) and (max-width: 1150px) {
+@media only screen and (max-width: 1150px) {
 	#container {
 		width: auto;
-		height: 132px;
 		margin: auto 7px;
 		position: relative;
-		background-color: #8094E1;
 		opacity: 1;
 		z-index: 1;
+	}
+	#letterContainer {
+		width: auto;
+		text-align: center;
+		margin: auto;
+		position: relative;
+		opacity: 1;
+		z-index: 1;
+		/*+placement: 4px -66px;*/
+		position: relative;
+		left: 4px;
+		top: -66px;
 	}
 	#cover1 {
 		width: 1200px;
 		display: none;
 		height: 132px;
 		position: relative;
-		background-color: #8094E1;
 		margin-top: -222px;
 		top: -14px;
 		opacity: 0;
 		z-index: 0;
+		background-position: ;
 	}
 	#cover2 {
 		width: 1200px;
 		display: none;
 		height: 132px;
 		position: relative;
-		background-color: #8094E1;
 		margin-top: -168px;
 		top: -15px;
 		opacity: 0;
 		z-index: 0;
 	}
 	.allLetters {
-		background-color: #8094E1 !important;
 		display: none !important;
+		top: -348px;
 	}
 	#letters22 {
 		display: inline-block !important;
@@ -95,7 +114,7 @@
 	top: 32px;
 	height: 64px;
 	background-color: #FFFFFF;
-	left: 418px;
+	left: 430px;
 	display: inline;
 	opacity: 1;
 	z-index: 0;
