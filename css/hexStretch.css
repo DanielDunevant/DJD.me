@@ -1,6 +1,6 @@
 /* line 18, ../scss/styleshexagon.scss */
 .hexagonStretched {
-  top: 70px;
+  top: 52px;
   text-align: center;
   position: relative;
   display: flex;
@@ -8,8 +8,12 @@
   height: 0px;
   background-color: #C6538C;
   margin-bottom: 378.75px;
-  margin-right: 75px;
-  margin-left: 75px;
+  margin-right: 67px;
+  margin-left: 67px;
+}
+
+.hexagonStretchedFoot {
+  margin-top: 323px;
 }
 
 .hexagonStretched:before,
@@ -25,25 +29,25 @@
 /* line 150, ../scss/styleshexagon.scss */
 .hexagonStretched:before {
   bottom: 100%;
-  border-bottom: 50.60254px solid #C6538C;
+  border-bottom: 44.60254px solid #C6538C;
   width: 100%;
 }
 
 /* line 157, ../scss/styleshexagon.scss */
-@media only screen and (max-width: 1354px) {
+@media only screen and (max-width: 1454px) {
   .hexagonStretched:after {
     top: 100%;
     width: 100%;
     margin-left: 0px;
-    border-top: 50.60254px solid #C6538C;
+    border-top: 44.60254px solid #C6538C;
   }
 }
 
-@media only screen and (min-width: 1354px) {
+@media only screen and (min-width: 1454px) {
   .hexagonStretched:after {
     top: 100%;
     width: 100%;
-    margin-left: -1200px;
-    border-top: solid #C6538C;
+    margin-left: 0px;
+    border-top: 44.60254px solid #C6538C;
   }
 }

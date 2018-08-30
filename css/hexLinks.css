@@ -1,0 +1,46 @@
+/* line 18, ../scss/styleshexagon.scss */
+.hexagonLinks {
+  top: 55px;
+  text-align: center;
+  position: relative;
+  display: -webkit-inline-flex;
+  width: 11.2% !important;
+  height: 0px;
+  background-color: #C6538C;
+  margin-bottom: 50px;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.hexagonLinks:before,
+.hexagonLinks:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 27px solid transparent;
+  border-right: 31px solid transparent;
+  font-weight: bold;
+}
+
+/* line 150, ../scss/styleshexagon.scss */
+.hexagonLinks:before {
+  bottom: 100%;
+  border-bottom: 28.60254px solid #C6538C;
+  width: 100%;
+}
+
+.hexagonLinks:after {
+  top: 100%;
+  width: 100%;
+  margin-left: 0px;
+  border-top: 28.60254px solid #C6538C;
+}
+
+/* line 157, ../scss/styleshexagon.scss */
+#hexLinkContainer {
+  position: absolute;
+  width: 100%;
+  margin: -265px 5% 30% -50%;
+  display: inline-block;
+  padding: 0px;
+}

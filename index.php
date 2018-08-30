@@ -11,9 +11,10 @@
 require'headerBackend.php';
 ?>
 	</head>
-<body>
+	<body>
 		<?php
-		require 'headerFrontend.php';
+			require 'headerFrontend.php';
+			require 'hexLinks.php';
 		?>
 	<div class='Header'>
 	</div>
@@ -27,11 +28,11 @@ require'headerBackend.php';
                           </div>
                       </div>
 	      </div>	
-		<div class='footerUpper'>
 			<?php
 				require "footer.php";
 			?>
-		</div>
+		<!--<div class='footerUpper'>
+		</div-->
 	</body>
 </html>
 
