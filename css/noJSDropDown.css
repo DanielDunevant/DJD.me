@@ -1,0 +1,12 @@
+#btnControl
+{
+	display: none;
+}
+#btnControl:checked + .dropdown-content
+{
+	opacity: 1 !important;
+}
+.dropdown-content
+{
+	opacity: 0;
+}

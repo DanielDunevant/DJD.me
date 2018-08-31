@@ -6,7 +6,7 @@
   display: -webkit-inline-flex;
   width: 11.2% !important;
   height: 0px;
-  background-color: #C6538C;
+  background-color: #94ECA4;
   margin-bottom: 50px;
   margin-right: 2%;
   margin-left: 2%;
@@ -25,7 +25,7 @@
 /* line 150, ../scss/styleshexagon.scss */
 .hexagonLinks:before {
   bottom: 100%;
-  border-bottom: 28.60254px solid #C6538C;
+  border-bottom: 28.60254px solid #94ECA4;
   width: 100%;
 }
 
@@ -33,7 +33,7 @@
   top: 100%;
   width: 100%;
   margin-left: 0px;
-  border-top: 28.60254px solid #C6538C;
+  border-top: 28.60254px solid #94ECA4;
 }
 
 /* line 157, ../scss/styleshexagon.scss */
@@ -49,16 +49,36 @@
 @media only screen and (min-width: 850px) {
   .hexagonStretchedLinks {
     display: none;
-    margin-right: 15px;
-    margin-left: 15px;
+  }
+  
+  .hl1 {
+    display: inline-flex;
+  }
+  
+  .hexagonLinks {
+    display: -webkit-inline-flex !important;
+  }
+  
+  #dropDownImg {
+    display: none;
   }
 }
 
 @media only screen and (max-width: 850px) {
   .hexagonStretchedLinks {
     display: flex !important;
+    height: ;
+    background: #94ECA4 !important;
     margin-right: 15px;
     margin-left: 15px;
+  }
+  
+  .hexagonStretchedLinks:before {
+    border-bottom: 41.60254px solid #94ECA4;
+  }
+  
+  .hexagonStretchedLinks:after {
+    border-top: 41.60254px solid #94ECA4;
   }
   
   .thc {
@@ -71,7 +91,7 @@
     margin: auto;
     left: 19%;
     width: 60%;
-    top: 303px;
+    top: 306px;
     display: inline-block;
   }
   
@@ -79,12 +99,12 @@
     display: flex !important;
     z-index: 8;
     height: 62px;
-    width: 62%;
+    width: 54%;
     margin: auto;
-    /*+placement: -4px 82px;*/
+    /*+placement: 4px 93px;*/
     position: relative;
-    left: -4px;
-    top: 82px;
+    left: 4px;
+    top: 93px;
   }
   
   .hexagonLinksDrop {
@@ -96,6 +116,10 @@
     margin: auto auto 68px auto;
     top: 27px !important;
     left: 6%;
+  }
+  
+  .headerLinks {
+    top: ;
   }
 }
 

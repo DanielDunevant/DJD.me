@@ -32,7 +32,7 @@
 .headerLinks
 {
 	color: #000000;
-	top: -11px;
+	top: -43px !important;
 	left: ;
 	width: 60% !important;
 	margin-left: 20.5%;
@@ -97,8 +97,21 @@
 	position: absolute;
 	border: none;
 	border-radius: 10px;
-	background-color: #100440;
 	min-width: 105px;
+	z-index: 5;
+}
+#btnControl
+{
+	display: none;
+}
+#btnControl:checked + .dropdown-content
+{
+	opacity: 1 !important;
+	margin: auto !important;
+}
+.dropdown-content
+{
+	opacity: 0;
 }
 .dropdown-content a
 {
@@ -255,6 +268,11 @@ p
 }
 #rightBox
 {
+}
+label
+{
+	margin: auto;
+	width: 100%;
 }
 /*Social Things*/
 #socialBar
