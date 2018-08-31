@@ -18,16 +18,12 @@ require'headerBackend.php';
 		?>
 	<div class='Header'>
 	</div>
-	      <div class = "container-fluid">	
-                      <div class="row">
-                          <div class="main col-xs-12 col-sm-12  col-md-12" >
+                      <div id="bodyContent">
 				<?php
 				require 'main.php';
 				?>
  
-                          </div>
                       </div>
-	      </div>	
 			<?php
 				require "footer.php";
 			?>

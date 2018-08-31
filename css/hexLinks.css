@@ -1,6 +1,6 @@
 /* line 18, ../scss/styleshexagon.scss */
 .hexagonLinks {
-  top: 55px;
+  top: -150px;
   text-align: center;
   position: relative;
   display: -webkit-inline-flex;
@@ -39,8 +39,66 @@
 /* line 157, ../scss/styleshexagon.scss */
 #hexLinkContainer {
   position: absolute;
+  background: ;
   width: 100%;
   margin: -265px 5% 30% -50%;
   display: inline-block;
   padding: 0px;
+}
+
+@media only screen and (min-width: 850px) {
+  .hexagonStretchedLinks {
+    display: none;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .hexagonStretchedLinks {
+    display: flex !important;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  
+  .thc {
+    display: none;
+  }
+  
+  .dropdown-content {
+    background: rgba(97, 134, 184, 0);
+    position: absolute;
+    margin: auto;
+    left: 19%;
+    width: 60%;
+    top: 303px;
+    display: inline-block;
+  }
+  
+  #dropDownImg {
+    display: flex !important;
+    z-index: 8;
+    height: 62px;
+    width: 62%;
+    margin: auto;
+    /*+placement: -4px 82px;*/
+    position: relative;
+    left: -4px;
+    top: 82px;
+  }
+  
+  .hexagonLinksDrop {
+    display: compact;
+    z-index: 5;
+    position: relative;
+    width: 58% !important;
+    margin-bottom: 68px;
+    margin: auto auto 68px auto;
+    top: 27px !important;
+    left: 6%;
+  }
+}
+
+.hl1 {
+  display: none;
 }

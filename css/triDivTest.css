@@ -103,7 +103,7 @@
   z-index: 3;
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 1200px) {
   /* line 94, ../scss/triDivTest.scss */
   .arrow-up-tri {
     display: inline-block !important;
@@ -134,9 +134,16 @@
     left: -168.8px;
     top: 0px;
   }
+  
+  .tri-Block {
+    position: relative;
+    left: -79px;
+    display: inline-block;
+    margin-bottom: -16.8px;
+  }
 }
 
-@media only screen and (min-width: 460px) and (max-width: 960px) {
+@media only screen and (min-width: 460px) and (max-width: 1200px) {
   /* line 123, ../scss/triDivTest.scss */
   .arrow-up-tri {
     display: grid !important;
@@ -171,6 +178,7 @@
   /* line 150, ../scss/triDivTest.scss */
   .tri-Block {
     position: relative;
+    left: -79px;
     display: inline-block;
     margin-bottom: -16.8px;
   }

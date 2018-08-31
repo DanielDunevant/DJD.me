@@ -31,15 +31,21 @@
 }
 .headerLinks
 {
-	color: #FFFFFF;
+	color: #000000;
+	top: -11px;
+	left: ;
+	width: 60% !important;
+	margin-left: 20.5%;
+	background: #C65192;
 	font-size: 1.25em;
-	background-color: #2A2A2A;
 	border-radius: 4px;
-	padding: 20px;
+	padding: 0px 10px 0 0px !important;
+	z-index: 2;
 }
 .headerLinks:hover
 {
 	color: #FFFFFF;
+	text-decoration: none;
 	height: ;
 	width: ;
 }
@@ -152,6 +158,10 @@ body
 	text-align: center;
 	overflow: auto;
 	margin: auto;
+}
+#bodyContent
+{
+	margin-top: 152px;
 }
 h1
 {

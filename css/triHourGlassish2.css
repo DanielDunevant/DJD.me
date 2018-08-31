@@ -25,7 +25,31 @@
   float: inside;
   height: 0px;
   width: auto;
-  top: -23px;
+  top: -196px;
   margin: 0 -25px;
   margin-top: 10px;
+}
+
+@media only screen and (max-width: 850px) {
+  .tri2-Hour-Container {
+    display: none;
+  }
+  
+  .tri2-Hour-ContainerDropLeft {
+    float: left;
+    clear: right;
+    display: inline-grid;
+    margin: auto -22px auto auto;
+    z-index: 5;
+    position: relative;
+  }
+  
+  .tri2-Hour-ContainerDropRight {
+    display: inline-block;
+    float: right;
+    margin: auto auto auto 19px;
+    display: inline-block;
+    z-index: 5;
+    position: relative;
+  }
 }

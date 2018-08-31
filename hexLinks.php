@@ -16,22 +16,54 @@ $linkArray = array(
                    "hexagonTest2-1",
                    "triDivTest",
                    "contact","","");
-$textArray = array("Hexi","Tris","Contact","Thing4","Thing5");
+$textArray = array("Hexi","Tris","Conta","Thing4","Thing5");
 $numLinks =5;
 require_once( "hexStretch.php");
 print"<div id = \"hexLinkContainer\">";
+print"  <img id=\"dropDownImg\" src=\"images/openDropDown.png\" style=\"display:none\">\n";
+print"     <div class=\"hexagonStretched hexagonStretchedLinks\" style=\"display:none\">\n";
+print"     </div>\n";
+print"</div>\n";
+print"<div class=\"dropdown-content\" >\n";
+/*When the  window width is <  850px */
 for($i = 0; $i <$numLinks;$i++){
-	print"   <div class=\"hexagonLinks\">\n";
-        print "   <a class='headerLinks col-xs-2 col-md-2 col-sm-2'  href='index.php?page=$linkArray[$i]'\n >";
+	print"<div class=\"tri2-Hour-ContainerDropLeft \" >\n";
+	print"	   <div class=\"arrow-down-tri-Hour2 \">
+       	           </div>\n";
+ 	print"     <div class=\"arrow-up-tri-Hour2 \">
+               	   </div>\n";
+	print"</div>\n";
+	print"   <div class=\"hexagonLinks  hexagonLinksDrop \">\n";
+        print "   <a class='headerLinks'  href='index.php?page=$linkArray[$i]'\n >";
         print "   $textArray[$i]";
         print "   </a>\n";
 	print"</div>\n";
-	print"<div class=\"tri2-Hour-Container \" >";
+	print"<div class=\"tri2-Hour-ContainerDropRight \" >\n";
 	print"	   <div class=\"arrow-down-tri-Hour2 \">
-                        </div>\n";
-        print"     <div class=\"arrow-up-tri-Hour2 \">
-                        </div>\n";
-        print"</div>\n";
+       	           </div>\n";
+ 	print"     <div class=\"arrow-up-tri-Hour2 \">
+               	   </div>\n";
+	print"</div>\n";
+
+}
+print"	</div> "; 
+/*When the  window width is  > 850px */
+for($i = 0; $i <$numLinks;$i++){
+	print"   <div class=\"hexagonLinks hl1\">\n";
+        print "   <a class='headerLinks'  href='index.php?page=$linkArray[$i]'\n >";
+        print "   $textArray[$i]";
+        print "   </a>\n";
+	print"</div>\n";
+	if($i<($numLinks-1))
+	{
+		print"<div class=\"tri2-Hour-Container thc \" >";
+		print"	   <div class=\"arrow-down-tri-Hour2 \">
+        	           </div>\n";
+       	 	print"     <div class=\"arrow-up-tri-Hour2 \">
+                    	   </div>\n";
+		print"</div>\n";
+	}
+
 }
 ?>
 	</body>
