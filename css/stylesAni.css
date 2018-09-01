@@ -24,8 +24,8 @@
     height: 132px;
     position: relative;
     margin-top: -222px;
-    top: -14px;
-    opacity: 0;
+    top: 54px;
+    opacity: 1;
     z-index: 2;
   }
   
@@ -112,20 +112,31 @@
     display: none !important;
     text-align: center;
     margin: auto;
+    width: auto;
     display: table-cell;
     vertical-align: middle;
   }
   
   #letterContainer {
     text-align: match-parent !important;
-    text-align: center;
+    width: 1099%;
     margin: auto;
-    display: table-cell;
-    vertical-align: middle;
+    background: white;
+    top: 0px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    width: auto !important;
     /*+placement: ;*/
     position: relative;
     left: 0;
     top: 0;
+  }
+  
+  #containter {
+    background: white !important;
+    width: auto !important;
+    margin: auto !important;
   }
   
   /* line 103, ../scss/stylesAni.scss */
