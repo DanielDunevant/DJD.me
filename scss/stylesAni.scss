@@ -21,27 +21,25 @@ $align-top : -23px;
 		z-index: 1;
 	}
 	#cover1 {
-		width: 1200px;
+		width: 1057px;
 		display: inline-block;
 		height: 132px;
 		position: relative;
-		margin-top: -222px;
-		top: -14px;
+		margin-top: 6px;
 		opacity: 0;
-		z-index: 2;
+		z-index: 3;
 	}
 	#cover2 {
 		width: 1200px;
 		display: none;
 		height: 132px;
 		position: relative;
-		margin-top: -168px;
-		top: -15px;
+		margin-top: 6px;
 		opacity: 0;
 		z-index: 3;
 	}
 	.allLetters {
-		background-color: #C84D93 !important;
+		background-color: #C25294 !important;
 		display: inline-block !important;
 		text-align: center !important;
 		border-width: 154px;
@@ -77,12 +75,11 @@ $align-top : -23px;
 		top: -66px;
 	}
 	#cover1 {
-		width: 1200px;
+		width: 1057px;
 		display: none;
 		height: 132px;
 		position: relative;
-		margin-top: -222px;
-		top: -14px;
+		margin-top: 6px;
 		opacity: 0;
 		z-index: 0;
 	}
@@ -91,8 +88,7 @@ $align-top : -23px;
 		display: none;
 		height: 132px;
 		position: relative;
-		margin-top: -168px;
-		top: -15px;
+		margin-top: 6px;
 		opacity: 0;
 		z-index: 0;
 	}

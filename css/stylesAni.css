@@ -1,281 +1,361 @@
-/*ront of the objects so that
+/*The container  is  infront of the objects so that
  *when the user's mouse  goes over the container and 
  *then the letterss underneath  that it wouldn't 
  *cause a onmouseleave to be called causing irratic behavior
  *Alignment using top and left is used to put it in the container
  *
  * */
-@media only screen and (min-width: 1150px) {
-	#container {
-		width: auto;
-		height: 132px;
-		margin: auto 7px;
-		position: relative;
-		background-color: #8094E1;
-		opacity: 1;
-		z-index: 1;
-	}
-	#cover1 {
-		width: 1200px;
-		display: inline-block;
-		height: 132px;
-		position: relative;
-		background-color: #8094E1;
-		margin-top: -222px;
-		top: -14px;
-		opacity: 0;
-		z-index: 2;
-	}
-	#cover2 {
-		width: 1200px;
-		display: none;
-		height: 132px;
-		position: relative;
-		background-color: #8094E1;
-		margin-top: -168px;
-		top: -15px;
-		opacity: 0;
-		z-index: 3;
-	}
-	.allLetters {
-		background-color: #8094E1 !important;
-		display: inline-block !important;
-	}
-	#letters22 {
-		display: none !important;
-	}
+/* line 9, ../scss/stylesAni.scss */
+#containter {
+  width: 0px !important;
+  height: 0px !important;
+  background: #A52020 !important;
 }
+
+@media only screen and (min-width: 1354px) {
+  /* line 15, ../scss/stylesAni.scss */
+  #container {
+    width: auto;
+    height: 132px;
+    margin: auto 7px;
+    position: relative;
+    opacity: 1;
+    z-index: 1;
+  }
+  
+  /* line 23, ../scss/stylesAni.scss */
+  #cover1 {
+    width: 1057px;
+    display: inline-block;
+    height: 132px;
+    position: relative;
+    margin-top: 6px;
+    opacity: 0;
+    z-index: 3;
+  }
+  
+  /* line 32, ../scss/stylesAni.scss */
+  #cover2 {
+    width: 1200px;
+    display: none;
+    height: 132px;
+    position: relative;
+    margin-top: 6px;
+    opacity: 0;
+    z-index: 3;
+  }
+  
+  /* line 41, ../scss/stylesAni.scss */
+  .allLetters {
+    background-color: #C25294 !important;
+    display: inline-block !important;
+    text-align: center !important;
+    border-width: 154px;
+    left: 0px;
+    top: -23px !important;
+  }
+  
+  /* line 49, ../scss/stylesAni.scss */
+  #letters22 {
+    display: none !important;
+  }
+}
+
+/* line 53, ../scss/stylesAni.scss */
 #container {
-	border-radius: 20px;
+  border-radius: 20px !important;
+  margin: 0 0 0 126px;
 }
-@media only screen and (min-width: 200px) and (max-width: 1150px) {
-	#container {
-		width: auto;
-		height: 132px;
-		margin: auto 7px;
-		position: relative;
-		background-color: #8094E1;
-		opacity: 1;
-		z-index: 1;
-	}
-	#cover1 {
-		width: 1200px;
-		display: none;
-		height: 132px;
-		position: relative;
-		background-color: #8094E1;
-		margin-top: -222px;
-		top: -14px;
-		opacity: 0;
-		z-index: 0;
-	}
-	#cover2 {
-		width: 1200px;
-		display: none;
-		height: 132px;
-		position: relative;
-		background-color: #8094E1;
-		margin-top: -168px;
-		top: -15px;
-		opacity: 0;
-		z-index: 0;
-	}
-	.allLetters {
-		background-color: #8094E1 !important;
-		display: none !important;
-	}
-	#letters22 {
-		display: inline-block !important;
-		height: 71px;
-		margin: 25px auto auto;
-	}
+
+@media only screen and (max-width: 1354px) {
+  /* line 58, ../scss/stylesAni.scss */
+  #container {
+    width: 20%;
+    margin: auto 7px;
+    position: relative;
+    opacity: 1;
+    z-index: 1;
+  }
+  
+  /* line 65, ../scss/stylesAni.scss */
+  #letterContainer {
+    width: auto;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    opacity: 1;
+    z-index: 1;
+    /*+placement: 4px -66px;*/
+    position: relative;
+    left: 4px;
+    top: -66px;
+  }
+  
+  /* line 77, ../scss/stylesAni.scss */
+  #cover1 {
+    width: 1057px;
+    display: none;
+    height: 132px;
+    position: relative;
+    margin-top: 6px;
+    opacity: 0;
+    z-index: 0;
+  }
+  
+  /* line 86, ../scss/stylesAni.scss */
+  #cover2 {
+    width: 1200px;
+    display: none;
+    height: 132px;
+    position: relative;
+    margin-top: 6px;
+    opacity: 0;
+    z-index: 0;
+  }
+  
+  /* line 95, ../scss/stylesAni.scss */
+  .allLetters {
+    display: none !important;
+    margin: auto;
+    width: auto;
+  }
+  
+  /* line 99, ../scss/stylesAni.scss */
+  #letters22 {
+    display: inline-block !important;
+    height: 71px;
+    width: 547%;
+    margin: 25px auto auto;
+  }
 }
+
+/* line 105, ../scss/stylesAni.scss */
 #letters1 {
-	position: absolute;
-	top: 32px;
-	height: 64px;
-	background-color: #FFFFFF;
-	left: 418px;
-	display: inline;
-	opacity: 1;
-	z-index: 0;
+  position: absolute;
+  top: -23px !important;
+  height: 64px;
+  background-color: #FFFFFF;
+  left: 435px;
+  display: inline;
+  opacity: 1;
+  z-index: 0;
 }
+
+/* line 115, ../scss/stylesAni.scss */
 #letters2 {
-	position: absolute;
-	left: 450px;
-	top: 50px;
-	background-color: #FFFFFF;
-	display: inline-block;
-	opacity: 1;
-	z-index: -1;
+  position: absolute;
+  left: 450px;
+  top: -5px !important;
+  background-color: #FFFFFF;
+  display: inline-block;
+  opacity: 1;
+  z-index: -1;
 }
+
+/* line 124, ../scss/stylesAni.scss */
 #letters3 {
-	position: absolute;
-	left: 450px;
-	top: 50px;
-	background-color: #FFFFFF;
-	display: inline-block;
-	opacity: 1;
-	z-index: -1;
+  position: absolute;
+  left: 450px;
+  top: -5px !important;
+  background-color: #FFFFFF;
+  display: inline-block;
+  opacity: 1;
+  z-index: -1;
 }
+
+/* line 133, ../scss/stylesAni.scss */
 #letters4 {
-	position: absolute;
-	display: inline-block;
-	left: 450px;
-	top: 34px;
-	background-color: #FFFFFF;
-	opacity: 1;
-	z-index: -1;
+  position: absolute;
+  display: inline-block;
+  left: 450px;
+  top: -21px !important;
+  background-color: #FFFFFF;
+  opacity: 1;
+  z-index: -1;
 }
+
+/* line 142, ../scss/stylesAni.scss */
 #letters5 {
-	position: absolute;
-	display: inline-block;
-	top: 50px;
-	background-color: #FFFFFF;
-	left: 450px;
-	opacity: 1;
-	z-index: -1;
+  position: absolute;
+  display: inline-block;
+  top: -5px !important;
+  background-color: #FFFFFF;
+  left: 450px;
+  opacity: 1;
+  z-index: -1;
 }
+
+/* line 151, ../scss/stylesAni.scss */
 #letters6 {
-	position: absolute;
-	display: inline-block;
-	top: 34px;
-	background-color: #FFFFFF;
-	left: 450px;
-	opacity: 1;
-	z-index: -1;
+  position: absolute;
+  display: inline-block;
+  top: -21px !important;
+  background-color: #FFFFFF;
+  left: 450px;
+  opacity: 1;
+  z-index: -1;
 }
+
+/* line 160, ../scss/stylesAni.scss */
 #letters7 {
-	position: absolute;
-	display: inline-block;
-	top: 32px;
-	height: 64px;
-	background-color: #FFFFFF;
-	left: 488px;
-	opacity: 1;
-	z-index: 0;
+  position: absolute;
+  display: inline-block;
+  top: -23px !important;
+  height: 64px;
+  background-color: #FFFFFF;
+  left: 495px;
+  opacity: 1;
+  z-index: 0;
 }
+
+/* line 170, ../scss/stylesAni.scss */
 #letters8 {
-	position: absolute;
-	display: inline-block;
-	top: 50px;
-	background-color: #FFFFFF;
-	left: 500px;
-	opacity: 1;
-	z-index: -1;
+  position: absolute;
+  display: inline-block;
+  top: -5px !important;
+  background-color: #FFFFFF;
+  left: 499px;
+  opacity: 1;
+  z-index: -1;
 }
+
+/* line 179, ../scss/stylesAni.scss */
 #letters9 {
-	position: absolute;
-	display: inline-block;
-	top: 34px;
-	background-color: #FFFFFF;
-	left: 500px;
-	opacity: 1;
-	z-index: -1;
+  position: absolute;
+  display: inline-block;
+  top: -21px !important;
+  background-color: #FFFFFF;
+  left: 499px;
+  opacity: 1;
+  z-index: -1;
 }
+
+/* line 188, ../scss/stylesAni.scss */
 #letters10 {
-	position: absolute;
-	display: inline-block;
-	top: 50px;
-	background-color: #FFFFFF;
-	left: 500px;
-	opacity: 1;
-	z-index: -1;
+  position: absolute;
+  display: inline-block;
+  top: -5px !important;
+  background-color: #FFFFFF;
+  left: 499px;
+  opacity: 1;
+  z-index: -1;
 }
+
+/* line 197, ../scss/stylesAni.scss */
 #letters11 {
-	position: absolute;
-	display: inline-block;
-	height: 64px;
-	top: 32px;
-	background-color: #FFFFFF;
-	left: 550px;
-	opacity: 1;
-	z-index: 0;
+  position: absolute;
+  display: inline-block;
+  height: 64px;
+  top: -23px !important;
+  background-color: #FFFFFF;
+  left: 550px;
+  opacity: 1;
+  z-index: 0;
 }
+
+/* line 207, ../scss/stylesAni.scss */
 #letters12 {
-	position: absolute;
-	display: inline-block;
-	top: 50px;
-	background-color: #FFFFFF;
-	left: 550px;
-	opacity: 1;
-	z-index: -1;
+  position: absolute;
+  display: inline-block;
+  top: -5px !important;
+  background-color: #FFFFFF;
+  left: 550px;
+  opacity: 1;
+  z-index: -1;
 }
+
+/* line 216, ../scss/stylesAni.scss */
 #letters13 {
-	position: absolute;
-	display: inline-block;
-	top: 50px;
-	background-color: #FFFFFF;
-	left: 550px;
-	opacity: 1;
-	z-index: -1;
+  position: absolute;
+  display: inline-block;
+  top: -5px !important;
+  background-color: #FFFFFF;
+  left: 550px;
+  opacity: 1;
+  z-index: -1;
 }
+
+/* line 225, ../scss/stylesAni.scss */
 #letters14 {
-	position: absolute;
-	display: inline-block;
-	top: 50px;
-	background-color: #FFFFFF;
-	left: 550px;
-	opacity: 1;
-	z-index: -1;
+  position: absolute;
+  display: inline-block;
+  top: -5px !important;
+  background-color: #FFFFFF;
+  left: 550px;
+  opacity: 1;
+  z-index: -1;
 }
+
+/* line 234, ../scss/stylesAni.scss */
 #letters15 {
-	position: absolute;
-	display: inline-block;
-	top: 49px;
-	background-color: #FFFFFF;
-	left: 550px;
-	opacity: 1;
-	z-index: -1;
+  position: absolute;
+  display: inline-block;
+  top: -6px !important;
+  background-color: #FFFFFF;
+  left: 550px;
+  opacity: 1;
+  z-index: -1;
 }
+
+/* line 243, ../scss/stylesAni.scss */
 #letters16 {
-	position: absolute;
-	display: inline-block;
-	top: 50px;
-	background-color: #FFFFFF;
-	left: 550px;
-	opacity: 1;
-	z-index: -1;
+  position: absolute;
+  display: inline-block;
+  top: -5px !important;
+  background-color: #FFFFFF;
+  left: 550px;
+  opacity: 1;
+  z-index: -1;
 }
+
+/* line 252, ../scss/stylesAni.scss */
 #letters17 {
-	position: absolute;
-	display: inline-block;
-	top: 50px;
-	background-color: #FFFFFF;
-	left: 550px;
-	opacity: 1;
-	z-index: -1;
+  position: absolute;
+  display: inline-block;
+  top: -5px !important;
+  background-color: #FFFFFF;
+  left: 550px;
+  opacity: 1;
+  z-index: -1;
 }
+
+/* line 261, ../scss/stylesAni.scss */
 #letters18 {
-	position: absolute;
-	display: inline-block;
-	top: 34px;
-	background-color: #FFFFFF;
-	left: 550px;
-	opacity: 1;
-	z-index: -1;
+  position: absolute;
+  display: inline-block;
+  top: -23px !important;
+  background-color: #FFFFFF;
+  left: 550px;
+  opacity: 1;
+  z-index: -1;
 }
+
+/* line 270, ../scss/stylesAni.scss */
 #letters19 {
-	position: absolute;
-	display: inline-block;
-	top: 82px;
-	left: 621px;
-	opacity: 1;
-	z-index: 0;
+  position: absolute;
+  display: inline-block;
+  top: 22px !important;
+  left: 621px;
+  opacity: 1;
+  z-index: 0;
 }
+
+/* line 278, ../scss/stylesAni.scss */
 #letters20 {
-	position: absolute;
-	display: inline-block;
-	top: 35px;
-	left: 650px;
-	opacity: 1;
-	z-index: 0;
+  position: absolute;
+  display: inline-block;
+  top: -21px !important;
+  left: 650px;
+  opacity: 1;
+  z-index: 0;
 }
+
+/* line 286, ../scss/stylesAni.scss */
 #letters21 {
-	position: absolute;
-	display: inline-block;
-	top: 50px;
-	left: 679px;
-	opacity: 1;
-	z-index: 0;
+  position: absolute;
+  display: inline-block;
+  top: -5px !important;
+  left: 679px;
+  opacity: 1;
+  z-index: 0;
 }

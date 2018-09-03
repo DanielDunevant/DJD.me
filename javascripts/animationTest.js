@@ -1,7 +1,7 @@
 var isNameExpanding = true;
 
 var endPositions=   [45 ,102,150,200,225,275,315,370,420,470,545,602,650,700,747,800,850,900,950,980,1010];
-var startPositions= [418,450,450,450,450,450,488,500,500,500,550,550,550,550,550,550,550,550,621,650 ,679];
+var startPositions= [435,450,450,450,450,450,495,499,499,500,550,550,550,550,550,550,550,550,621,650 ,679];
 var cover1= document.getElementById("cover1");
 var cover2= document.getElementById("cover2");
 	function FunExpand(isExpanding,numOfObjects)

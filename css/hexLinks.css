@@ -43,7 +43,6 @@
   width: 100%;
   margin: -265px 5% 30% -50%;
   display: inline-block;
-  padding: 0px;
 }
 
 @media only screen and (min-width: 850px) {
@@ -86,12 +85,9 @@
   }
   
   .dropdown-content {
-    background: rgba(97, 134, 184, 0);
     position: absolute;
-    margin: auto;
     left: 19%;
     width: 60%;
-    top: 306px;
     display: inline-block;
   }
   
