@@ -30,11 +30,27 @@
   margin-top: 10px;
 }
 
-@media only screen and (min-width: 428px) and (max-width: 850px) {
-  .tri2-Hour-Container {
-    display: none;
+@media only screen and (min-width: 657px) and (max-width: 850px) {
+  .tri2-Hour-ContainerDropLeft {
+    float: left;
+    clear: right;
+    display: inline-grid;
+    margin: auto 1% 0% 10%;
+    z-index: 5;
+    position: relative;
   }
   
+  .tri2-Hour-ContainerDropRight {
+    display: inline-block;
+    float: right;
+    margin: 0% 6% auto -1%;
+    display: inline-block;
+    z-index: 5;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 428px) and (max-width: 657px) {
   .tri2-Hour-ContainerDropLeft {
     float: left;
     clear: right;
@@ -54,11 +70,7 @@
   }
 }
 
-@media only screen and (max-width: 428px) {
-  .tri2-Hour-Container {
-    display: none;
-  }
-  
+@media only screen and (max-width: 428px) and (min-width: 330px) {
   .tri2-Hour-ContainerDropLeft {
     float: left;
     margin: auto -9% 0% 2%;
@@ -68,6 +80,20 @@
   .tri2-Hour-ContainerDropRight {
     float: right;
     margin: 0% auto auto -11%;
+    z-index: 5;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .tri2-Hour-ContainerDropLeft {
+    float: left;
+    margin: auto -18% 0% -5%;
+    z-index: 5;
+  }
+  
+  .tri2-Hour-ContainerDropRight {
+    float: right;
+    margin: 0% -1% auto -11%;
     z-index: 5;
   }
 }

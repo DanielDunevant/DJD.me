@@ -308,7 +308,7 @@ label
 /*Testing*/
 #widthButton
 {
-	z-index: 1 !important;
+	z-index: 0 !important;
 	margin-top: 105px;
 	width: 100%;
 }
