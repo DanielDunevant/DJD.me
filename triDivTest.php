@@ -13,7 +13,7 @@
 	<body>
 		<div class ="widthFinder">
                 	<p id = "width"></p>
-                	<button onclick="getWindowWidth()">Width of Window</button>
+                	<button id="widthButton" onclick="getWindowWidth()">Width of Window</button>
                 	<script src="javascripts/screenWidthOutputter.js">
                 	</script>
 		</div>
@@ -70,4 +70,5 @@
                                 print"</div>";
                         }
                 ?>
+
 

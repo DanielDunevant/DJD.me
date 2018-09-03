@@ -6,8 +6,8 @@
   display: flex;
   width: auto !important;
   height: 0px;
-  background-color: #C6538C;
-  margin-bottom: 378.75px;
+  z-index: 1;
+  margin-bottom: 298.75px;
   margin-right: 67px;
   margin-left: 67px;
 }

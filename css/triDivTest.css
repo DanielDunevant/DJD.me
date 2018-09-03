@@ -1,6 +1,7 @@
 /* line 5, ../scss/triDivTest.scss */
 .arrow-up-tri {
   position: relative;
+  z-index: -1;
   margin: auto auto 9.6px auto;
   border-left: 200px solid transparent !important;
   border-right: 200px solid transparent !important;
@@ -11,6 +12,7 @@
 /* line 14, ../scss/triDivTest.scss */
 .arrow-down-tri {
   position: relative;
+  z-index: -1;
   margin: auto auto 9.6px auto;
   border-left: 200px solid transparent !important;
   border-right: 200px solid transparent !important;

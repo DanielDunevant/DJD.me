@@ -4,7 +4,7 @@
   top: -60px;
   left: 0;
   font: 9px serif;
-  color: #ff00ff;
+  color: #FF00FF;
   width: 300px;
   height: 173.20508px;
   text-align: center;
@@ -22,6 +22,7 @@
   margin-bottom: 378.75px;
   margin-right: auto;
   margin-left: auto;
+  z-index: -2 !important;
 }
 
 /* line 28, ../scss/styleshexagon.scss */
@@ -34,6 +35,7 @@
   margin-bottom: 378.75px;
   margin-right: auto;
   margin-left: auto;
+  z-index: -2 !important;
 }
 
 /* line 38, ../scss/styleshexagon.scss */
@@ -76,25 +78,26 @@
     display: grid !important;
     margin-bottom: 174px !important;
   }
-
+  
   /* line 72, ../scss/styleshexagon.scss */
   .hexagon2 {
     display: grid !important;
     margin-bottom: 174px !important;
     top: 0px;
   }
-
+  
   /* line 77, ../scss/styleshexagon.scss */
   .text {
     font: 21.798px serif;
     width: 90%;
   }
-
+  
   /* line 81, ../scss/styleshexagon.scss */
   .hexImg {
     display: none;
   }
 }
+
 @media only screen and (min-width: 583.5px) and (max-width: 900px) {
   /* line 90, ../scss/styleshexagon.scss */
   .hexagon {
@@ -102,48 +105,51 @@
     right: 78.75px !important;
     margin-bottom: 97.5px;
   }
-
+  
   /* line 95, ../scss/styleshexagon.scss */
   .hexagon2 {
     display: grid !important;
     left: 78.75px !important;
     margin-bottom: 97.5px;
   }
-
+  
   /* line 100, ../scss/styleshexagon.scss */
   .hexPair {
     margin: auto;
     top: 74.25px;
   }
-
+  
   /* line 104, ../scss/styleshexagon.scss */
   .hexContent {
     margin: 0px !important;
     padding: 0px !important;
   }
 }
+
 @media only screen and (min-width: 900px) {
   /* line 113, ../scss/styleshexagon.scss */
   .hexagon {
     display: inline-block !important;
   }
-
+  
   /* line 116, ../scss/styleshexagon.scss */
   .hexagon2 {
     display: inline-block !important;
     bottom: -262.5px !important;
     left: -150.75px !important;
   }
-
+  
   /* line 121, ../scss/styleshexagon.scss */
   .hexContainer {
-    height: auto;
+    height: 100%;
     position: relative;
+    width: 100%;
+    clear: both;
     padding: 0px;
     margin: 0 auto;
     left: 150px;
   }
-
+  
   /* line 128, ../scss/styleshexagon.scss */
   .hexPair {
     display: inline-block;
@@ -155,6 +161,7 @@
     overflow: visible;
   }
 }
+
 /* line 139, ../scss/styleshexagon.scss */
 .hexagon:before,
 .hexagon:after,

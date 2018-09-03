@@ -86,9 +86,11 @@
   
   .dropdown-content {
     position: absolute;
+    top: 207px !important;
     left: 19%;
     width: 60%;
     display: inline-block;
+    z-index: 0 !important;
   }
   
   #dropDownImg {
@@ -107,11 +109,9 @@
     display: compact;
     z-index: 5;
     position: relative;
-    width: 58% !important;
-    margin-bottom: 68px;
+    width: 36.9% !important;
     margin: auto auto 68px auto;
     top: 27px !important;
-    left: 6%;
   }
   
   .headerLinks {
