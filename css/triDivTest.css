@@ -69,18 +69,12 @@
   border-bottom: 149.625px solid #767676 !important;
   left: 114px;
   top: 34px;
-  background-image: ;
 }
 
 .img-Tri-Down {
   border-top: 149.625px solid #767676 !important;
   left: 116px;
   top: 524px;
-}
-
-.object-fit_cover {
-  -o-object-fit: cover;
-  object-fit: cover;
 }
 
 /* line 21, ../scss/triDivTest.scss */

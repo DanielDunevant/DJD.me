@@ -39,9 +39,9 @@
 					</div>\n";
 				print"<div class=\"arrow-up-tri inner-Tri-Up inner-Tri\">
 				      </div>";
-			print"<div class=\"arrow-up-tri img-Tri-Up img-Tri\">
-					<img class=\"object-fit_cover\" src=\"images/smilingEmoji.png\">\n
-			      </div>";
+				print"<div class=\"arrow-up-tri img-Tri-Up img-Tri\">";
+			//	print"		<img class=\"object-fit_cover\" src=\"images/smilingEmoji.png\">\n";
+			        print"</div>";
 				print"<div class=\"divider divider-Up\"></div>";
                                 $j++;
 				print"	<div class=\"arrow-down-tri \">
