@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
         <head>
@@ -37,7 +36,13 @@
                                                     <span class=\"text\">$textArray[$j]</span>\n
 						</div>
                                                 <h1 class=\"triTitle1\">$titleArray[$j]</h1>\n
-                                        </div>\n";
+					</div>\n";
+				print"<div class=\"arrow-up-tri inner-Tri-Up inner-Tri\">
+				      </div>";
+			print"<div class=\"arrow-up-tri img-Tri-Up img-Tri\">
+					<img class=\"object-fit_cover\" src=\"images/smilingEmoji.png\">\n
+			      </div>";
+				print"<div class=\"divider divider-Up\"></div>";
                                 $j++;
 				print"	<div class=\"arrow-down-tri \">
 					<h1 class=\"triTitle2\">$titleArray[$j]</h1>\n
@@ -46,6 +51,9 @@
 					</div>
                                         <img class=\"triImg2\" src=\"images/smilingEmoji.png\">\n
                                         </div>\n";
+				print"<div class=\"arrow-down-tri inner-Tri-Down inner-Tri\"></div>";
+				print"<div class=\"arrow-down-tri img-Tri-Down img-Tri\"></div>";
+				print"<div class=\"divider divider-Down\"></div>";
                                 $j++;
                                 print"</div>";
                                 print"<div id=\"tri-Container2\">";
@@ -56,6 +64,9 @@
                                                 </div>
                                                 <h1 class=\"triTitle1\">$titleArray[$j]</h1>\n
                                        </div>\n";
+				print"<div class=\"arrow-up-tri inner-Tri-Up inner-Tri\"></div>";
+				print"<div class=\"arrow-up-tri img-Tri-Up img-Tri\"></div>";
+				print"<div class=\"divider divider-Up\"></div>";
                                 $j++;
 				print"          
 					<div class=\"arrow-down-tri \">
@@ -65,6 +76,9 @@
 						</div>
                                         	<img class=\"triImg2\" src=\"images/smilingEmoji.png\">\n
                                         </div>\n";
+				print"<div class=\"arrow-down-tri inner-Tri-Down inner-Tri\"></div>";
+				print"<div class=\"arrow-down-tri img-Tri-Down img-Tri\"></div>";
+				print"<div class=\"divider divider-Down\"></div>";
                                 $j++;
                                 print"</div>";
                                 print"</div>";

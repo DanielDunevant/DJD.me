@@ -66,7 +66,6 @@
 @media only screen and (max-width: 850px) {
   .hexagonStretchedLinks {
     display: flex !important;
-    height: ;
     background: #FFFFFF !important;
     margin-right: 15px;
     margin-left: 15px;

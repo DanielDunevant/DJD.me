@@ -3,9 +3,9 @@
   position: relative;
   z-index: -1;
   margin: auto auto 9.6px auto;
-  border-left: 200px solid transparent !important;
-  border-right: 200px solid transparent !important;
-  border-bottom: 350px solid #FFFFFF !important;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  border-bottom: 350px solid #FFFFFF;
 }
 
 /* line 21, ../scss/triDivTest.scss */
@@ -14,9 +14,73 @@
   position: relative;
   z-index: -1;
   margin: auto auto 9.6px auto;
-  border-left: 200px solid transparent !important;
-  border-right: 200px solid transparent !important;
-  border-top: 350px solid #FFFFFF !important;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  border-top: 350px solid #FFFFFF;
+}
+
+.inner-Tri {
+  position: absolute;
+  z-index: -1;
+  margin: auto auto 9.6px auto !important;
+  border-left: 175px solid transparent !important;
+  border-right: 175px solid transparent !important;
+}
+
+.inner-Tri-Up {
+  border-bottom: 306.25px solid #767676 !important;
+  left: 25px;
+  top: 32px;
+}
+
+.inner-Tri-Down {
+  border-top: 306.25px solid #767676 !important;
+  left: 25px;
+  top: 373px;
+}
+
+.divider {
+  position: absolute;
+  z-index: -1;
+  height: 14px;
+  width: 193px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.divider-Up {
+  top: 180px;
+  left: 101px;
+}
+
+.divider-Down {
+  top: 514px;
+  left: 103px;
+}
+
+.img-Tri {
+  position: absolute;
+  z-index: -1;
+  margin: auto auto 9.6px auto !important;
+  border-left: 85.5px solid transparent !important;
+  border-right: 85.5px solid transparent !important;
+}
+
+.img-Tri-Up {
+  border-bottom: 149.625px solid #767676 !important;
+  left: 114px;
+  top: 34px;
+  background-image: ;
+}
+
+.img-Tri-Down {
+  border-top: 149.625px solid #767676 !important;
+  left: 116px;
+  top: 524px;
+}
+
+.object-fit_cover {
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 /* line 21, ../scss/triDivTest.scss */
@@ -29,13 +93,14 @@
   text-align: left;
   text-indent: 6px;
   left: auto;
-  z-index: 3;
+  z-index: 3 !important;
   margin: 0 12px !important;
 }
 
 /* line 32, ../scss/triDivTest.scss */
 .triImg1 {
   position: absolute;
+  z-index: 8 !important;
   height: 80px;
   top: 54.4px;
   left: -40px !important;
@@ -86,7 +151,7 @@
   left: -109.8px;
   background: #CBD9EB;
   width: 220.2px;
-  z-index: 3;
+  z-index: 3 !important;
 }
 
 /* line 79, ../scss/triDivTest.scss */

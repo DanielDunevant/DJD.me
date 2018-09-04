@@ -51,9 +51,9 @@
 }
 .linkBar
 {
-	background: url("../images/dropDownBackground.svg") -57px 231px / 175px 12px repeat space fixed padding-box border-box rgba(0, 0, 0, 0.800);
+	background: url("../images/dropDownBackground.svg") -57px 231px / 32px 13px repeat space fixed padding-box border-box rgba(0, 0, 0, 0.800);
 	box-shadow: -5px 10px 35px 42px rgba(0, 0, 0, 0.800);
-	top: -176px !important;
+	top: -150px !important;
 	margin-bottom: ;
 	position: relative;
 }
@@ -296,13 +296,13 @@ label
 /*Social Things*/
 #socialBar
 {
-	display: inline-block;
-	margin: -162px -5px auto -51px;
 	background: #CED2D7;
+	left: 28px;
+	top: 232px;
 	position: fixed;
 	width: auto;
 	border-radius: 5px;
-	z-index: 4;
+	z-index: 8;
 }
 .socialImages
 {
