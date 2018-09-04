@@ -9,16 +9,15 @@
 #containter {
   width: 0px !important;
   height: 0px !important;
-  background: #A52020 !important;
 }
 
 @media only screen and (min-width: 1354px) {
   /* line 15, ../scss/stylesAni.scss */
   #container {
-    width: auto;
+    width: 0px;
     height: 132px;
     margin: auto 7px;
-    position: relative;
+    position: absolute;
     opacity: 1;
     z-index: 1;
   }
@@ -47,7 +46,7 @@
   
   /* line 41, ../scss/stylesAni.scss */
   .allLetters {
-    background-color: #C25294 !important;
+    background-color: rgba(255, 255, 255, 0.75) !important;
     display: inline-block !important;
     text-align: center !important;
     border-width: 154px;
@@ -71,8 +70,8 @@
   /* line 58, ../scss/stylesAni.scss */
   #container {
     width: 20%;
-    margin: auto 7px;
-    position: relative;
+    margin: 0px;
+    position: absolute;
     opacity: 1;
     z-index: 1;
   }

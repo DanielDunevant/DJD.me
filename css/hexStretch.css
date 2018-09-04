@@ -29,7 +29,7 @@
 /* line 150, ../scss/styleshexagon.scss */
 .hexagonStretched:before {
   bottom: 100%;
-  border-bottom: 44.60254px solid #C6538C;
+  border-bottom: 44.60254px solid #FFFFFF;
   width: 100%;
 }
 
@@ -39,7 +39,7 @@
     top: 100%;
     width: 100%;
     margin-left: 0px;
-    border-top: 44.60254px solid #C6538C;
+    border-top: 44.60254px solid #FFFFFF;
   }
 }
 
@@ -48,6 +48,6 @@
     top: 100%;
     width: 100%;
     margin-left: 0px;
-    border-top: 44.60254px solid #C6538C;
+    border-top: 44.60254px solid #FFFFFF;
   }
 }

@@ -31,7 +31,7 @@
 }
 .headerLinks
 {
-	color: #000000;
+	color: #000000 !important;
 	top: -43px !important;
 	left: ;
 	width: 60% !important;
@@ -44,10 +44,18 @@
 }
 .headerLinks:hover
 {
-	color: #FFFFFF;
+	color: #6A82F9 !important;
 	text-decoration: none;
 	height: ;
 	width: ;
+}
+.linkBar
+{
+	background: url("../images/dropDownBackground.svg") -57px 231px / 175px 12px repeat space fixed padding-box border-box rgba(0, 0, 0, 0.800);
+	box-shadow: -5px 10px 35px 42px rgba(0, 0, 0, 0.800);
+	top: -176px !important;
+	margin-bottom: ;
+	position: relative;
 }
 /*Dropdown menu things*/
 .menuButton
@@ -163,18 +171,29 @@ html, body
 body
 {
 	background-color: #080420;
+	position: absolute;
 	color: #FFFFFF;
+	z-index: 2 !important;
 	font-family: arial, helvetica, tahoma, verdana, sans-serif, serif, monospace;
 	font-size: 16px;
 	font-style: normal;
+	padding: 0px !important;
 	font-weight: normal;
 	text-align: center;
 	overflow: auto;
 	margin: auto;
+	background: url("../images/Background.svg") bottom center / 150px 150px repeat round fixed padding-box border-box !important;
+}
+#bodyForeground
+{
+	background: url("../images/Foreground.svg") bottom center / contain round repeat scroll content-box padding-box rgba(12, 12, 12, 0.600) !important;
+	position: absolute;
+	width: 100%;
+	z-index: -1 !important;
 }
 #bodyContent
 {
-	margin-top: 152px;
+	z-index: ;
 }
 h1
 {
@@ -359,7 +378,6 @@ form
 /*Footer things*/
 .footerUpper
 {
-	background-color: #696A84;
 	display: inline-block !important;
 	text-align: center;
 	width: 100% !important;
@@ -395,7 +413,6 @@ form
 }
 .footerLower
 {
-	background-color: #131538;
 	clear: both;
 	padding-top: 4px;
 	width: 100% !important;
@@ -404,7 +421,6 @@ form
 }
 .Footer
 {
-	background-color: #131538;
 	clear: both;
 	text-align: center;
 	min-width: 640px;

@@ -12,23 +12,25 @@ require'headerBackend.php';
 ?>
 	</head>
 	<body>
-		<?php
-			require 'headerFrontend.php';
-			require 'hexLinks.php';
-		?>
-	<div class='Header'>
-	</div>
-                      <div id="bodyContent">
+		<div id ="bodyForeground">
+			<?php
+				require 'headerFrontend.php';
+				require 'hexLinks.php';
+			?>
+			<div class='Header'>
+			</div>
+                        <div id="bodyContent">
 				<?php
-				require 'main.php';
+					require 'main.php';
 				?>
  
-                      </div>
+                        </div>
 			<?php
 				require "footer.php";
 			?>
 		<!--<div class='footerUpper'>
 		</div-->
+		</div>
 	</body>
 </html>
 

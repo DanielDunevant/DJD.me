@@ -17,7 +17,7 @@
   position: relative;
   width: 300px;
   height: 173.20508px;
-  background-color: #C6538C;
+  background-color: #FFFFFF;
   margin: 86.60254px;
   margin-bottom: 378.75px;
   margin-right: auto;
@@ -30,7 +30,7 @@
   position: relative;
   width: 300px;
   height: 173.20508px;
-  background-color: #C6538C;
+  background-color: #FFFFFF;
   margin: 86.60254px;
   margin-bottom: 378.75px;
   margin-right: auto;
@@ -179,7 +179,7 @@
 .hexagon2:before {
   bottom: 100%;
   left: 0;
-  border-bottom: 86.60254px solid #C6538C;
+  border-bottom: 86.60254px solid #FFFFFF;
 }
 
 /* line 157, ../scss/styleshexagon.scss */
@@ -188,5 +188,5 @@
   top: 100%;
   left: 0;
   width: 0;
-  border-top: 86.60254px solid #C6538C;
+  border-top: 86.60254px solid #FFFFFF;
 }

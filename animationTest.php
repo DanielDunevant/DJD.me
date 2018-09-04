@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<link rel = "stylesheet" type = "text/css"href="css/stylesAni.css">
-	</head>	
-        <body>
 
 		<?php	
 			$animations = array('1','2','3','4','5','6',
@@ -23,9 +17,8 @@
 			print"</div>\n";
 			print"<div id = \"cover1\" onmouseover=\"FunExpand(true,21)\" ></div>";
 			print"<div id = \"cover2\"  onmouseout=\"FunContract(false,21)\"></div>";
-		?>
 
-		<script src="javascripts/animationTest.js">
-                </script>
-        </body>
-</html> 
+		print"<script src=\"javascripts/animationTest.js\">";
+                print"</script>";
+
+		?>

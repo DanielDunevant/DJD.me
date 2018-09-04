@@ -29,6 +29,10 @@ print"</div>\n";
 require_once( "noJSDropDown.php");
 /*When the  window width is  > 850px */
 for($i = 0; $i <$numLinks;$i++){
+	if($i==0)
+	{
+		print"<div class=\"linkBar\">";
+	}
 	print"   <div class=\"hexagonLinks hl1\">\n";
         print "   <a class='headerLinks'  href='index.php?page=$linkArray[$i]'\n >";
         print "   $textArray[$i]";
@@ -42,6 +46,8 @@ for($i = 0; $i <$numLinks;$i++){
        	 	print"     <div class=\"arrow-up-tri-Hour2 \">
                     	   </div>\n";
 		print"</div>\n";
+	}else{
+		print"</div>";
 	}
 
 }

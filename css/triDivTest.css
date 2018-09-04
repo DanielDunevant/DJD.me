@@ -5,7 +5,7 @@
   margin: auto auto 9.6px auto;
   border-left: 200px solid transparent !important;
   border-right: 200px solid transparent !important;
-  border-bottom: 350px solid #AEE4EF !important;
+  border-bottom: 350px solid #FFFFFF !important;
 }
 
 /* line 21, ../scss/triDivTest.scss */
@@ -16,7 +16,7 @@
   margin: auto auto 9.6px auto;
   border-left: 200px solid transparent !important;
   border-right: 200px solid transparent !important;
-  border-top: 350px solid #AEE4EF !important;
+  border-top: 350px solid #FFFFFF !important;
 }
 
 /* line 21, ../scss/triDivTest.scss */

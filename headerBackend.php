@@ -3,9 +3,9 @@
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 <link rel = "stylesheet" type = "text/css"href="css/hexStretch.css"/>
 <link rel = "stylesheet" type = "text/css"href="css/triHourGlassish.css"/>
+<link rel = "stylesheet" type = "text/css"href="css/stylesAni.css">
 <link rel='shortcut icon' href='images/NovayIcon.png' />
 <?php
-print($_GET['page']);
 if($_GET['page']=="hexagonTest2-1")
 {print"<link rel=\"stylesheet\" type=\"text/css\" href=\"css/styleshexagon.css\" />\n";}
 ?>
