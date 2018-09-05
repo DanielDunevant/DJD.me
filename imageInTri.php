@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
         <head>
-                <link rel = "stylesheet" type = "text/css"href="css/triDivTest.css">
+                <link rel = "stylesheet" type = "text/css"href="css/imgInTri.css">
                 <!-- Latest compiled and minified CSS -->
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
                 <!-- jQuery library -->
@@ -13,42 +13,42 @@
 <div class='container'>
   <div class='wrap'>
     <div class='crop'>
-      <img src='https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg'>
+      <img class="tri-image"src='https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg'>
+    </div>
+  </div>
+  <div class='wrap wrap2'>
+    <div class='crop crop2'>
+      <img class="tri-image tri-image2" src='https://s3.amazonaws.com/uifaces/faces/twitter/sindresorhus/128.jpg'>
     </div>
   </div>
   <div class='wrap'>
     <div class='crop'>
-      <img src='https://s3.amazonaws.com/uifaces/faces/twitter/sindresorhus/128.jpg'>
+      <img class="tri-image" src='https://s3.amazonaws.com/uifaces/faces/twitter/tomaslau/128.jpg'>
+    </div>
+  </div>
+  <div class='wrap wrap2'>
+    <div class='crop crop2'>
+      <img class="tri-image tri-image2" src='https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg'>
     </div>
   </div>
   <div class='wrap'>
     <div class='crop'>
-      <img src='https://s3.amazonaws.com/uifaces/faces/twitter/tomaslau/128.jpg'>
+      <img class="tri-image" src='https://s3.amazonaws.com/uifaces/faces/twitter/celikovic/128.jpg'>
+    </div>
+  </div>
+  <div class='wrap wrap2'>
+    <div class='crop crop2'>
+      <img class="tri-image tri-image2" src='https://s3.amazonaws.com/uifaces/faces/twitter/pixeliris/128.jpg'>
     </div>
   </div>
   <div class='wrap'>
     <div class='crop'>
-      <img src='https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg'>
+      <img class="tri-image" src='https://s3.amazonaws.com/uifaces/faces/twitter/ok/128.jpg'>
     </div>
   </div>
-  <div class='wrap'>
-    <div class='crop'>
-      <img src='https://s3.amazonaws.com/uifaces/faces/twitter/celikovic/128.jpg'>
-    </div>
-  </div>
-  <div class='wrap'>
-    <div class='crop'>
-      <img src='https://s3.amazonaws.com/uifaces/faces/twitter/pixeliris/128.jpg'>
-    </div>
-  </div>
-  <div class='wrap'>
-    <div class='crop'>
-      <img src='https://s3.amazonaws.com/uifaces/faces/twitter/ok/128.jpg'>
-    </div>
-  </div>
-  <div class='wrap'>
-    <div class='crop'>
-      <img src='https://s3.amazonaws.com/uifaces/faces/twitter/geeftvorm/128.jpg'>
+  <div class='wrap wrap2'>
+    <div class='crop crop2'>
+      <img class="tri-image tri-image2" src='https://s3.amazonaws.com/uifaces/faces/twitter/geeftvorm/128.jpg'>
     </div>
   </div>
 </div>
