@@ -1,0 +1,59 @@
+.skewedText
+{
+	display: inline-block;
+	background: #D8E7F9;
+	transform: scaleY(2.5) !important;
+}
+/* Set the font, lean the board, position it */
+.skewedContainer
+{
+	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	transform: perspective(1200px) rotateX(60deg);
+	transform-origin: 50% 100%;
+	text-align: justify;
+	position: absolute;
+	margin-left: -10em;
+	font-weight: 900;
+	overflow: auto;
+	font-size: 350%;
+	height: 23.2em;
+	width: 20.5em;
+	bottom: 0;
+	left: 50%;
+	border-top: 1px solid black;
+}
+.skewedContainer:after
+{
+	position: absolute;
+	content: ' ';
+	bottom: 60%;
+	background: #E66B6B;
+	right: 0;
+	top: 0;
+}
+.skewedContainer2
+{
+	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	transform: perspective(-10px) rotateX(60deg) !important;
+	transform-origin: 50% 100%;
+	text-align: justify;
+	position: absolute;
+	margin-left: -10em;
+	font-weight: 900;
+	overflow: auto;
+	font-size: 350%;
+	height: 11em;
+	width: 20.5em;
+	bottom: 0;
+	left: 50%;
+	border-top: 1px solid black;
+}
+.skewedContainer2:after
+{
+	position: absolute;
+	content: ' ';
+	bottom: -60%;
+	background: #E66B6B;
+	right: 0;
+	top: 0;
+}

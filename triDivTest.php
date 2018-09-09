@@ -3,6 +3,7 @@
         <head>
                 <link rel = "stylesheet" type = "text/css"href="css/triDivTest.css">
                 <link rel = "stylesheet" type = "text/css"href="css/imgInTri.css">
+                <link rel = "stylesheet" type = "text/css"href="css/skewTextBox.css">
                 <!-- Latest compiled and minified CSS -->
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
                 <!-- jQuery library -->
@@ -17,7 +18,13 @@
                 	<script src="javascripts/screenWidthOutputter.js">
                 	</script>
 		</div>
-                <?php
+		<?php
+		/*Sample of how much text can be in a given textArray Element */
+                //What else  can I write here?
+                // How will this effect the way
+                // it looks? Let's find out. How
+                // many words can be seen in this
+                // system? A few more?
                         $textArray=array("Yes","no","Maybe","Perhaps?","This is the  testing of the thing.
                         The thing is the  test. That's great!","Wow! I think that we need to think about
                         thinking. I need to  wow! Look at this test. Perhaps it should do things yeah!",
@@ -36,7 +43,13 @@
 					</div>\n";
 				print"<div class=\"arrow-up-tri inner-Tri-Up inner-Tri\">
 						<div class = \"triContent1\">
-                                                    <span class=\"text\">$textArray[$k]</span>\n
+					<div class=\"skewedContainer\">
+                			<span class=\"skewedText\">
+                <pre>
+                             </pre>
+					$textArray[$k];
+                			</span>
+                			</div>
 						</div>
 				      </div>";
 				$k++;
@@ -56,7 +69,13 @@
 				print"<div class=\"arrow-down-tri inner-Tri-Down inner-Tri\">
 						<h1 class=\"triTitle2\">$titleArray[$j]</h1>\n
 						<div class = \"triContent2\">
-                                                   <span class=\"text\">$textArray[$j]</span>\n
+					<div class=\"skewedContainer\">
+                			<span class=\"skewedText\">
+                <pre>
+                             </pre>
+					$textArray[$k];
+                			</span>
+                			</div>
 						</div>
 				      </div>";
 				print"<div class=\"arrow-down-tri img-Tri-Down img-Tri\">";
@@ -78,7 +97,13 @@
                                        </div>\n";
 				print"<div class=\"arrow-up-tri inner-Tri-Up inner-Tri\">
 					<div class = \"triContent1\">
-					     <span class=\"text\">$textArray[$j]</span>\n
+					<div class=\"skewedContainer\">
+                			<span class=\"skewedText\">
+                <pre>
+                             </pre>
+					$textArray[$k];
+                			</span>
+                			</div>
 					  </div>
 				</div>";
 				$k++;
@@ -98,7 +123,13 @@
 				print"<div class=\"arrow-down-tri inner-Tri-Down inner-Tri\">
 						<h1 class=\"triTitle2\">$titleArray[$j]</h1>\n
 						<div class = \"triContent2\">
-                                                    <span class=\"text\">$textArray[$j]</span>\n
+					<div class=\"skewedContainer\">
+                			<span class=\"skewedText\">
+                <pre>
+                             </pre>
+					$textArray[$k];
+                			</span>
+                			</div>
 						</div>
 					</div>";
 				print"<div class=\"arrow-down-tri img-Tri-Down img-Tri\">";
