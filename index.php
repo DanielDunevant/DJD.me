@@ -17,19 +17,13 @@ require'headerBackend.php';
 				require 'headerFrontend.php';
 				require 'hexLinks.php';
 			?>
-			<div class='Header'>
-			</div>
-                        <div id="bodyContent">
-				<?php
-					require 'main.php';
-				?>
+			<?php
+				require 'main.php';
+			?>
  
-                        </div>
 			<?php
 				require "footer.php";
 			?>
-		<!--<div class='footerUpper'>
-		</div-->
 		</div>
 	</body>
 </html>

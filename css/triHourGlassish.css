@@ -47,12 +47,10 @@
   padding: 0px;
 }
 
-@media only screen and (min-width: 460px) {
-  .tri-Hour-ContainerFoot {
-    margin-top: 332px !important;
-  }
-  
-  .tri-Hour-Container2Foot {
-    margin-top: 332px !important;
-  }
+.tri-Hour-ContainerFoot {
+  margin-top: 8px !important;
+}
+
+.tri-Hour-Container2Foot {
+  margin-top: 8px !important;
 }

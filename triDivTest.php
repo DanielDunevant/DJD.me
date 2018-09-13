@@ -12,12 +12,6 @@
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         </head>
 	<body>
-		<div class ="widthFinder">
-                	<p id = "width"></p>
-                	<button id="widthButton" onclick="getWindowWidth()">Width of Window</button>
-                	<script src="javascripts/screenWidthOutputter.js">
-                	</script>
-		</div>
 		<?php
 		/*Sample of how much text can be in a given textArray Element */
                 //What else  can I write here?
@@ -25,7 +19,11 @@
                 // it looks? Let's find out. How
                 // many words can be seen in this
                 // system? A few more?
-                        $textArray=array("Yes","no","Maybe","Perhaps?","This is the  testing of the thing.
+		//
+	$testText = "This is a long string meant to fill up the  whole polygon thing. There of course is a point at
+	which I'll run out of room in this container. Let's find out where.";
+	$textArray=array("Yes this is a test of how the div should look. What else needs to be said
+	here? I think that eventually i'll. I want to see what else needs to be done to make this functional.","no this is not how it will look finally","Maybe this is something that will turn into something  great","Perhaps it will be the best site ever","This is the  testing of the thing.
                         The thing is the  test. That's great!","Wow! I think that we need to think about
                         thinking. I need to  wow! Look at this test. Perhaps it should do things yeah!",
                         "yep","uhuh?","Yeah","what the heck!", "yeeeet" ,"Now it will work?","Or Maybe
@@ -45,9 +43,8 @@
 						<div class = \"triContent1\">
 					<div class=\"skewedContainer\">
                 			<span class=\"skewedText\">
-                <pre>
-                             </pre>
-					$textArray[$k];
+                                                                                </pre>
+					$testText
                 			</span>
                 			</div>
 						</div>
@@ -69,12 +66,11 @@
 				print"<div class=\"arrow-down-tri inner-Tri-Down inner-Tri\">
 						<h1 class=\"triTitle2\">$titleArray[$j]</h1>\n
 						<div class = \"triContent2\">
-					<div class=\"skewedContainer\">
-                			<span class=\"skewedText\">
-                <pre>
-                             </pre>
-					$textArray[$k];
-                			</span>
+					<div class=\"skewedContainer2 skewedContainer\">
+                			<span class=\"skewedText2 skewedText\">
+                             ";
+				print ("$testText");
+                		print"	</span>
                 			</div>
 						</div>
 				      </div>";
@@ -99,9 +95,7 @@
 					<div class = \"triContent1\">
 					<div class=\"skewedContainer\">
                 			<span class=\"skewedText\">
-                <pre>
-                             </pre>
-					$textArray[$k];
+					$testText
                 			</span>
                 			</div>
 					  </div>
@@ -123,12 +117,13 @@
 				print"<div class=\"arrow-down-tri inner-Tri-Down inner-Tri\">
 						<h1 class=\"triTitle2\">$titleArray[$j]</h1>\n
 						<div class = \"triContent2\">
-					<div class=\"skewedContainer\">
-                			<span class=\"skewedText\">
-                <pre>
-                             </pre>
-					$textArray[$k];
-                			</span>
+					<div class=\"skewedContainer2 skewedContainer\">
+                			<span class=\"skewedText2 skewedText\">
+			     ";
+
+				print "$testText";
+					
+                		print"	</span>
                 			</div>
 						</div>
 					</div>";

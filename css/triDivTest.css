@@ -157,6 +157,7 @@
   text-align: center;
   margin: 0 6px 12px;
   top: -337.4px;
+  top: -341.8px;
   border-radius: 6px;
   left: -109.8px;
   background: #CBD9EB;
@@ -201,7 +202,7 @@
     position: relative;
     left: -79px;
     display: inline-block;
-    margin-bottom: -16.8px;
+    margin-bottom: -28.8px;
   }
   /* line 30, ../scss/triDivTest.scss */
 }
@@ -233,7 +234,6 @@
     display: grid;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -26.4px;
   }
   
   /* line 184, ../scss/triDivTest.scss */
@@ -242,6 +242,6 @@
     height: 160px;
     width: auto;
     top: 331.2px;
-    margin: -331.2px auto 1599.2px;
+    margin: -331.2px auto 1599.2px !important;
   }
 }

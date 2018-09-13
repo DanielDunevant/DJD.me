@@ -128,25 +128,25 @@
 @media only screen and (min-width: 900px) {
   /* line 113, ../scss/styleshexagon.scss */
   .hexagon {
-    display: inline-block;
+    display: inline-block !important;
   }
   
   /* line 116, ../scss/styleshexagon.scss */
   .hexagon2 {
-    display: inline-block;
+    display: inline-block !important;
     bottom: -262.5px !important;
     left: -150.75px !important;
   }
   
   /* line 121, ../scss/styleshexagon.scss */
   .hexContainer {
-    height: auto;
-    position: absolute !important;
+    height: 100%;
+    position: relative;
     width: 100%;
     clear: both;
     padding: 0px;
     margin: 0 auto;
-    left: 84px;
+    left: 150px;
   }
   
   /* line 128, ../scss/styleshexagon.scss */

@@ -1,0 +1,72 @@
+.skewedText
+{
+	transform: scaleY(7.5) !important;
+	font-size: 120%;
+}
+.skewedText2
+{
+	display: inline-block;
+	line-height: 0.85;
+	background: rgba(215, 230, 248, 0.495);
+	transform: scaleY(2.5) !important;
+}
+/* Set the font, lean the board, position it */
+.skewedContainer
+{
+	background: #C7D3E3;
+	transform: perspective(400px) rotateX(60deg);
+	width: 206px;
+	height: 300px;
+	margin: 0 auto;
+}
+.skewedContainer:after
+{
+	position: absolute;
+	content: ' ';
+	bottom: 60%;
+	background: #E66B6B;
+	right: 0;
+	top: 0;
+}
+.skewedContainer2
+{
+	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	transform: perspective(600px) rotateX(-60deg) !important;
+	transform-origin: bottom center !important;
+	text-align: justify;
+	position: absolute !important;
+	margin-left: -10em;
+	font-weight: 900;
+	overflow: auto;
+	font-size: 252%;
+	height: 5.6em;
+	width: 6.9em;
+	left: 193% !important;
+	top: -91px !important;
+}
+.skewedContainer2:after
+{
+	position: absolute;
+	content: ' ';
+	bottom: -60%;
+	background: #E66B6B;
+	right: 0;
+	top: 0;
+}
+pre
+{
+	opacity: 0;
+}
+.Container
+{
+	background: #C7D3E3;
+	transform: perspective(400px) rotateX(60deg);
+	width: 206px;
+	height: 300px;
+	margin: 0 auto;
+}
+.Text
+{
+	position: fixed;
+	font-size: 139%;
+}

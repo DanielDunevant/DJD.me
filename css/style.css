@@ -152,7 +152,7 @@
 	background-color: #289AC5;
 }
 /*Body things*/
-body *
+body
 {
 	font-family: inherit;
 	font-size: 100%;
@@ -161,12 +161,11 @@ body *
 	list-style: none;
 	margin: 0px;
 	padding: 0px;
-	vertical-align: baseline;
-	text-align: center;
 }
 html, body
 {
 	width: 100%;
+	margin: 0px 0px 170px 0px;
 }
 body
 {
@@ -180,20 +179,17 @@ body
 	padding: 0px !important;
 	font-weight: normal;
 	text-align: center;
-	overflow: auto;
+	overflow: visible;
 	margin: auto;
 	background: url("../images/Background.svg") bottom center / 150px 150px repeat round fixed padding-box border-box !important;
 }
 #bodyForeground
 {
 	background: url("../images/Foreground.svg") bottom center / contain round repeat scroll content-box padding-box rgba(12, 12, 12, 0.600) !important;
-	position: absolute;
+	position: relative;
+	height: auto;
 	width: 100%;
 	z-index: -1 !important;
-}
-#bodyContent
-{
-	z-index: ;
 }
 h1
 {
@@ -433,4 +429,10 @@ form
 	text-align: center;
 	padding-left: 12px;
 	margin-left: 12px;
+}
+#footerBar
+{
+	position: relative;
+	top: -123px;
+	margin-bottom: -10px !important;
 }

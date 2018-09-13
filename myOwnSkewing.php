@@ -1,8 +1,7 @@
-
 <!DOCTYPE html>
 <html>
         <head>
-                <link rel = "stylesheet" type = "text/css"href="css/skewTextBox.css">
+                <link rel = "stylesheet" type = "text/css"href="css/myOwnSkewing.css">
                 <!-- Latest compiled and minified CSS -->
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
                 <!-- jQuery library -->
@@ -11,51 +10,35 @@
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         </head>
 	<body>
-		<?
-		$textVar = "What else  can I write here?
-				How will this effect the way
-				it looks? Let\'s find out. How
-				 many words can be seen in this
-				system? A few more?"
-		$stringLength = 0;
-		$reversedTxt= reverseText($textVar);
+		
+		<p>This is a test of a regular paragraph element</p>
 
-		function reverseText($reverseThis)
-		{
-			$i=0;
-			$reversed='';
-			$a_Space=' ';
-			$stringLength = strlen($reverseThis)=$countDown;
-			for($i=0;$i<$stringLength;$i++)
-			{
-				$reversed = $reversed.$a_Space;
-				$reversed[$i] = $reverseThis[$countDown];
-				$countDown--;
-			}
-			print"$reversed";	
-		}
-		reverseText($textVar);
-?>
-	
+		<div class="Container">
+		<span class="Text">
+		This is a test of whether I can make my own skewed  box with my understanding. 
+		It seems simple. There's a width and a  height. Why would alteration of these things cause the 
+		text to be wrapped poorly?
+		</span>
+		</div>
+
+
 		<div class="skewedContainer">
 		<span class="skewedText">
 		<pre>                                                                                                                                       </pre>
-		<?php 
-		printf($textVar);
-		?>
+		This is a test of whether I can make my own skewed  box with my understanding. 
+		It seems simple. There's a width and a  height. Why would alteration of these things cause the 
+		text to be wrapped poorly?
 		</span>
 		</div>
+
+
 		<div class="skewedContainer2 skewedContainer">
 		<span class="skewedText2 skewedText">
 		<pre>                                                                                                                                       </pre>
-		<?php 
-		print "$reversedTxt";
-		reverseText($textVar);
-		?>
+		This is a test of whether I can make my own skewed  box with my understanding. 
+		It seems simple. There's a width and a  height. Why would alteration of these things cause the 
+		text to be wrapped poorly?
 		</span>
 		</div>
-		<?php 
-		print "$reversedTxt";
-		?>
 	</body>
 </html>
