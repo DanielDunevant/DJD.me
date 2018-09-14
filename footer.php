@@ -11,11 +11,27 @@
 	<section class = "footerLower">
 		<section class='Copyright'>
 			<p id = "contactTxt">Contact us at: support@novaytechnologies.com</p>
-			<p id = "copyrightTxt">Copyright &copy; 2016 - <?php echo date("Y")?> Novay Technologies</p>
+			<p id = "copyrightTxt">Copyright &copy; 2016 -  Novay Technologies</p>
 		</section>
 	</section>-->
 <?php
+				print"<div id =\"footerBar\">\n";
+				print"<div id=\"headerDecor\">\n";
+				print"  <div class=\"tri-Hour-Container tri-Hour-ContainerFoot \">\n";
+				print"	   <div class=\"arrow-down-tri-Hour \">\n
+                                           </div>\n";
+                                print"     <div class=\"arrow-up-tri-Hour \">\n
+                                           </div>\n";
+                                print"  </div>\n";
+				print"  <div class=\"tri-Hour-Container tri-Hour-Container2 tri-Hour-Container2Foot\" >\n";
+				print"	   <div class=\"arrow-down-tri-Hour \">\n
+                                           </div>\n";
+                                print"     <div class=\"arrow-up-tri-Hour \">\n
+                                           </div>\n";
+                                print"  </div>\n";
+				print"</div>\n";
 
-
-				require "hexfooter.php";
+				print"     <div class=\"hexagonStretched hexagonStretchedFoot \">\n";
+				print"     </div>\n";
+				print"</div>\n";
 ?>
