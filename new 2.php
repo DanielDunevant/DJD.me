@@ -21,7 +21,8 @@
                 // system? A few more?
 	$testText =array( "This is a long string meant to fill up the  whole polygon thing. There of course is a point at
 	which I'll soon run out of room in this container. Let's find out what can be done to make this all fit in two
-	of these skewed containers. We just need to make it split at 144 and end at 288. This is test. placeholder");
+	of these skewed containers. We just need to make it split at 144 and end at 288. This is test. "
+			);
 	$textArray=array("Yes this is a test of how the div should look. What else needs to be said
 	here? I think that eventually i'll. I want to see what else needs to be done to make this functional.","no this is not how it will look finally","Maybe this is something that will turn into something  great","Perhaps it will be the best site ever","This is the  testing of the thing.
                         The thing is the  test. That's great!","Wow! I think that we need to think about
