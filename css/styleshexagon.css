@@ -175,8 +175,8 @@
     width: 100%;
     clear: both;
     padding: 0px;
-    margin: 0 auto;
-    left: 84px;
+    left: 16%;
+    margin: 0 100% 0 auto;
   }
   
   /* line 128, ../scss/styleshexagon.scss */
