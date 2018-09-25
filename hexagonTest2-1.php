@@ -1,9 +1,5 @@
 		<?php
 
-			print"<p id = \"width\"></p>";
-			print"<button onclick=\"getWindowWidth()\">Width of Window</button>";
-			print"<script src=\"javascripts/screenWidthOutputter.js\">";
-                	print"</script>";
 			$textArray=array("Yes","no","Maybe","Perhaps?","This is the  testing of the thing.
 			The thing is the  test. That's great!","Wow! I think that we need to think about
 			thinking. I need to  wow! Look at this test. Perhaps it should do things yeah!",
