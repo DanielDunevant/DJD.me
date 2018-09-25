@@ -6,8 +6,6 @@
 		<meta name="author" content="DJD.io" />
 		<title>DJD.io</title>
 <?php
-
-
 require'headerBackend.php';
 ?>
 	</head>

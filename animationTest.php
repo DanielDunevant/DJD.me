@@ -10,7 +10,7 @@
 			for($i=1;$i<$numElements;$i++)
 			{
 				$newAnimation = 'animate'.$i;
-				$newLetter = 'images/letter'.$i.'.svg';
+				$newLetter = 'images/letter'.$i.'.png';
 				print"<img src = \"$newLetter\" class = \"allLetters\"  id =\"letters$i\"/>\n";
 			}
 			print"</div>\n";

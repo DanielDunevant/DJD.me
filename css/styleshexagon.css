@@ -125,6 +125,36 @@
   }
 }
 
+@media only screen and (min-width: 935.5px) and (max-width: 1240px) {
+  #bodyForeground {
+    height: 1740px;
+  }
+  
+  #footerBar {
+    top: 751px;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 935.5px) {
+  #bodyForeground {
+    height: 2248px;
+  }
+  
+  #footerBar {
+    top: 1257px;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  #bodyForeground {
+    height: 1700px;
+  }
+  
+  #footerBar {
+    top: 695px;
+  }
+}
+
 @media only screen and (min-width: 900px) {
   /* line 113, ../scss/styleshexagon.scss */
   .hexagon {
@@ -140,7 +170,7 @@
   
   /* line 121, ../scss/styleshexagon.scss */
   .hexContainer {
-    height: auto;
+    height: auto !important;
     position: absolute !important;
     width: 100%;
     clear: both;

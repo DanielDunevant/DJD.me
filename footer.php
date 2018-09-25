@@ -1,4 +1,4 @@
-<!-- PHP for "Novay Technologies" © 2017, authors: "Daniel Dunevant & Jesse Primiani" -->
+<!-- PHP for "DJD.io" © 2017, authors: "Daniel J. Dunevant" -->
 
 <!--	<p class ="footerLinks">
 		<a class='footerLinks' href='index.php?page=home'>Home</a> |
