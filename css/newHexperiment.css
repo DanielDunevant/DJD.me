@@ -1,0 +1,101 @@
+.hex
+{
+	background-color: rgba(11, 105, 237, 0);
+	position: absolute;
+	top: 70px;
+	left: 55%;
+	z-index: 1 !important;
+}
+.rightHexo
+{
+	transform: translateX(-22.5%) perspective(400px) rotateY(67deg) !important;
+	-webkit-animation: openRight 0s infinite linear !important;
+}
+.leftHex1
+{
+	transform: translateX(0%) perspective(400px) rotateY(0deg) !important;
+	-webkit-animation: openLeft 0s infinite linear !important;
+}
+.rightHex1
+{
+	transform: translateX(5.2%) perspective(400px) rotateY(0deg) !important;
+	-webkit-animation: openRight 0s infinite linear !important;
+}
+.leftHex
+{
+	position: absolute !important;
+	width: 200px !important;
+	z-index: 2 !important;
+	background-color: #BAD2F3;
+	display: inline-block !important;
+	height: 137px;
+	transform: translateX(22.5%) perspective(400px) rotateY(-67deg);
+	left: -220px;
+	top: 1px;
+	transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 2s linear 0.01s;
+	-webkit-animation: openLeft 10s infinite linear;
+}
+.rightHex
+{
+	width: 200px !important;
+	z-index: 1 !important;
+	background-color: #BAD2F3;
+	left: -30px;
+	height: 137px;
+	transform: translateX(-22.5%) perspective(400px) rotateY(67deg);
+	display: inline-block !important;
+	position: absolute !important;
+	transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 2s linear 0.01s;
+	-webkit-animation: openRight 10s infinite linear;
+}
+@-webkit-keyframes openRight
+{
+	100%
+	{
+		transform: translateX(-22.5%) perspective(400px) rotateY(67deg);
+	}
+	75%
+	{
+		transform: translateX(5%) perspective(400px) rotateY(33.5deg);
+	}
+	50%
+	{
+		transform: translateX(2.1%) perspective(400px) rotateY(0deg);
+	}
+	25%
+	{
+		transform: translateX(5%) perspective(400px) rotateY(33.5deg);
+	}
+	0%
+	{
+		transform: translateX(-22.5%) perspective(400px) rotateY(67deg);
+	}
+}
+@-webkit-keyframes openLeft
+{
+	100%
+	{
+		transform: translateX(22.5%) perspective(400px) rotateY(-67deg);
+	}
+	75%
+	{
+		transform: translateX(-5%) perspective(400px) rotateY(-33.5deg);
+	}
+	50%
+	{
+		transform: translateX(-2.1%) perspective(400px) rotateY(0deg);
+	}
+	25%
+	{
+		transform: translateX(-5%) perspective(400px) rotateY(-33.5deg);
+	}
+	0%
+	{
+		transform: translateX(22.5%) perspective(400px) rotateY(-67deg);
+	}
+}
+IMG
+{
+	height: 131px;
+	width: 100%;
+}

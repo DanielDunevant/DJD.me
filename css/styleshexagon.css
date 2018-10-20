@@ -97,10 +97,10 @@
   }
 }
 
-@media only screen and (min-width: 583.5px) and (max-width: 700px) {
+@media only screen and (min-width: 583.5px) {
   /* line 90, ../scss/styleshexagon.scss */
   .hexagon {
-    display: grid !important;
+    display: -webkit-flex !important;
     right: 78.75px !important;
     margin-bottom: 97.5px;
   }
@@ -122,72 +122,6 @@
   .hexContent {
     margin: 0px !important;
     padding: 0px !important;
-  }
-}
-
-@media only screen and (min-width: 935.5px) and (max-width: 1240px) {
-  #bodyForeground {
-    height: 1740px;
-  }
-  
-  #footerBar {
-    top: 751px;
-  }
-}
-
-@media only screen and (min-width: 700px) and (max-width: 935.5px) {
-  #bodyForeground {
-    height: 2248px;
-  }
-  
-  #footerBar {
-    top: 1541px;
-  }
-}
-
-@media only screen and (min-width: 1240px) {
-  #bodyForeground {
-    height: 1700px;
-  }
-  
-  #footerBar {
-    top: 695px;
-  }
-}
-
-@media only screen and (min-width: 700px) {
-  /* line 113, ../scss/styleshexagon.scss */
-  .hexagon {
-    display: inline-block;
-  }
-  
-  /* line 116, ../scss/styleshexagon.scss */
-  .hexagon2 {
-    display: inline-block;
-    bottom: -262.5px !important;
-    left: -150.75px !important;
-  }
-  
-  /* line 121, ../scss/styleshexagon.scss */
-  .hexContainer {
-    height: auto !important;
-    position: absolute !important;
-    width: 100%;
-    clear: both;
-    padding: 0px;
-    left: 16%;
-    margin: 0 100% 0 auto;
-  }
-  
-  /* line 128, ../scss/styleshexagon.scss */
-  .hexPair {
-    display: inline-block;
-    padding: 0px;
-    float: right;
-    margin-left: -298.125px;
-    margin-right: auto;
-    margin-bottom: -119.25px;
-    overflow: visible;
   }
 }
 

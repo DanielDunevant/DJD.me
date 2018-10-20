@@ -13,14 +13,15 @@
 	<body>
 <?php
 $linkArray = array(
-                   "hexagonTest2-1",
-                   "triDivTest",
-                   "contact","","");
-$textArray = array("Hexi","Tris","Conta","Thing4","Thing5");
-$numLinks =5;
+                   "Home_View",
+                   "blog",
+		   "About",
+		   "Contact");
+$textArray = array("Home","Blog","About","Contact");
+$numLinks =4;
 require_once( "hexStretch.php");
 print"<div id = \"hexLinkContainer\">";
-print"<label  for=\"btnControl\">";
+print"<label for=\"btnControl\">";
 print"     <img  id=\"dropDownImg\" src=\"images/openDropDown.png\" for=\"dropDownImgControl dropdown-content\">";
 print"</label>";
 print"<div class=\"hexagonStretched hexagonStretchedLinks\" style=\"display:none\">\n";

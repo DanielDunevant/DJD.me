@@ -4,9 +4,9 @@
 	display: inline-block;
 	text-align: justify;
 	font-weight: 700;
-	transform: scaleY(1.15) !important;
+	transform: scaleY(0.5) !important;
 	height: 0px;
-	color: #FFFFFF;
+	color: #000000;
 }
 .skewedText2
 {
@@ -21,12 +21,13 @@
 .skewedContainer
 {
 	position: absolute;
-	transform: perspective(340px) rotateX(60deg);
-	width: 223px;
-	height: 220px;
+	z-index: 5 !important;
+	transform: perspective(340px) rotateY(43deg);
+	width: 175px;
+	height: 14px;
 	margin: 0 auto;
-	left: -21px;
-	top: -57px;
+	left: 144px;
+	top: 6px;
 }
 .skewedContainer:after
 {
@@ -39,9 +40,10 @@
 }
 .skewedContainer2
 {
-	transform: perspective(340px) rotateX(-60deg);
-	left: -34px;
-	top: -63px;
+	transform: perspective(340px) rotateY(-60deg);
+	z-index: 5 !important;
+	left: 53px;
+	top: 112px;
 }
 .skewedContainer2:after
 {

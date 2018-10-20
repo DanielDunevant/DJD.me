@@ -5,8 +5,8 @@
 	<meta charset="UTF-8" />
 	<meta name="author" content="DJD.io" />
 	<title>DJD.io</title>
-	<link rel="shortcut icon" href="/favicon.ico" />
-	<link rel="icon" type="image/png" href="/favicon.png">
+<!--	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="icon" type="image/png" href="/favicon.png">-->
 </head>
 <body>
 	<h1 style="text-align:center;">DJD.io</h1>

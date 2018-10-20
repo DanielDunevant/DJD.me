@@ -6,7 +6,7 @@
 	font-weight: 700;
 	transform: scaleY(1.15) !important;
 	height: 0px;
-	color: #FFFFFF;
+	color: #D87B7B;
 }
 .skewedText2
 {
@@ -25,8 +25,8 @@
 	width: 223px;
 	height: 220px;
 	margin: 0 auto;
-	left: -21px;
-	top: -57px;
+	left: 61px;
+	top: -49px;
 }
 .skewedContainer:after
 {
@@ -40,8 +40,8 @@
 .skewedContainer2
 {
 	transform: perspective(340px) rotateX(-60deg);
-	left: -34px;
-	top: -63px;
+	left: 53px;
+	top: 112px;
 }
 .skewedContainer2:after
 {

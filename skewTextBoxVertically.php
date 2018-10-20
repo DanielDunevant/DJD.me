@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
         <head>
-                <link rel = "stylesheet" type = "text/css"href="css/skewTextBoxHorizontally.css">
+                <link rel = "stylesheet" type = "text/css"href="css/skewTextBoxVertically.css">
                 <!-- Latest compiled and minified CSS -->
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
                 <!-- jQuery library -->
