@@ -13,7 +13,7 @@ require "headerBackend.php";
 		<div id ="bodyForeground">
 			<?php
 				require "headerFrontend.php";
-				print"This is a test";	
+				require"main.php";	
 				require "footer.php";
 			?>
 		</div>
