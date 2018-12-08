@@ -1,21 +1,5 @@
 /* line 34, ../path/bourbon/bourbon/library/_transition.scss */
-a {
-  color: blue;
-  display: inline-block;
-  padding: 10px;
-  text-decoration: none;
-  background-color: orange;
-  border-radius: 4px;
-  -moz-transition: background-color 1s 0.5s, color 2s;
-  -o-transition: background-color 1s 0.5s, color 2s;
-  -webkit-transition: background-color 1s 0.5s, color 2s;
-  transition: background-color 1s 0.5s, color 2s;
-}
 /* line 43, ../path/bourbon/bourbon/library/_transition.scss */
-a:hover {
-  color: red;
-  background-color: blue;
-}
 /* line 3, ../scss/imgInTri.scss */
 body {
   background: #F1F1FA;
@@ -94,10 +78,10 @@ body {
 }
 /* line 39, ../scss/imgInTri.scss */
 .crop .tri-image {
-  width: 163px;
-  height: 175px;
+  width: 173px;
+  height: 185px;
   position: absolute;
-  left: -50%;
+  left: -52%;
   margin-top: 36px;
   margin-left: 36px;
   top: -50%;
@@ -105,7 +89,7 @@ body {
   -ms-transform: skew(-20deg, -20deg) rotate(-45deg);
   -webkit-transform: skew(-20deg, -20deg) rotate(-45deg);
   transform: skew(-20deg, -20deg) rotate(-45deg);
-  opacity: 0.7;
+  opacity: 1;
   -moz-transition: opacity 300ms ease-in-out;
   -o-transition: opacity 300ms ease-in-out;
   -webkit-transition: opacity 300ms ease-in-out;

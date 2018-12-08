@@ -12,10 +12,10 @@
 	<body>
 		<?php
 			$linkArray = array(
-	                   "hexagonTest2-1",
-		            "triDivTest",
-			    "contact","","");
-			$textArray = array("Hexi","Tris","Conta","Thing4","Thing5");
+	                   "about",
+		            "resume",
+			    "blog","ongoingProjects","contact");
+			$textArray = array("About","Resume","Blog","Projects","Contact");
 			$numLinks =5;
 			 print"<input type=\"checkbox\" id=\"btnControl\"/>";
 			 print"<div class=\"dropdown-content\" for=\"btnControl\">";

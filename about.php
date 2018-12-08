@@ -1,71 +1,56 @@
-<!-- PHP for "Novay Technologies" © 2017, authors: "Daniel Dunevant & Jesse Primiani" -->
+<!-- PHP for "DJD" © 2018, author(s): "Daniel J. Dunevant" -->
+		<?php
 
-<?php
-$title_text_Array = array("Our Company","Our company is Novay Technologies and it is located in Valparaiso, IN. We notice that
-			 there’s a need for app developers, IT consulting services, and talented web-designers in the Northwest
-			 Indiana Region. Therefore, we are here to fulfill this need. Here The goal of our company is to help businesses 
-			 in this region prosper through utilizing our technology, website, and app development services, which will
-			 help these businesses become more efficient and have more opportunities reach out to new clients.
-			 In the distant future, we’ll open up new locations to provide IT support to businesses around the country.",
-                          "Jesse Primiani","I am the IT consultant and primary app developer here at Novay Technologies.  
-						  Since I have worked as a tutor in the past, I have quite a bit of experience in understanding 
-						  people and their needs.  I also have a lot of programming, web development, and IT 
-						  experience.  A detailed summary of my expertise can be viewed at <a href='http://www.jesseprimiani.com'>JessePrimiani.com.</a>",
-                          "Daniel Dunevant","Greetings! I'm a programmer. I've designed  many sites for 
-			school projects, myself, as well as for a business I worked for. I mostly use html,
-			 css, php, and  javascript to make my websites. Apart from my website experience I've
-			designed apps for android. Currently I'm going to school for a bachelors degree in 
-			computer science through VU. In the future I hope to become a computer scientist 
-			 and through that solve interesting problems.");
-$imageArray = array("NovayIcon.png","JesseProfile.jpeg","DanielProfile.jpg");
-$linkArray = array("http://www.novaytechnologies.com/index.php?page=about",
-                   "http://www.jesseprimiani.com",
-                   "http://www.danieljohndunevant.info/index.php?page=resume");
+	$testText =array( "You should be able to  figure out my name. I'm a bit of a renaissance man. I'm a aspiring computer 
+	scientist, artist of CSS, as well as the  other  renaisance stuff blah blah blah. The point is I'm a life
+	long learner of all that interests me. At this point that's: mathematics, computers, and the arts. Yeah,  
+        that's about it.");
 
-$numPanels = 3;
-$j = 0;
-$k = 1;
-for($i = 0;$i<$numPanels;$i++ )
-{
-        print"<div class ='panel2'>\n";
-        print"<div class ='panel'>\n";
-        print" <div class ='row'>\n";
-        print"<section id = 'rightBox'\n>";
-       if(($i%2)==0)
-       {
-                 print"         <div class ='txtBox col-md-6 col-md-6 col-sm-12'>\n";
-                 print"                 <h2>$title_text_Array[$j]</h2>\n";
-                 print"                 <p>$title_text_Array[$k]</p>\n";
-                 print"         </div>\n";
-       }else
-       {
-                 print"         <div class ='imageBox col-md-3 col-md-3 col-sm-12'>\n";
-                 print"                 <a href ='$linkArray[$i]'>\n";
-                 print"                 <img class = 'panelImages img-responsive'  src ='images/$imageArray[$i]'>\n";
-                 print"                 </a>\n";
-                 print"         </div>\n";
-       }
-        print"</section>";
-        print"<section id = 'leftBox'>\n";
-       if(($i%2)==1)
-       {
-                 print"         <div class ='txtBox col-md-6 col-md-6 col-sm-12'>\n";
-                 print"                 <h2>$title_text_Array[$j]</h2>\n";
-                 print"                 <p>$title_text_Array[$k]</p>\n";
-                 print"         </div>\n";
-       }else
-       {
-                 print"         <div class ='imageBox col-md-3 col-md-3 col-sm-12'>\n";
-                 print"                 <a href ='$linkArray[$i]'>\n";
-                 print"                 <img class = 'panelImages img-responsive'  src ='images/$imageArray[$i]'>\n";
-                 print"                 </a>\n";
-                 print"         </div>\n";
-       }
-        print"</section>";
-        print"</div>\n";
-        print"</div>\n";
-        print"</div>\n";
-$j +=2;
-$k = $j+1;
-}
-?>
+			$titleArray=array("About me");
+			$imageArray=array("DanielPic","danielSide" );
+			//only works for $numHexes of 6 and 2
+			$numHexes=1;
+			$j=0;
+			print"<div class = \"hexContainer\">\n";
+			for($i = 0;$i<$numHexes;$i++)
+			{
+				$testTextSplitArray = str_split($testText[0],175);
+				print"<div class = \"hexPair\">\n";
+				print"   <div class=\"hexagon\">\n";
+  				print"       <p class=\"hexTitle\">$titleArray[$j]</p>\n";
+				print"       <div class=\"hexContent\">\n";
+				print"	<div class=\"skewedContainerVert skewedContainerRightVert\">
+                			<span class=\"skewedTextVert\">
+                                                                                </pre>";
+				$testTextSplitArray[0] = $testTextSplitArray[0] . "-";
+				if($i<$numHexes){strlen($testText[0]>350)? print"String is too long": print"$testTextSplitArray[0]";}
+
+                		print"	</span>
+                			</div>";
+				print"          <div class = \"skewedRect skewedLeft\">";
+  				print"	           <img class=\"hexImg hexImgLeft\" src=\"images/$imageArray[$j].jpg\">\n";
+				$j++;
+				print"          </div>";
+				print"	     </div>\n";
+				print"   </div>\n";
+				print"   <div class=\"hexagon2 \" >\n";
+  				print"	     <p class=\"hexTitle\">$titleArray[$j]</p>\n";
+				print"       <div class=\"hexContent \">\n";
+				print"	<div class=\"skewedContainerVert skewedContainerLeftVert \">
+                			<span class=\"skewedTextVert\">
+                                                                                </pre>";
+				$testTextSplitArray[1] = "-".$testTextSplitArray[1] ;
+				if($i<$numHexes){strlen($testText[0]>350)? print"String is too long": print"$testTextSplitArray[1]";}
+
+                		print"	</span>
+                			</div>";
+				print"          <div class = \"skewedRect skewedRight\">";
+  				print"	           <img class=\"hexImg hexImgRight\" src=\"images/$imageArray[$j].jpg\">\n";
+				$j++;
+				print"          </div>";
+				print"	     </div>\n";
+				print"   </div>\n";
+				print"</div>\n";
+			}
+			print"</div>";
+		?>

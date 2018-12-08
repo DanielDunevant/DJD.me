@@ -1,6 +1,6 @@
 <?php
 $pageValue = $_GET['page'];
-$arrayOfPages = array("Home_View","Blog","About","Contact");
+$arrayOfPages = array("about","resume","blog","projects","contact");
 if (in_array($pageValue,$arrayOfPages)) 
 {
         require_once( $pageValue.".php");
@@ -8,7 +8,7 @@ if (in_array($pageValue,$arrayOfPages))
 }
 else
 {
-        require_once( "triDivTest.php");
+        require_once( "about.php");
 	require "socialPanel.php";
 }
 ?>

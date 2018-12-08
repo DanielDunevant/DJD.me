@@ -43,9 +43,31 @@
   padding: 0px !important;
 }
 
+.skewedRect {
+  background-color: rgba(0, 0, 0, 0);
+  width: 40%;
+  position: absolute;
+  z-index: 2 !important;
+  width: 162px;
+  overflow: hidden;
+  height: 190px;
+}
+
+.skewedRight {
+  transform: perspective(200px) rotateY(50deg);
+  left: 162px;
+  top: -5px;
+}
+
+.skewedLeft {
+  transform: perspective(200px) rotateY(-50deg);
+  left: -25px;
+  top: -7px;
+}
+
 /* line 42, ../scss/styleshexagon.scss */
 .text {
-  width: 40%;
+  width: 45% !important;
   position: relative;
   clear: none;
   display: block;
@@ -55,20 +77,44 @@
   margin: 0 15px !important;
 }
 
+.hexImg {
+  width: 100%;
+  filter: grayscale(100%);
+  position: absolute;
+  display: block;
+  float: left;
+  text-align: left;
+  height: 260px;
+  width: 500px;
+}
+
+.hexImgRight {
+  transform: perspective(300px) rotateY(-50deg);
+  left: -178px;
+  top: -34px;
+}
+
+.hexImgLeft {
+  transform: perspective(300px) rotateY(50deg);
+  left: -147px;
+  top: -34px;
+}
+
 /* line 52, ../scss/styleshexagon.scss */
 .hexTitle {
   font-size: 25.5px;
   display: inline-block;
+  color: #000000;
   position: absolute;
   clear: both;
   text-align: center;
   margin: 0 7.5px 15px;
-  top: -51.75px;
-  border-radius: 7.5px;
-  left: 6.75px;
-  background: #CBD9EB;
+  top: -57.75px;
+  left: -2.25px;
+  border-radius: 70.5px 7.5px;
+  background: #D2D4DA;
   width: 275.25px;
-  z-index: 3;
+  z-index: 6;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 583.5px) {
@@ -90,11 +136,7 @@
     font: 21.798px serif;
     width: 90%;
   }
-  
   /* line 81, ../scss/styleshexagon.scss */
-  .hexImg {
-    display: none;
-  }
 }
 
 @media only screen and (min-width: 583.5px) {

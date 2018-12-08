@@ -30,7 +30,7 @@
                         now for sure","This","will","be","difficult to", "Make work");
                         $titleArray=array("Title1 is long very","This short2","Place3","Holders4","5","6",
                         "7","8","9","10","11","12","13","14");
-                        $numOfTriBlocks = 12;
+                        $numOfTriBlocks = 2;
 			$j=0;
 			$k=0;
                         for($i = 0; $i<$numOfTriBlocks;$i++)
@@ -39,32 +39,31 @@
 				$testTextSplitArray = str_split($testText[0],158);
                                 print"<div class =\"tri-Block\">";
 				print"<div id=\"tri-Container\"> \n";
-                                print"  <div class=\"arrow-up-tri \">
-					</div>\n";
+                                print"  <div class=\"arrow-up-tri \">";
 				print"<div class=\"arrow-up-tri inner-Tri-Up inner-Tri\">
-						<div class = \"triContent1\">
-					<div class=\"skewedContainer\">
-                			<span class=\"skewedText\">
+					 <div class = \"triContent1\">";
+				print"<div class=\"arrow-up-tri img-Tri-Up img-Tri\">";
+				print"
+					<div class=\"wrap\">
+						<div class=\"crop\">\n
+      							<img class=\"tri-image\"src=\"https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg\">\n
+   						</div>\n
+					</div>\n
+				</div>";
+				print"<div class=\"divider divider-Up\"></div>";
+			        print"</div>";
+			        print"		 <div class=\"skewedContainer\">
+
+                			             <span class=\"skewedText\">
                                                                                 </pre>";
 				$testTextSplitArray[0] = $testTextSplitArray[0] . "-";
 				strlen($testText[0]>315)? print"String is too long": print"$testTextSplitArray[0]";
 
-                		print"	</span>
-                			</div>
-						</div>
+                		print"	         </span>
+                			     </div>
+					 </div>
 				      </div>";
-				$k++;
-				print"<div class=\"arrow-up-tri img-Tri-Up img-Tri\">";
-				print"
-<div class=\"wrap\">
-	<div class=\"crop\">\n
-      		<img class=\"tri-image\"src=\"https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg\">\n
-   	</div>\n
-</div>\n
-				";
-			//	print"		<img class=\"object-fit_cover\" src=\"images/smilingEmoji.png\">\n";
-			        print"</div>";
-				print"<div class=\"divider divider-Up\"></div>";
+				print"	</div>\n";
 				print"	<div class=\"arrow-down-tri \">
                                         </div>\n";
 				print"<div class=\"arrow-down-tri inner-Tri-Down inner-Tri\">

@@ -1,4 +1,4 @@
-.skewedText
+.skewedTextVert
 {
 	font-size: 142%;
 	display: inline-block;
@@ -8,7 +8,7 @@
 	height: 0px;
 	color: #000000;
 }
-.skewedText2
+.skewedTextVert2
 {
 	font-size: 142%;
 	display: inline-block;
@@ -18,18 +18,29 @@
 	height: 0px;
 }
 /* Set the font, lean the board, position it */
-.skewedContainer
+.skewedContainerVert
 {
 	position: absolute;
 	z-index: 5 !important;
-	transform: perspective(340px) rotateY(43deg);
 	width: 175px;
 	height: 14px;
 	margin: 0 auto;
 	left: 144px;
 	top: 6px;
 }
-.skewedContainer:after
+.skewedContainerLeftVert
+{
+	transform: perspective(340px) rotateY(-43deg);
+	left: -16px;
+	top: 6px;
+}
+.skewedContainerRightVert
+{
+	transform: perspective(340px) rotateY(43deg);
+	left: 144px;
+	top: 6px;
+}
+.skewedContainerVert:after
 {
 	position: absolute;
 	content: ' ';
@@ -38,14 +49,14 @@
 	right: 0;
 	top: 0;
 }
-.skewedContainer2
+.skewedContainerVert2
 {
 	transform: perspective(340px) rotateY(-60deg);
 	z-index: 5 !important;
 	left: 53px;
 	top: 112px;
 }
-.skewedContainer2:after
+.skewedContainerVert2:after
 {
 	position: absolute;
 	content: ' ';

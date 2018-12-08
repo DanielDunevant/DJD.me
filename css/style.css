@@ -32,11 +32,11 @@
 .headerLinks
 {
 	color: #000000 !important;
-	top: -43px !important;
+	top: -14px !important;
+	position: absolute;
 	left: ;
 	width: 60% !important;
 	margin-left: 20.5%;
-	background: #C65192;
 	font-size: 1.25em;
 	border-radius: 4px;
 	padding: 0px 10px 0 0px !important;
@@ -162,15 +162,10 @@ body
 	margin: 0px;
 	padding: 0px;
 }
-html, body
-{
-	width: 100%;
-	margin: 0px 0px 170px 0px;
-}
 body
 {
 	background-color: #080420;
-	position: absolute;
+	position: relative;
 	color: #FFFFFF;
 	z-index: 2 !important;
 	font-family: arial, helvetica, tahoma, verdana, sans-serif, serif, monospace;
@@ -186,10 +181,28 @@ body
 #bodyForeground
 {
 	background: url("../images/Foreground.svg") bottom center / contain round repeat scroll content-box padding-box rgba(12, 12, 12, 0.600) !important;
-	position: relative;
+	position: absolute;
 	height: auto;
 	width: 100%;
 	z-index: -1 !important;
+}
+html
+{
+	width: auto !important;
+	height: auto !important;
+	margin: auto !important;
+}
+body
+{
+	width: auto !important;
+	height: auto !important;
+	margin: auto !important;
+}
+#bodyForeground
+{
+	width: 100% !important;
+	height: auto !important;
+	margin: auto !important;
 }
 h1
 {

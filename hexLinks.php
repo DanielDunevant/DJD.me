@@ -3,20 +3,25 @@
         <head>
                 <link rel = "stylesheet" type = "text/css"href="css/triHourGlassish2.css">
                 <link rel = "stylesheet" type = "text/css"href="css/hexLinks.css">
+                <link rel = "stylesheet" type = "text/css"href="css/styleshexagon.css">
+                <link rel = "stylesheet" type = "text/css"href="css/skewTextBoxVertically.css">
+                <link rel = "stylesheet" type = "text/css"href="css/triDivTest.css">
+                <link rel = "stylesheet" type = "text/css"href="css/imgInTri.css">
+                <link rel = "stylesheet" type = "text/css"href="css/skewTextBox.css">
                 <!-- Latest compiled and minified CSS -->
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
                 <!-- jQuery library -->
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
                 <!-- Latest compiled JavaScript -->
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         </head>
 	<body>
 <?php
 $linkArray = array(
                    "Home_View",
                    "blog",
-		   "About",
-		   "Contact");
+		   "about",
+		   "contact");
 $textArray = array("Home","Blog","About","Contact");
 $numLinks =4;
 require_once( "hexStretch.php");

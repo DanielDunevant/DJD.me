@@ -2,6 +2,7 @@
 <link rel = "stylesheet" type = "text/css"href="css/hexStretch.css"/>
 <link rel = "stylesheet" type = "text/css"href="css/triHourGlassish.css"/>
 <link rel = "stylesheet" type = "text/css"href="css/stylesAni.css">
+<link rel = "stylesheet" type = "text/css"href="css/parallax.css">
 <link rel='shortcut icon' href='images/NovayIcon.png' />
 <?php
 if($_GET['page']=="hexagonTest2-1")

@@ -5,7 +5,7 @@
   margin: auto auto 9.6px auto;
   border-left: 200px solid transparent;
   border-right: 200px solid transparent;
-  border-bottom: 350px solid #FFFFFF;
+  border-bottom: 350px solid #000000;
 }
 
 /* line 21, ../scss/triDivTest.scss */
@@ -16,25 +16,28 @@
   margin: auto auto 9.6px auto;
   border-left: 200px solid transparent;
   border-right: 200px solid transparent;
-  border-top: 350px solid #FFFFFF;
+  border-top: 350px solid #000000;
 }
 
 .inner-Tri {
   position: absolute;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
   z-index: -1;
-  margin: auto auto 9.6px auto !important;
   border-left: 175px solid transparent !important;
   border-right: 175px solid transparent !important;
 }
 
 .inner-Tri-Up {
-  border-bottom: 306.25px solid #767676 !important;
-  left: 25px;
-  top: 33px;
+  left: -176px;
+  top: 32px;
+  margin: 0 auto;
+  border-bottom: 306.25px solid #FFFFFF !important;
 }
 
 .inner-Tri-Down {
-  border-top: 306.25px solid #767676 !important;
+  border-top: 306.25px solid #FFFFFF !important;
   left: 25px;
   top: 373px;
 }
@@ -44,12 +47,12 @@
   z-index: -1;
   height: 14px;
   width: 193px;
-  background: rgba(255, 255, 255, 1);
+  background: rgba(0, 0, 0, 1);
 }
 
 .divider-Up {
-  top: 180px;
-  left: 101px;
+  top: -24px;
+  left: -9px;
 }
 
 .divider-Down {
@@ -67,14 +70,14 @@
 
 .img-Tri-Up {
   border-bottom: 149.625px solid rgba(118, 118, 118, 0) !important;
-  left: 195px;
-  top: 35px;
+  left: 81px;
+  top: -169px;
 }
 
 .img-Tri-Down {
   border-top: 149.625px solid rgba(118, 118, 118, 0) !important;
   left: 196px;
-  top: 523px;
+  top: 528px;
 }
 
 /* line 21, ../scss/triDivTest.scss */
@@ -243,5 +246,6 @@
     width: auto;
     top: 331.2px;
     margin: -331.2px auto 1599.2px !important;
+    margin: ;
   }
 }
